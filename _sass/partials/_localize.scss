@@ -1,0 +1,75 @@
+/* Local Project Rules and Best Practices */
+
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+*:focus {
+outline: 2px #4D90FE solid;
+outline-offset: 2px;
+}
+
+body {
+font: 500 100%/1.5 $base-font;
+}
+
+a {
+
+	&.external, &[rel="external"] {
+	padding-right: 14px;
+	background: url(data:image/gif;base64,R0lGODlhCgAKAJECAP///5mZmQAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
+
+		&:focus, &:hover {
+		background: url(data:image/gif;base64,R0lGODlhCgAKAJECAP///2eIpAAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
+		}
+
+	}
+
+}
+
+/* Common Media Properties */
+
+img, video {
+border: 0;
+display: block;
+max-width: 100%;
+}
+
+video {
+border-radius: 5px;
+height: auto;
+width: 100%;
+}
+
+/* Common Form Properties */
+
+label {
+cursor: pointer;
+}
+
+/* Page messages */
+
+.alert {
+font-style: italic;
+text-decoration: none;
+color: #c00;
+}
+
+/* Back to top: Default state */
+
+.back-to-top {
+clear: both;
+display: block;
+text-align: right;
+
+	@include breakpoint(yavin) {
+
+		display: none;
+
+	}
+
+}

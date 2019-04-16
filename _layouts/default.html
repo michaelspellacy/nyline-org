@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% if page.description %}
+	<meta name="description" content="{{ page.description }}">
+	{% endif %}
+	<meta name="theme-color" content="#870061">
+	<link href="/manifest.json" rel="manifest">
+	<link href="/css/global.css" rel="stylesheet">
+	<link href="/favicon.ico" rel="icon">
+	<title>{{ page.title }} - {{ site.name }}</title>
+</head>
+
+<body id="{{page.path | replace:'.html',''| replace: '/', '-'}}" class="{% if page.theme %}{{ page.theme }}{% else %}{{ site.theme-name }}{% endif %}{% if page.section %} {{ page.section }}{% endif %}">
+
+	<div id="page">
+
+		<a id="skip-nav" href="#content">Skip to main content</a>
+
+		<header id="banner">
+
+			<div id="creative">
+
+			{% if page.creative %}
+
+				<img src="/img/template/{{ page.creative }}.jpg" alt="">
+
+			{% else %}
+
+				<img src="/img/template/creative-default.jpg" alt="">
+
+			{% endif %}
+
+			</div>
+
+			<nav id="primary-navigation" aria-label="primary">
+
+				<ul>
+					<li id="nav-index"><a href="/index.html">Home</a></li>
+					<li id="nav-news-index"><a href="/news/">News Archives</a></li>
+					<li id="nav-our-charity"><a href="{{site.charity}}">Our Charity</a></li>
+					<li id="nav-gallery-index"><a href="/gallery/">Photos</a></li>
+					<li id="nav-nyline-tv"><a href="{{site.video}}">Videos</a></li>
+					<li id="nav-forumns"><a href="{{site.forum}}">Forum</a></li>
+					<li id="nav-contact-us"><a href="/contact-us.html">Contact Us</a></li>
+				</ul>
+
+			</nav>
+
+			<div id="page-heading">
+
+			{% if page.theme == "episode-1" %}
+
+				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>1</b></a>
+
+				<p class="subheading"><em>The Line Starts Here</em></p>
+
+			{% elsif page.theme == "episode-2" %}
+
+				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>2</b></a>
+
+				<p class="subheading"><em>The Line Continues...</em></p>
+
+			{% elsif page.theme == "episode-3" %}
+
+				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>3</b></a>
+
+				<p class="subheading"><em>Almost There...</em></p>
+
+			{% else %}
+
+				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>{{ site.episode }}</b></a>
+
+				<p class="subheading"><em>{{site.subheading }}</em></p>
+
+			{% endif %}
+
+			</div>
+
+		</header>
+
+		<main id="content">
+
+			<article>
+
+				{% if page.timestamp == nil and page.section == "news" or page.section == "photos" %}
+
+				{% include news-heading.html %}
+
+				{% endif %}
+
+				{{ content }}
+
+			</article>
+
+		</main>
+
+		<footer>
+
+			<p><small>&copy; {{ "now" | date: "%Y" }} All Rights Reserved. This site is not affiliated with Star Wars, Lucasfilm Ltd, or The Walt Disney Company. Please read our <a href="/disclaimer.html">Disclaimer</a> and <a href="/privacy-statement.html">Privacy Statement</a>.</small></p>
+
+			<p><small>Web design and development by <a href="http://www.toshistation.com/">Chris Holoka</a> and <a href="https://spellacy.net">Michael "Spell" Spellacy</a>.</small></p>
+
+			<p><small>Hosting provided by <a href="http://www.vincehardy.com/">Vince Hardy</a>. The <a href="https://github.com/NYLine/nyline.github.io">source code</a> for this site can be accessed on <a href="https://github.com/">GitHub</a>.</small></p>
+
+		</footer>
+
+	</div><!--/#page-->
+
+	<script src="/js/global.js"></script>
+
+</body>
+</html>

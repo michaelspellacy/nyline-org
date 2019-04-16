@@ -1,0 +1,19 @@
+destination: _httpdocs
+episode: 7
+exclude: [
+  readme.md,
+  CNAME
+]
+layout: default
+markdown: kramdown
+name: NYLine
+sass:
+    style: :compressed
+subheading: The Line Awakens
+theme-name: episode-7
+timezone: America/New_York
+triumph: https://www.youtube.com/watch?v=1RGohIKxc9M
+video: https://www.youtube.com/c/nylineorgline
+charity: https://www.starlight.org
+forum: http://www.starwarsboard.com
+boards: https://web.archive.org/web/20070808212817/http://www.nylineboards.org

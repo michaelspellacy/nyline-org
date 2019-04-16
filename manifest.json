@@ -1,0 +1,157 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "NYLine",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "/",
+    "short_name": "NYLine",
+    "theme_color": "transparent",
+    "description": "Relive the lining up celebration of the Star Wars prequel trilogy at New York's Ziegfeld Theater!",
+    "orientation": "any",
+    "background_color": "#1da684",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+
+        {
+
+            "src": "/img/app/favicon.ico",
+            "sizes": "16x16"
+
+        },
+        {
+
+            "src": "/img/app/f39dfb23-76ca-83c4-d694-f5dc568bca99.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/86a7bcdf-faff-ef4b-5055-857f1d6225f6.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+
+        },
+        {
+            
+            "src": "/img/app/2ad181e3-d8a4-32ea-4ed4-8561f8efc8b4.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/b574a6dd-8961-0cc6-bc2c-bedae5816a3b.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/496162b1-ad6f-ee86-721e-06e67bd11293.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/973a4ee9-b73e-3c9a-b5a9-79f71028e2da.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/5d0b1f04-d2cf-19b2-438c-15c75c0f8ef1.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/76a6d9d0-ef22-9fed-5c52-03a850a208c9.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/163c8bc3-c7c4-6971-eb97-88c18fe41cfe.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/654d7523-f75e-64db-961c-ae577289f4a2.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/f4fbbfb3-43be-686f-d428-493249361cad.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/0cb1c485-6726-6422-9d85-5912f1252643.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/50f8ed2a-5181-71e7-23a2-3bfb1d6cd719.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+
+            "src": "/img/app/a1837cea-4118-b720-09c2-2461d42b8f6c.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/ios/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        
+        },
+        {
+
+            "src": "/img/app/6ee09e9f-0d73-81af-f468-1d8268cc1c37.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/4626c161-117e-09fe-9ae8-9356232ba52e.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/d6535543-58cb-fac5-f941-c5fae27ce190.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+
+        },
+        {
+
+            "src": "/img/app/c576b2ef-c2c9-de72-8412-d8a7dca3ff4f.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+
+        }
+        
+    ]
+}

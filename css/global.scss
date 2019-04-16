@@ -1,0 +1,42 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/*! NYLine (nyline.org) - Global CSS */
+/*! Developer: Michael "Spell" Spellacy, Developer: Michael "Spell" Spellacy. Twitter: @spellacy, GitHub: michaelspellacy */
+
+// ### Framework: Related project tools and frameworks. ###
+
+	// Normalize (Manadatory): A CSS reset which levels out many cross-browser inconsistiences.
+
+	@import "partials/normalize";
+
+// ### Project: Related project variables, functionality, mixins and localizations ###
+
+	// Variables (Mandatory): Global variables used within this project.
+
+	@import "partials/variables";  
+
+	// Functions (Mandatory): Global functions used within this project.
+
+	@import "partials/functions";
+
+	// Mixins (Mandatory): Global mixins used within this project.
+
+	@import "partials/mixins";
+
+	// Web Fonts (Optional): Web fonts used by the project.
+
+	// @import "partials/fonts";
+
+	// Localize (Mandatory): Localize covers common best practices and baseline behavior.
+
+	@import "partials/localize";
+
+	// Theme (Mandatory): Main layout of site. This file contains imports to other partials that help make the layout.
+
+	@import "partials/theme";
+
+	// Placeholder (Optional): Placeholder patterns used withn this project (may need to move to layout)
+
+	@import "partials/placeholders";

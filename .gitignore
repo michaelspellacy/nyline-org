@@ -4,7 +4,6 @@ pkg/
 *.swp
 *~
 _httpdocs/
-_video/
 .bundle/
 .DS_Store
 .ruby-version

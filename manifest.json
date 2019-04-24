@@ -1,15 +1,15 @@
 {
     "dir": "ltr",
-    "lang": "en",
-    "name": "NYLine",
+    "lang": "en-US",
+    "name": "The NYLine Experience",
     "scope": "/",
-    "display": "fullscreen",
+    "display": "minimal-ui",
     "start_url": "/",
     "short_name": "NYLine",
-    "theme_color": "transparent",
+    "theme_color": "#870061",
     "description": "Relive the lining up celebration of the Star Wars prequel trilogy at New York's Ziegfeld Theater!",
     "orientation": "any",
-    "background_color": "#1da684",
+    "background_color": "#870061",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [
@@ -35,7 +35,7 @@
 
         },
         {
-            
+
             "src": "/img/app/2ad181e3-d8a4-32ea-4ed4-8561f8efc8b4.webPlatform.png",
             "sizes": "1240x600",
             "type": "image/png"
@@ -122,7 +122,7 @@
             "src": "/img/app/ios/ios-appicon-1024-1024.png",
             "sizes": "1024x1024",
             "type": "image/png"
-        
+
         },
         {
 
@@ -152,6 +152,6 @@
             "type": "image/png"
 
         }
-        
+
     ]
 }

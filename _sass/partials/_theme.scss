@@ -12,6 +12,7 @@ background-color: #8496a3;
 background-image: url("/img/template/body-bground.jpg");
 background-repeat: repeat-x;
 background-size: 50%;
+margin: 0;
 }
 
 a {
@@ -46,7 +47,7 @@ max-width: 100%;
 }
 
 figcaption {
-font-size: px(14);
+font-size: calc(14rem/16);
 font-style: italic;
 margin: 1em 0;
 }

@@ -72,3 +72,44 @@ text-align: right;
 	}
 
 }
+
+// Contact Us
+
+.contact-us {
+display: grid;
+gap: 1.5em;
+grid-template-columns: min-content 1fr;
+
+	h2 {
+	grid-column: span 2;
+	margin: 0;
+	}
+
+	ul {
+	display: grid;
+	gap: inherit;
+	grid-column: span 2;
+	grid-template-columns: subgrid;
+	padding: 0;
+	margin: 0;
+	}
+
+	li {
+	display: inherit;
+	grid-column: inherit;
+	grid-template-columns: inherit;
+	}
+
+	img {
+	border-radius: 5px;
+	border: 4px #870061 double;
+	min-width: 120px; 
+	} 
+
+	span {
+	align-self: center;
+	grid-column: 2;
+	}
+
+}
+	

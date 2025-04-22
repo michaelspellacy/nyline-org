@@ -3,60 +3,104 @@ description: "Stretch out with your feelings and contact the NYLine."
 title: "Contact Us"
 ---
 
+<style>
+
+	.contact-us {
+	display: grid;
+    gap: 20px;
+    grid-template-columns: 75px 1fr;
+	}
+
+	.contact-us ul {
+	display: grid;
+    gap: inherit;
+    grid-column: span 2;
+    grid-template-columns: subgrid;
+    margin: 0;
+    padding: 0;
+	}
+
+	.contact-us h2 {
+	grid-column: span 2;
+	margin: 0;
+	}
+
+	.contact-us li {
+    grid-template-columns: subgrid;
+    display: grid;
+	grid-column: span 2;
+	}
+
+	.contact-us img {
+	border-radius: 5px;
+	}
+
+	.contact-us span {
+	grid-column: 2;
+    align-self: center;
+	}
+
+</style>
+
 	<h1>{{page.title}}</h1>
 
 	<p>Below you will find specific contact information for the folks who run NYLine. If you can't find someone or don't know who to get in touch with then send your email to <a href="mailto:contact@nyline.org">contact@nyline.org</a>.</p>
 
+
+	<div class="contact-us">
+
 	<h2 id="public-relations">Public Relations</h2>
 
 	<ul>
-		<li>Suzanne Sousa, PR Princess/NYLine Organizer</li>
-		<li>Julie "Jewels" Green, PR Assistant/NYLine Organizer</li>
+		<li><img src="/img/contact-us/suzanne-sousa.jpg" alt=""> <span>Suzanne Sousa, PR Princess/NYLine Organizer</span></li>
+		<li><img src="/img/contact-us/jewels-green.jpg" alt=""> <span>Julie "Jewels" Green, PR Assistant/NYLine Organizer</span></li>
 	</ul>
 
 	<h2 id="line-coordination">Line Coordination</h2>
 
 	<ul>
-		<li>Michele Hadlow, NYLine Lead Coordinator</li>
-		<li>Victor Merced, NYLine Coordinator</li>
-		<li>Marion Vitus, NYLine Organizer</li>
+		<li><img src="/img/contact-us/michele-hadlow.jpg" alt=""> <span>Michele Hadlow, NYLine Lead Coordinator</span></li>
+		<li><img src="/img/contact-us/victor-merced.jpg" alt=""> <span>Victor Merced, NYLine Coordinator</span></li>
+		<li><img src="/img/contact-us/marion-vitus.jpg" alt=""> <span>Marion Vitus, NYLine Organizer</span></li>
 	</ul>
 
 	<h2 id="newsletter">Newsletter</h2>
 
 	<ul>
-		<li>Steve Lorenzo, NYClone Editor-In-Chief</li>
-		<li>Amit "Asax" Saxena, NYClone Columnist</li>
+		<li><img src="/img/contact-us/steve-lorenzo.jpg" alt=""> <span>Steve Lorenzo, NYClone Editor-In-Chief</span></li>
+		<li><img src="/img/contact-us/amit-saxena.jpg" alt=""> <span>Amit "Asax" Saxena, NYClone Columnist</span></li>
 	</ul>
 
 	<h2 id="art-department">Art Department</h2>
 
 	<ul>
-		<li>John Green, Illustrator</li>
+		<li><img src="/img/contact-us/john-green.jpg" alt=""> <span>John Green, Illustrator</span></li>
 	</ul>
 
 	<h2 id="print-design">Print Design</h2>
 
 	<ul>
-		<li>Dave "Dexter" Creighton, Print Designer</li>
+		<li><img src="/img/contact-us/dave-creighton.jpg" alt=""> <span>Dave "Dexter" Creighton, Print Designer</span></li>
 	</ul>
 
 	<h2 id="nyline-tv">NYLine TV</h2>
 
 	<ul>
-		<li>Karen Grenke, Production Queen</li>
-		<li>Matt Simantov, Tech/Production Assistant</li>
-		<li>Vince Hardy, Video Specialist/Tech Lead</li>
+		<li><img src="/img/contact-us/karen-grenke.jpg" alt=""> <span>Karen Grenke, Production Queen</span></li>
+		<li><img src="/img/contact-us/matt-simantov.jpg" alt=""> <span>Matt Simantov, Tech/Production Assistant</span></li>
+		<li><img src="/img/contact-us/placeholder.jpg" alt=""> <span>Vince Hardy, Video Specialist/Tech Lead</span></li>
 	</ul>
 
 	<h2 id="financial">Financial</h2>
 
 	<ul>
-		<li>Louis Chang, Treasurer</li>
+		<li><img src="/img/contact-us/louis-chang.jpg" alt=""> <span>Louis Chang, Treasurer</span></li>
 	</ul>
 
 	<h2 id="website">Website</h2>
 
 	<ul>
-		<li>Michael "Spell" Spellacy, Web Development/Tech Lead</li>
+		<li><img src="/img/contact-us/michael-spellacy.jpg" alt=""> <span>Michael "Spell" Spellacy, Web Development/Tech Lead</span></li>
 	</ul>
+
+</div>

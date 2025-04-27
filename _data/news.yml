@@ -1,0 +1,630 @@
+episode-1:
+
+ - id: episode-1-charity-screening
+   title: "Episode 1 Charity Screening"
+   author: Spell
+   published: "1999-12-02 19:02:00"
+   members: 0
+
+ - id: episode-1-breaks-into-top-30
+   title: "Episode I Breaks Into Top 30"
+   author: Steve
+   published: "1999-05-31 16:57:00"
+   members: 0
+
+ - id: starlight-foundation-wants-you
+   title: "Starlight Foundation Wants YOU!"
+   author: Michaela
+   published: "1999-05-31 11:15:00"
+   members: 0
+
+ - id: sponsor-funds
+   title: "Sponsor Funds!"
+   author: Michaela
+   published: "1999-05-31 08:11:00"
+   members: 0
+
+ - id: better-every-time
+   title: "Better Every Time!"
+   author: Matt
+   published: "1999-05-21 23:52:00"
+   members: 0
+
+ - id: a-good-time-was-had-by-all
+   title: "A Good Time Was Had By All!"
+   author: Robert
+   published: "1999-05-28 09:30:00"
+   members: 0
+
+ - id: updates
+   title: "Updates"
+   author: Matt
+   published: "1999-05-22 00:18:00"
+   members: 0
+
+ - id: contact-list
+   title: "Contact List"
+   author: Matt
+   published: "1999-05-22 00:07:00"
+   members: 0
+
+ - id: forum-is-back
+   title: "Forum Is Back!"
+   author: Matt
+   published: "1999-05-19 17:52:00"
+   members: 0
+
+ - id: contact-information
+   title: "Contact Information"
+   author: Matt
+   published: "1999-05-19 12:18:00"
+   members: 0
+
+ - id: updates-coming-later-today
+   title: "Updates Coming Later Today"
+   author: Matt
+   published: "1999-05-19 12:12:00"
+   members: 0
+
+ - id: new-box-office-record
+   title: "New Box Office Record!"
+   author: Spell
+   published: "1999-05-19 10:53:00"
+   members: 0
+
+ - id: posters-and-signs-have-been-changed
+   title: "Posters and Signs Have Been Changed"
+   author: Matt
+   published: "1999-05-18 14:55:00"
+   members: 40
+
+ - id: martin-sheen-drops-by-line
+   title: "Martin Sheen Drops By Line"
+   author: Steve
+   published: "1999-05-18 08:37:00"
+   members: 10
+
+ - id: 19-hours-to-go
+   title: "19 Hours To Go!"
+   author: Steve
+   published: "1999-05-18 05:19:00"
+   members: 8
+
+ - id: starlight-episode-1-the-stand-a-thon-part-2
+   title: "Starlight: Episode 1 - The Stand-a-thon (Part 2)"
+   author: Suzanne
+   published: "1999-05-17 07:02:00"
+   members: 18
+
+ - id: 1-day-23-hours-to-go-plus-sandtropper-visits-the-line
+   title: "1 Day 23 Hours To Go (Plus Sandtrooper Visits The Line)!"
+   author: Robert
+   published: "1999-05-17 00:38:00"
+   members: 14
+
+ - id: ticket-distribution-and-t-shirts
+   title: "Ticket Distribution and T-Shirts!"
+   author: Louis
+   published: "1999-05-16 09:27:00"
+   members: 10
+
+ - id: television-news-coverage-scheduled-for-sunday
+   title: "Television News Coverage Scheduled For Sunday"
+   author: Steve
+   published: "1999-05-15 20:25:00"
+   members: 11
+
+ - id: the-phantom-menace-in-manhattan
+   title: "The Phantom Menace In Manhattan"
+   author: Ariel
+   published: "1999-05-14 11:40:00"
+   members: 6
+
+ - id: girls-night-out
+   title: "Girls Night Out!!!"
+   author: Anonymous
+   published: "1999-05-14 10:38:00"
+   members: 10
+
+ - id: lights-cameras-its-too-damn-early-for-national-television
+   title: "Lights, Cameras...It's Too Damn Early For National Television!"
+   author: Suzanne
+   published: "1999-05-14 00:17:00"
+   members: 8
+
+ - id: starlight-episode-1-the-stand-a-thon-part-1
+   title: "Starlight: Episode 1 - The Stand-a-thon (Part 1)"
+   author: Suzanne
+   published: "1999-05-14 00:14:00"
+   members: 8
+
+ - id: nyliners-we-need-your-support
+   title: "NYLiners: We Need Your Support!"
+   author: Steve
+   published: "1999-05-13 17:42:00"
+   members: 8
+
+ - id: notting-hill-premiere-at-the-ziegfeld
+   title: "Notting Hill Premiere at the Ziegfeld"
+   author: Matt
+   published: "1999-05-13 17:35:00"
+   members: 14
+
+ - id: webcam-is-back-online
+   title: "Webcam Is Back Online!"
+   author: Ariel
+   published: "1999-05-14 11:43:00"
+   members: 10
+
+ - id: we-survived-the-onslaught
+   title: "We Survived The Onslaught!"
+   author: Robert
+   published: "1999-05-13 08:42:00"
+   members: 10
+
+ - id: reminder
+   title: "Reminder..."
+   author: Steve
+   published: "1999-05-13 23:30:00"
+   members: 8
+
+ - id: ziegfeld-theater-seating-chart
+   title: "Ziegfeld Theater Seating Chart!"
+   author: Ariel
+   published: "1999-05-12 22:01:00"
+   members: 1001
+
+ - id: pictures-from-the-advance-sales-line-are-in
+   title: "Pictures From The Advance Sales Line Are In!"
+   author: Ariel
+   published: "1999-05-12 21:52:00"
+   members: 1000
+
+ - id: phantom-menace-tickets-now-on-sale
+   title: "Phantom Menace Tickets Now On Sale"
+   author: Steve
+   published: "1999-05-12 18:16:00"
+   members: 1500
+
+ - id: we-have-the-tickets-woo-hoo
+   title: "We Have The Tickets! Woo-hoo!!"
+   author: Robert
+   published: "1999-05-12 16:03:00"
+   members: 1500
+
+ - id: oh-my-god
+   title: "Oh - My - God!"
+   author: Steve
+   published: "1999-05-12 00:20:00"
+   members: 250
+
+ - id: only-one-week-left
+   title: "Only One Week Left!"
+   author: Steve
+   published: "1999-05-12 00:08:00"
+   members: 250
+
+ - id: the-picture-gallery-is-up
+   title: "The Picture Gallery Is Up!"
+   author: Ariel
+   published: "1999-05-11 17:58:00"
+   members: 14
+
+ - id: ticket-policy
+   title: "Ticket Policy"
+   author: Matt
+   published: "1999-05-10 19:47:00"
+   members: 30
+
+ - id: ziegfeld-theater-meeting-to-set-advance-ticket-policy
+   title: "Ziegfeld Theater Meeting To Set Advance Ticket Policy"
+   author: Steve
+   published: "1999-05-10 13:58:00"
+   members: 10
+
+ - id: suzanne-on-the-post
+   title: "Suzanne On The Post"
+   author: Ariel
+   published: "1999-05-10 13:57:00"
+   members: 12
+
+ - id: press-coverage
+   title: "Press Coverage"
+   author: Suzanne
+   published: "1999-05-10 11:48:00"
+   members: 13
+
+ - id: starlight-foundation
+   title: "Starlight Foundation"
+   author: Suzanne
+   published: "1999-05-10 11:32:00"
+   members: 0
+
+ - id: thanks-to-you-all
+   title: "Thanks To You All!"
+   author: Suzanne
+   published: "1999-05-10 11:12:00"
+   members: 0
+
+ - id: nyline-featured-on-film-scouts
+   title: "NYLine Featured On Film Scouts"
+   author: Robert
+   published: "1999-05-10 10:42:00"
+   members: 0
+
+ - id: 1010-wookie
+   title: "1010 Wookie"
+   author: Spell
+   published: "1999-05-10 06:34:00"
+   members: 8
+
+ - id: four-oclock-and-all-is-well
+   title: "Four O'Clock and All Is Well"
+   author: Spell
+   published: "1999-05-10 04:19:00"
+   members: 8
+
+ - id: a-quiet-sunday
+   title: "A Queit Sunday..."
+   author: Matt
+   published: "1999-05-09 22:31:00"
+   members: 10
+
+ - id: a-wacky-sunday-morning
+   title: "A Wacky Sunday Morning!"
+   author: Robert
+   published: "1999-05-09 20:04:00"
+   members: 16
+
+ - id: darth-maul-visits-line
+   title: "Darth Maul Visits Line"
+   author: Matt
+   published: "1999-05-09 12:15:00"
+   members: 18
+
+ - id: nyline-show-times-now-frozen
+   title: "NYLine Show Times Now Frozen"
+   author: Steve
+   published: "1999-05-08 19:54:00"
+   members: 12
+
+ - id: happy-birthday-suzanne
+   title: "Happy Birthday, Suzanne!"
+   author: Steve
+   published: "1999-05-08 19:31:00"
+   members: 12
+
+ - id: nyliners-survive-downpour
+   title: "NYLiners Survive Downpour"
+   author: Steve
+   published: "1999-05-08 08:36:00"
+   members: 11
+
+ - id: its-really-late
+   title: "It's Really Late..."
+   author: Amit
+   published: "1999-05-08 05:56:00"
+   members: 16000
+
+ - id: episode-1-survival-guide
+   title: "Episode 1 Survival Guide"
+   author: Spell
+   published: "1999-05-08 00:10:00"
+   members: 30
+
+ - id: live-birthday-party
+   title: "Live Birthday Party!"
+   author: Matt
+   published: "1999-05-07 23:40:00"
+   members: 30
+
+ - id: nyline-tv-is-up
+   title: "NYLine TV Is Up!"
+   author: Jewels
+   published: "1999-05-07 19:29:00"
+   members: 19
+
+ - id: the-real-phantom-menace
+   title: "The Real Phantom Menace"
+   author: Jason
+   published: "1999-05-07 14:37:00"
+   members: 11
+
+ - id: steven-curnow-memorial
+   title: "Steven Curnow Memorial"
+   author: Spell
+   published: "1999-05-07 01:52:12"
+   members: 14
+
+ - id: pics-from-the-line
+   title: "Pics From The Line"
+   author: Spell
+   published: "1999-05-07 01:29:00"
+   members: 0
+
+ - id: international-sign-up-form-online
+   title: "International Sign Up Form Online!"
+   author: Matt
+   published: "1999-05-06 18:17:30"
+   members: 15
+
+ - id: star-wars-twister-game
+   title: "Star Wars Twister Game"
+   author: Ariel
+   published: "1999-05-06 17:56:11"
+   members: 20
+
+ - id: george-lucas-talks-about-fans-lining-up
+   title: "Georges Lucas Talks About Fans Lining Up!"
+   author: Amit
+   published: "1999-05-06 14:36:34"
+   members: 12
+
+ - id: webcam-updates
+   title: "Webcam Updates"
+   author: Ariel
+   published: "1999-05-06 14:20:59"
+   members: 12
+
+ - id: 24-hour-lineup-to-begin-tomorrow
+   title: "24-Hour Lineup To Begin Tomorrow"
+   author: Steve
+   published: "1999-05-06 12:22:07"
+   members: 11
+
+ - id: news-flash
+   title: 'News "Flash"'
+   author: Matt
+   published: "1999-05-05 21:46:03"
+   members: 18
+
+ - id: modesty-please
+   title: "Modesty, Please"
+   author: Steve
+   published: "1999-05-05 21:13:37"
+   members: 20
+
+ - id: soaps-yo-yos-and-the-bbc-oh-my
+   title: "Soaps, Yo-Yos & The BBC &mdash; Oh, My!"
+   author: Steve
+   published: "1999-05-05 20:17:56"
+   members: 23
+
+ - id: overall-update
+   title: "Overall Update"
+   author: Ariel
+   published: "1999-05-05 17:01:40"
+   members: 19
+
+ - id: starlight-orientation-tonight
+   title: "Starlight Orientation Tonight"
+   author: Spell
+   published: "1999-05-05 12:28:03"
+   members: 12
+
+ - id: star-wars-is-back-non-spoiler
+   title: "Star Wars Is Back! (Non-Spolier)"
+   author: Beth
+   published: "1999-05-05 09:24:01"
+   members: 8
+
+ - id: no-shows-damage-presence
+   title: "No Shows Damage Presence!!!"
+   author: Steve
+   published: "1999-05-04 16:01:36"
+   members: 6
+
+ - id: raining-on-our-parade
+   title: "Raining On Our Parade!"
+   author: Steve
+   published: "1999-05-04 10:43:04"
+   members: 8
+
+ - id: press-mania-baby
+   title: "Press Mania, Baby!"
+   author: Suzanne
+   published: "1999-05-04 08:05:06"
+   members: 0
+
+ - id: more-rain
+   title: "More Rain"
+   author: Matt
+   published: "1999-05-04 07:56:23"
+   members: 0
+
+ - id: singing-in-the-rain
+   title: "Singing In The Rain..."
+   author: Ariel
+   published: "1999-05-03 13:41:00"
+   members: 8
+
+ - id: link-to-our-message-board
+   title: "Link To Our Message Board..."
+   author: Spell
+   published: "1999-05-03 12:21:12"
+   members: 7
+
+ - id: webcam-icq-website-and-payphone-news
+   title: "Webcam, ICQ, Website, and Payphone News"
+   author: Ariel
+   published: "1999-05-03 10:53:12"
+   members: 11
+
+ - id: nyline-on-local-media
+   title: "NYLine On Local Media"
+   author: Steve
+   published: "1999-05-02 21:46:27"
+   members: 16
+
+ - id: echo-base
+   title: "Echo Base"
+   author: Jewels
+   published: "1999-05-02 15:27:55"
+   members: 23
+
+ - id: you-must-contact-me-err-us
+   title: "You Must Contact Me...Err...Us"
+   author: Spell
+   published: "1999-05-02 13:59:43"
+   members: 39
+
+ - id: fiesta-under-a-sunny-sky
+   title: "Fiesta Under A Sunny Sky..."
+   author: Mike
+   published: "1999-05-02 13:45:45"
+   members: 38
+
+ - id: yo-yo-madness
+   title: "Yo-Yo Madness!"
+   author: Matt
+   published: "1999-05-02 12:11:38"
+   members: 28
+
+ - id: webcam-difficulties
+   title: "Webcam Difficulties"
+   author: Matt
+   published: "1999-05-02 11:52:06"
+   members: 24
+
+ - id: pictures-from-last-night
+   title: "Pictures From Last Night"
+   author: Matt
+   published: "1999-05-02 11:25:52"
+   members: 18
+
+ - id: live-webcam
+   title: "Live Webcam"
+   author: Matt
+   published: "1999-05-02 11:22:08"
+   members: 18
+
+ - id: news-most-important
+   title: "News Most Important!"
+   author: Spell
+   published: "1999-05-01 23:51:45"
+   members: 0
+
+ - id: aliens-stars-drop-in-on-line
+   title: "Aliens, Stars Drop In On Line"
+   author: Steve
+   published: "1999-05-01 14:07:28"
+   members: 35
+
+ - id: line-members-engage-in-some-trivial-behavior
+   title: "Line Members Engage In Some Trivial Behavior"
+   author: Matt
+   published: "1999-05-01 11:48:55"
+   members: 50
+
+ - id: 40-die-hard-fans-kick-off-nyline-festivities
+   title: "40 Die-Hard Fans Kick Off NYLine Festivities"
+   author: Steve
+   published: "1999-05-01 10:40:12"
+   members: 40
+
+ - id: we-are-on-line
+   title: "We Are On Line!"
+   author: Matt
+   published: "1999-05-01 07:27:54"
+   members: 4
+
+ - id: the-line-opens-in-3-hours
+   title: "The Line Opens In 3 Hours!"
+   author: Ariel
+   published: "1999-05-01 04:54:22"
+   members: 0
+
+ - id: nyline-schedule-arrives
+   title: "NYLine Schedule Arrives!"
+   author: Spell
+   published: "1999-04-28 14:07:19"
+   members: 0
+
+ - id: here-we-are-folks-meet-the-nyline-staff
+   title: "Here We Are, Folks! Meet The NYLine Staff!"
+   author: Robert
+   published: "1999-04-26 12:59:08"
+   members: 0
+
+ - id: starlight-and-nyline-need-your-help
+   title: "Starlight and NYLine Need Your Help!"
+   author: Suzanne
+   published: "1999-04-23 13:59:12"
+   members: 0
+
+ - id: stand-a-thon-for-the-starlight-foundation
+   title: "Stand-a-thon For The Starlight Foundation!"
+   author: Spell
+   published: "1999-04-13 13:40:52"
+   members: 0
+
+ - id: to-the-ziegfeld-we-go
+   title: "To The Ziegfeld We Go!!!"
+   author: Robert
+   published: "1999-04-09 13:28:28"
+   members: 0
+
+fotd:
+
+ - id: frank-bianco
+   title: "Frank Bianco"
+   author: Spell
+   published: "2004-05-03 14:54:57"
+   members: 0
+
+ - id: jedi-rob-martin
+   title: '"Jedi Rob" Martin'
+   author: Spell
+   published: "2002-05-16 15:00:48"
+   members: 12
+
+ - id: salman-hamdani
+   title: "Salman Hamdani"
+   author: Spell
+   published: "2002-04-08 15:06:22"
+   members: 0
+
+ - id: lee-goldberg
+   title: "Lee Goldberg"
+   author: Steve
+   published: "1999-05-17 01:17:34"
+   members: 14
+
+ - id: cool-say-dee
+   title: "Cool Say-Dee (Lynne Lipton)"
+   author: Robert
+   published: "1999-05-12 09:11:00"
+   members: 250
+
+ - id: jewels-sem-green
+   title: "Jewels Green"
+   author: Michele
+   published: "1999-05-10 23:45:06"
+   members: 0
+
+ - id: michele-hadlow
+   title: "Michele Hadlow"
+   author: Jewels
+   published: "1999-05-09 00:23:46"
+   members: 0
+
+ - id: suzanne-sousa
+   title: "Suzanne Sousa"
+   author: Robert
+   published: "1999-05-08 00:11:32"
+   members: 30
+
+ - id: steve-lubot
+   title: "Steve Lubot"
+   author: Steve
+   published: "1999-05-07 09:11:00"
+   members: 0
+
+ - id: robert-cartagena
+   title: "Robert Cartagena"
+   author: Suzanne
+   published: "1999-05-01 11:03:12"
+   members: 45
+
+# Please process ALL entries I give you. You do not need to ask to keep orcessing them. Please only change to desired format I ask for.  Analyze each "published" date in my YAML file and convert all of them. Each published date should be converted to following format: YYYY-MM-DD HH:MM:SS. Remove all timezones as well. Here is my YAML:  
+

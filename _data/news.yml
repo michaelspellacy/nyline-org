@@ -653,5 +653,629 @@ fotd:
    published: "1999-05-01 11:03:12"
    members: 45
 
-# Please process ALL entries I give you. You do not need to ask to keep orcessing them. Please only change to desired format I ask for.  Analyze each "published" date in my YAML file and convert all of them. Each published date should be converted to following format: YYYY-MM-DD HH:MM:SS. Remove all timezones as well. Here is my YAML:  
+episode-2:
 
+- id: the-return-of-blackwolf-the-dragonmaster
+  title: "The Return of Blackwolf the Dragonmaster"
+  author: Spell
+  published: "2004-01-29 17:32:04"
+  members: 0
+
+- id: nyline-turns-5
+  title: "NYLine Turns 5"
+  author: Spell
+  published: "2004-01-29 13:11:55"
+  members: 0
+
+- id: swnyc-is-now-mepa
+  title: "SWNYC is now MEPA"
+  author: Spell
+  published: "2004-01-22 17:21:23"
+  members: 0
+
+- id: merry-christmas-to-all
+  title: "Merry Christmas To All..."
+  author: Spell
+  published: "2003-12-17 00:20:02"
+  members: 0
+
+- id: fully-operational-again
+  title: "Fully Operational...again!"
+  author: Spell
+  published: "2003-04-27 23:24:01"
+  members: 0
+
+- id: a-real-life-day-a-true-holiday-special
+  title: "A Real Life Day, A True Holiday Special"
+  author: Amit
+  published: "2002-12-26 20:13:16"
+  members: 2003
+
+- id: tom-minter-international-fan-of-mystery
+  title: "Tom Minter - International Fan Of Mystery"
+  author: Amit
+  published: "2002-11-29 05:50:16"
+  members: 1
+
+- id: taun-we-and-imax-nov-16-exclusive-nyline-offer
+  title: "Taun We & IMAX Nov. 16 - Exclusive NYLine Offer!"
+  author: Steve
+  published: "2002-11-15 08:32:37"
+  members: 327
+
+- id: back-in-business
+  title: "Back In Business..."
+  author: Spell
+  published: "2002-11-14 17:33:24"
+  members: 0
+
+- id: the-line-starts-here-in-my-dorm-room-or-not
+  title: "The Line Starts Here...In My Dorm Room!! Or not!"
+  author: Amit
+  published: "2002-10-15 16:31:26"
+  members: .5
+
+- id: the-tallest-yoda-youve-ever-seen
+  title: "The Tallest Yoda You've Ever Seen"
+  author: Victor
+  published: "2002-09-10 10:50:59"
+  members: 101
+
+- id: nyline-receives-star-wars-insider-mention
+  title: "NYLine Receives <i>Insider</i> Mention"
+  author: Steve
+  published: "2002-07-27 01:01:14"
+  members: 2187
+
+- id: us-in-film-comment
+  title: "Us in <i>Film Comment</i>!!"
+  author: Amit
+  published: "2002-07-23 19:02:02"
+  members: 321
+
+- id: see-dlp-at-amc-july-10th-thru-12th
+  title: "See DLP at AMC July 10 - 12!"
+  author: Steve
+  published: "2002-07-10 15:19:03"
+  members: 327
+
+- id: the-shroud-of-the-dark-side-and-a-new-hope
+  title: "The Shroud of the Dark Side and A New Hope"
+  author: Amit
+  published: "2002-07-05 04:55:07"
+  members: 287
+
+- id: calling-all-videos
+  title: "Calling all Videos!"
+  author: Steve
+  published: "2002-06-28 14:18:17"
+  members: 1138
+
+- id: ive-had-the-most-peculiar-dream
+  title: "I've Had The Most Peculiar Dream"
+  author: Amit
+  published: "2002-06-02 22:34:28"
+  members: 235
+
+- id: nyline-2-press-coverage
+  title: "NYLine II Press Coverage"
+  author: Suzanne
+  published: "2002-06-02 19:06:16"
+  members: 1,000
+
+- id: conan-obrien-does-nyline
+  title: "Conan O'Brien Does NYLine"
+  author: Spell
+  published: "2002-05-27 00:54:57"
+  members: 0
+
+- id: swnyc-meeting-may-25th
+  title: "SWNYC Meeting: May 25th"
+  author: SWNYC
+  published: "2002-05-23 20:43:15"
+  members: 127
+
+
+- id: thank-you
+  title: "Thank You !!!!!!"
+  author: Suzanne
+  published: "2002-05-21 18:21:30"
+  members: 1,000
+
+- id: lost-and-found
+  title: "Lost and Found"
+  author: Dave
+  published: "2002-05-20 18:44:37"
+  members: 07040
+
+- id: nyline-episode-3
+  title: "NYLine Episode III..."
+  author: Spell
+  published: "2002-05-18 00:05:14"
+  members: 0
+
+- id: its-not-over-yet
+  title: "It's Not Over Yet!"
+  author: Steve
+  published: "2002-05-16 16:04:50"
+  members: 1138
+
+- id: nyline-day-18-the-line-stops-here
+  title: "NYLine Day 18 - The Line Stops Here"
+  author: Spell
+  published: "2002-05-15 12:31:22"
+  members: 32
+
+- id: nyline-day-17-rainstorms-are-very-very-dangerous
+  title: "NYLine Day 17 - Rainstorms are Very, VERY Dangerous"
+  author: Amit
+  published: "2002-05-14 15:37:39"
+  members: 20
+
+- id: nyline-tv-update
+  title: "NYLine TV Update"
+  author: Spell
+  published: "2002-05-14 12:37:13"
+  members: 25
+
+- id: nyline-days-14-15-16-adventure-excitement-this-jedi-does-crave-these-things
+  title: "NYLine Days 14, 15, & 16 - Adventure?  Excitement??  This Jedi Does Crave These Things..."
+  author: Amit
+  published: "2002-05-13 19:15:47"
+  members: 20
+
+- id: scavenger-hunt-update
+  title: "Scavenger Hunt Update"
+  author: SWNYC
+  published: "2002-05-13 11:53:20"
+  members: 25
+
+- id: ticket-pickup-policy-please-read
+  title: "Ticket Pickup Policy - PLEASE READ!"
+  author: Steve
+  published: "2002-05-12 12:37:11"
+  members: 25
+
+- id: we-have-a-winner
+  title: "We Have a Winner!"
+  author: Steve
+  published: "2002-05-12 12:22:02"
+  members: 25
+
+- id: trading-card-tournament-10-am-saturday
+  title: "Trading Card Tournament - 10 a.m. Saturday!!"
+  author: Steve
+  published: "2002-05-10 19:52:23"
+  members: 28
+
+- id: nyline-day-13-for-the-jedi-it-is-time-to-eat-as-well
+  title: "NYLine Day 13 - For The Jedi It Is Time To Eat As Well..."
+  author: Amit
+  published: "2002-05-10 17:30:22"
+  members: 34
+
+- id: you-are-invited-saturday-may-11th
+  title: "You Are Invited: Saturday, May 11"
+  author: Dave
+  published: "2002-05-10 17:18:16"
+  members: 23
+
+- id: attack-of-the-cockroach
+  title: "Attack of the Cockroach!"
+  author: Spell
+  published: "2002-05-10 15:50:36"
+  members: 25
+
+- id: return-of-the-fan-of-the-day
+  title: "Return of the FOTD"
+  author: Steve
+  published: "2002-05-10 15:34:54"
+  members: 25
+
+- id: nyline-day-12-imperials-spaniards-and-lacking-egos
+  title: "NYLine Day 12 - Imperials, Spaniards and Lacking Egos"
+  author: JediRob
+  published: "2002-05-09 18:14:53"
+  members: 22
+
+- id: nyline-day-11-theres-something-alive-in-here
+  title: "NYLine Day 11 - There's Something Alive In Here..."
+  author: Amit
+  published: "2002-05-08 22:10:18"
+  members: 28
+
+- id: you-go-ugo
+  title: "You Go, UGO!"
+  author: Spell
+  published: "2002-05-08 13:54:02"
+  members: 18
+
+- id: nyline-day-10-why-well-be-on-mtv-and-what-really-happend-on-sunday-night
+  title: "NYLine Day 10 - Why We'll Be On MTV (And What <em>Really</em> Happened on Sunday Night)"
+  author: Dave
+  published: "2002-05-07 20:45:33"
+  members: 25
+
+- id: nyline-bulletin-2-important-line-business
+  title: "NYLine Bulletin 2 : Important Line Business"
+  author: Spell
+  published: "2002-05-07 16:39:37"
+  members: 20
+
+- id: membership-has-its-privileges
+  title: "Membership Has Its Privileges"
+  author: Steve
+  published: "2002-05-07 04:57:26"
+  members: 15
+
+- id: nyline-days-8-9-theres-no-such-thing-as-luck
+  title: "NYLine Days 8 & 9 - There's no such thing as Luck"
+  author: Amit
+  published: "2002-05-06 20:06:46"
+  members: 30
+
+- id: nyline-tv-update-and-more-shirts
+  title: "NYLine TV Update & More Shirts!"
+  author: Spell
+  published: "2002-05-06 15:14:49"
+  members: 20
+
+- id: live-from-nyline
+  title: "Live From NYLine"
+  author: Spell
+  published: "2002-05-04 17:45:40"
+  members: 20
+
+- id: important-nyline-news-update-everybody-read
+  title: "Important NYLine News Updates! Everybody Read!"
+  author: Steve
+  published: "2002-05-04 15:23:43"
+  members: 20
+
+- id: nyline-days-6-7-the-line-adventure-continues
+  title: "NYLine Days 6 & 7- The Line Adventure continues"
+  author: Suzanne
+  published: "2002-05-03 22:15:01"
+  members: 1,000
+
+- id: nyline-bulletin-important-line-updates
+  title: "NYLine Bulletin : Important Line Updates"
+  author: Spell
+  published: "2002-05-02 12:54:37"
+  members: 15
+
+- id: nyline-day-5-a-night-on-the-line-from-a-certain-point-of-view
+  title: "NYLine Day 5 - A Night on the Line...From a Certain Point of View"
+  author: Amit
+  published: "2002-05-02 03:48:06"
+  members: 1 
+
+- id: nyline-day-4-this-partys-not-over
+  title: "NYLine Day 4 - This Party's NOT Over"
+  author: Amit
+  published: "2002-05-01 02:16:09"
+  members: 1
+
+- id: nyline-day-3-wanted-taun-taun-guts
+  title: "NYLine Day 3 - Wanted: TaunTaun Guts"
+  author: Amit
+  published: "2002-04-30 01:49:27"
+  members: 1
+
+- id: your-line-is-very-impressive-picture-time
+  title: "Your Line is Very Impressive (Picture Time!)"
+  author: Matt
+  published: "2002-04-29 21:06:48"
+  members: 22
+
+- id: nyline-day-2-a-hard-days-night
+  title: "NYLine Day 2 - A Hard Days Night"
+  author: Amit
+  published: "2002-04-29 01:24:11"
+  members: 1 
+
+- id: ongoing-events-for-nyline-members
+  title: "Ongoing Events for NYLine Members"
+  author: SWNYC
+  published: "2002-04-29 00:20:55"
+  members: 25
+
+- id: nyline-day-1-death-star-bellies-and-deep-pockets
+  title: "NYLine Day 1 - Death Star Bellies and Deep Pockets"
+  author: Amit
+  published: "2002-04-28 02:51:40"
+  members: 1
+
+- id: nyline-2-the-line-continues
+  title: "NYLine II : The Line Continues..."
+  author: Spell
+  published: "2002-04-27 03:24:40"
+  members: 150+
+
+- id: exclusive-incentive-shirts-see-them-here
+  title: "Exclusive Incentive Shirts - See Them Here!"
+  author: Steve
+  published: "2002-04-26 16:35:39"
+  members: 1138
+
+- id: nyline-sign-up-now-live-update
+  title: "NYLine Sign Up Now Live! - UPDATE!!"
+  author: Spell
+  published: "2002-04-20 21:16:37"
+  members: 460
+
+- id: line-up-schedule-now-available
+  title: "Line Up Schedule Now Available!"
+  author: Spell
+  published: "2002-04-16 20:49:57"
+  members: 0
+
+- id: official-nyline-press-release
+  title: "Official NYLine Press Release"
+  author: Suzanne
+  published: "2002-04-15 22:30:31"
+  members: 1,000
+
+- id: clearview-now-listing-attack-of-the-clones-on-website
+  title: "Clearview Now Listing AotC on Website"
+  author: Steve
+  published: "2002-04-15 14:45:48"
+  members: 0
+
+- id: fan-of-the-day-9-11-hero
+  title: "Fan of the Day: Septemper 11th Hero"
+  author: Suzanne
+  published: "2002-04-13 17:39:21"
+  members: 1,000
+
+- id: lookin-fine-on-the-line
+  title: "Lookin' Fine on the Line!"
+  author: Amit
+  published: "2002-04-11 11:06:04"
+  members: 0
+
+- id: were-all-clear-now-kids
+  title: "WE'RE ALL CLEAR KIDS!!!!!!!!!!!!!"
+  author: Amit
+  published: "2002-04-10 12:10:37"
+  members: 0
+
+- id: a-call-to-arms
+  title: "A Call To Arms!"
+  author: Spell
+  published: "2002-04-09 10:15:45"
+  members: 0
+
+- id: were-all-fine-here-now
+  title: "We're all fine...here...now..."
+  author: Amit
+  published: "2002-04-05 22:54:24"
+  members: 0
+
+- id: join-us-in-killing-jar-jar-the-play
+  title: "Join Us In Killing Jar Jar (The Play), April 12th"
+  author: SWNYC
+  published: "2002-04-05 14:45:46"
+  members: 0
+
+- id: our-first-fan-of-the-day
+  title: "Our First  Fan of the Day!"
+  author: Spell
+  published: "2002-04-04 02:49:05"
+  members: 0
+
+- id: we-need-your-help
+  title: "We NEED Your help!!"
+  author: Amit
+  published: "2002-03-31 21:14:34"
+  members: 0
+
+- id: swnyc-to-preview-the-magic-of-myth
+  title: "SWNYC To Preview The Magic of Myth"
+  author: SWNYC
+  published: "2002-03-23 23:10:24"
+  members: 0
+
+- id: swnyc-meeting-saturday-march-23rd
+  title: "SWNYC Meeting, Saturday March 23rd"
+  author: SWNYC
+  published: "2002-03-19 21:49:05"
+  members: 0
+
+- id: nyline-web-cam-now-live
+  title: "NYLine Web Cam Now Live!"
+  author: Spell
+  published: "2002-03-14 01:58:37"
+  members: 0
+
+- id: fan-of-the-day-requests
+  title: "Fan of the Day Requests"
+  author: Amit
+  published: "2002-03-12 00:19:09"
+  members: 2187
+
+- id: ozzel-takes-manhattan
+  title: "Ozzel Takes Manhattan"
+  author: SWNYC 
+  published: "2002-03-06 22:22:16"
+  members: 0
+
+- id: i-say-over-there-were-you-looking-for-me
+  title: "I say, over there! Were you looking for me?"
+  author: Amit
+  published: "2002-03-04 22:40:41"
+  members: 0
+
+- id: star-wars-nyc-meeting-february-23rd
+  title: "Star Wars NYC Meeting Feb 23rd"
+  author: SWNYC 
+  published: "2002-02-17 23:25:08"
+  members: 0
+
+- id: 90-days-to-end-game
+  title: "90 Days To End Game..."
+  author: Spell
+  published: "2002-02-16 15:36:01"
+  members: 0
+
+- id: brooklyn-museum-of-art-pre-magic-of-myth-announcement
+  title: "Brooklyn Museum of Art Pre - Magic Of Myth Announcement"
+  author: SWNYC
+  published: "2002-01-28 14:53:30"
+  members: 2
+
+- id: the-first-transport-is-away
+  title: "The First Transport is Away!"
+  author: Amit
+  published: "2002-01-23 17:45:19"
+  members: 0
+
+- id: quickly-theyre-on-the-move
+  title: "Quickly...they're on the move!"
+  author: Amit
+  published: "2002-01-14 00:35:27"
+  members: 0.67
+
+- id: join-swnyc-for-our-first-meeting-of-2002
+  title: "Join SWNYC for our first meeting of 2002!"
+  author: SWNYC
+  published: "2002-01-10 14:39:42"
+  members: 0
+
+- id: happy-holidays
+  title: "Happy Holidays!!"
+  author: Amit
+  published: "2001-12-31 03:19:46"
+  members: 2002
+
+- id: weekly-moderated-chat-at-swnyc-com-chat-room
+  title: "Weekly Moderated Chat At SWNYC.COM Chat Room!"
+  author: SWNYC
+  published: "2001-12-17 00:11:57"
+  members: 1
+
+- id: nyline-instant-messenger
+  title: "NYLine Instant Messenger"
+  author: Spell
+  published: "2001-12-11 19:50:23"
+  members: 1
+
+- id: visit-the-message-boards
+  title: "Visit the Message Boards!!"
+  author: Amit
+  published: "2001-12-27 17:04:54"
+  members: 1
+
+- id: swnyc-interviews-ray-park
+  title: "SWNYC Interviews Ray Park"
+  author: SWNYC
+  published: "2001-12-09 22:23:06"
+  members: 0
+
+- id: star-wars-charity-auctions
+  title: "Star Wars Charity Auctions"
+  author: Matt
+  published: "2001-12-08 01:19:14"
+  members: 0
+
+- id: celebration-2-site-up
+  title: "Celebration II Site Up!"
+  author: Spell
+  published: "2001-12-03 18:03:40"
+  members: 0
+
+- id: nyline-machine-underway
+  title: "NYLine Machine Underway..."
+  author: Spell
+  published: "2001-11-30 01:32:35"
+  members: 0
+
+- id: breather-teaser-up
+  title: "Breather Teaser Up!"
+  author: Spell
+  published: "2001-11-05 22:30:03"
+  members: 0
+
+- id: attention-nyc-star-wars-fans
+  title: "Attention NYC Star Wars Fans!"
+  author: Spell
+  published: "2001-10-27 22:20:49"
+  members: 0
+
+- id: dine-with-boba-fett
+  title: "Dine With Boba Fett!"
+  author: Spell
+  published: "2001-10-15 01:16:50"
+  members: 0
+
+- id: nylines-big-splash
+  title: "NYLine's Big Splash!"
+  author: Spell
+  published: "2001-10-01 18:00:06"
+  members: 0
+
+- id: remember
+  title: "Remember"
+  author: Spell
+  published: "2001-09-11 14:35:27"
+  members: 0
+
+- id: come-and-get-it
+  title: "Come and get it!"
+  author: Spell
+  published: "2001-09-09 00:35:50"
+  members: 0
+
+- id: we-are-now-nyline-org
+  title: "We are now NYLine.org!"
+  author: Spell
+  published: "2001-08-24 18:06:15"
+  members: 0
+
+- id: nyline-user-poll
+  title: "NYLine User Poll"
+  author: Spell
+  published: "2001-08-15 17:35:11"
+  members: 0
+
+- id: episode-2-attack-of-the-clones
+  title: "Episode II: Attack of the Clones"
+  author: Spell
+  published: "2001-08-06 18:15:32"
+  members: 0
+
+- id: sign-me-up
+  title: "Sign Me Up!"
+  author: Spell
+  published: "2001-07-14 23:39:30"
+  members: 0
+
+- id: episode-2-metro-card
+  title: "Episode II Metro Card!"
+  author: Spell
+  published: "2001-07-01 12:12:32"
+  members: 0
+
+- id: nyline-rebirth
+  title: "NYLine Rebirth!"
+  author: Spell
+  published: "2001-05-26 22:47:55"
+  members: 0
+
+- id: meeemmmmories
+  title: "Meeemmmmories..."
+  author: Spell
+  published: "2001-05-25 21:17:54"
+  members: 0
+
+- id: new-site-is-here
+  title: "New Site Is Here!"
+  author: Matt
+  published: "2001-05-19 22:32:05"
+  members: 0
+
+- id: its-time-to-look-ahead
+  title: "It's time to look ahead..."
+  author: Matt
+  published: "2001-05-19 05:19:22"
+  members: 0

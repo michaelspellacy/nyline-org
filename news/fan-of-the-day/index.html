@@ -1,29 +1,12 @@
 ---
 description: Bios on the very best of our line members can be found here!
-theme: episode-3
 title: NYLine Super Fans
 ---
 
-	<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-	<p>Do you have what it takes to become a "Fan of the Day"? If indeed you are powerful enough to join the ranks of the worthy or know somebody else who is, please contact us at <a href="mailto:contact@nyline.org">contact@nyline.org</a>. <em>Only hardcore fans need apply!</em></p>
+<p>Do you have what it takes to become a "Fan of the Day"? If indeed you are powerful enough to join the ranks of the worthy or know somebody else who is, please contact us at <a href="mailto:contact@nyline.org">contact@nyline.org</a>. <em>Only hardcore fans need apply!</em></p>
 
-	<p>Here are the great sidewalk warriors of past NYLine ups...</p>
-	
-	<ul class="page-listings">
+<p>Here are the great sidewalk warriors of past NYLine ups...</p>
 
-		{% for item in site.data.news.fotd %} 
-
-		<li>
-
-			<h2><a href="{{ item.id }}.html">{{ item.title }}</a></h2>
-
-			<p class="time-stamp">Posted By {{ item.author }} on {{ item.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }}</p>
-
-			<p class="current-members">Number of people currently in line: <b>{{ item.members }}</b></p>
-
-		</li>
-
-	{% endfor %}
-
-	</ul>
+{% include list.html sectionName="fotd" %}

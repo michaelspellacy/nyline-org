@@ -1,29 +1,11 @@
 ---
 description: "Every journey has a first step. Relive the lining up celebration of Star Wars - Episode 1 - The Phantom Menace at New York's Ziegfeld Theater!"
 theme: episode-1
-section: news
-timestamp: false
 title: "NYLine: Episode 1 News"
 ---
 
-	<h1>Every Journey Has A First Step</h1>
+<h1>Every Journey Has A First Step</h1>
 
-	<p>The Force is back! Join us on the sidewalk outside of New York City's famous Ziegfeld theater as we raise money for the Starlight Children's Foundation, revel with fellow fans, and countdown the final days to the release of the first new Star Wars movie in 16 years: "Star Wars: Episode I - The Phantom Menace"!</p>
+<p>The Force is back! Join us on the sidewalk outside of New York City's famous Ziegfeld theater as we raise money for the Starlight Children's Foundation, revel with fellow fans, and countdown the final days to the release of the first new Star Wars movie in 16 years: "Star Wars: Episode I - The Phantom Menace"!</p>
 
-	<ul class="page-listings">
-
-		{% for item in site.data.news.episode-1 %} 
-
-		<li>
-
-			<h2><a href="{{ item.id }}.html">{{ item.title }}</a></h2>
-
-			<p class="time-stamp">Posted By {{ item.author }} on {{ item.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }}</p>
-
-			<p class="current-members">Number of people currently in line: <b>{{ item.members }}</b></p>
-
-		</li>
-
-	{% endfor %}
-
-	</ul>
+{% include list.html sectionName=page.theme %}

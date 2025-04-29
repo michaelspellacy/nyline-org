@@ -1,3 +1,46 @@
+{%- assign pageID = page.id -%}
+{%- assign sectionName = page.section -%}
+{%- assign themeName = page.theme -%}
+{%- assign timestamp = page.timestamp -%} 
+{%- assign pageCondition = false -%}
+{%- assign pageName = page.path | replace:'.html',''| replace: '/', '-' %}
+
+{%- assign dataFOTD = site.data.news[sectionName] -%}
+{%- assign dataNews = site.data.news[themeName] -%}
+{%- assign dataPhotos = site.data.gallery[themeName] -%}
+{%- assign dataVideos = site.data.video[themeName] -%}
+
+{%- if sectionName == "fotd" -%}
+
+	{%- assign data = dataFOTD -%}
+
+{%- endif -%}
+
+{%- if sectionName == "news" -%}
+
+	{%- assign data = dataNews -%}
+
+{%- endif -%}
+
+{%- if sectionName == "photos" -%}
+
+	{%- assign data = dataPhotos -%}
+
+{%- endif -%}
+
+{%- assign newsFeed = data | where: "id", pageID | first -%}
+{%- assign galleryFeed = dataPhotos | where: "id", pageID | first -%}
+{%- assign newsTitle = newsFeed.title -%}
+{%- assign newsGallery = newsFeed.gallery -%}
+{%- assign newsVideos = newsFeed.video -%}
+{%- assign relatedGallery = galleryFeed.related -%}
+
+{%- if sectionName == "fotd" or sectionName == "news" or sectionName == "photos" -%}
+
+  {%- assign pageCondition = true -%}
+
+{%- endif -%}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +56,10 @@
 	<link href="/css/global.css" rel="stylesheet">
 	<link href="/manifest.json" rel="manifest">
 	<link href="/favicon.ico" rel="icon">
-	<title>{{ page.title }} - {{ site.name }}</title>
+	<title>{{ newsTitle }}{{ page.title }} - {{ site.name }}</title>
 </head>
 
-<body id="{{page.path | replace:'.html',''| replace: '/', '-'}}" class="{% if page.theme %}{{ page.theme }}{% else %}{{ site.theme-name }}{% endif %}{% if page.section %} {{ page.section }}{% endif %}">
+<body id="{{ pageName }}" class="{% if themeName %}{{ themeName }}{% else %}{{ site.theme-name }}{% endif %}{% if sectionName %} {{ sectionName }}{% endif %}">
 
 	<div id="page">
 
@@ -26,7 +69,7 @@
 
 			<div id="creative">
 
-			{% if page.creative %}
+			{%- if page.creative -%}
 
 				<img src="/img/template/{{ page.creative }}.jpg" alt="">
 
@@ -34,7 +77,7 @@
 
 				<img src="/img/template/creative-default.jpg" alt="">
 
-			{% endif %}
+			{% endif -%}
 
 			</div>
 
@@ -54,31 +97,31 @@
 
 			<div id="page-heading">
 
-			{% if page.theme == "episode-1" %}
+				{%- if themeName == "episode-1" %}
 
 				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>1</b></a>
 
 				<p class="subheading"><em>The Line Starts Here</em></p>
 
-			{% elsif page.theme == "episode-2" %}
+				{%- elsif themeName == "episode-2" %}
 
 				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>2</b></a>
 
 				<p class="subheading"><em>The Line Continues...</em></p>
 
-			{% elsif page.theme == "episode-3" %}
+				{%- elsif themeName == "episode-3" %}
 
 				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>3</b></a>
 
 				<p class="subheading"><em>Almost There...</em></p>
 
-			{% else %}
+				{%- else %}
 
 				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>{{ site.episode }}</b></a>
 
 				<p class="subheading"><em>{{site.subheading }}</em></p>
 
-			{% endif %}
+				{%- endif %}
 
 			</div>
 
@@ -88,173 +131,127 @@
 
 			<article>
 
+			{%- if pageCondition %}
 
-				{% assign currentID = page.id %}
-				{% assign section = page.section %}
-				{% assign theme = page.theme %}
-				{% assign timestamp = page.timestamp %} <!-- do i still need this? -->
+				<h1>{{ newsFeed.title }}</h1>
 
-				{% assign dataFOTD = site.data.news[section] %}
-				{% assign dataNews = site.data.news[theme] %}
-				{% assign dataPhotos = site.data.gallery[theme] %}
-				{% assign dataVideos = site.data.video[theme] %}
+				{%- if sectionName == "news" or sectionName == "fotd" %}
 
-				{% if section == "fotd" %}
+				<p class="published-date">Posted by <b>{{ newsFeed.author }}</b> on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }}</time></p>
 
-					data = dataFOTD
+				<p class="current-members">Number of people currently in line: <b>{{ newsFeed.members }}</b></p>
 
-					{% assign data = dataFOTD %}
+				{%- endif %}
 
-				{% endif %}
+				{%- if sectionName == "photos" %}
 
-				{% if section == "news" %}
+				<p class="published-date">Posted on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y" }}</time></p>
 
-					{% assign data = dataNews %}
+				{%- endif %}
 
-				{% endif %}
+				{%- endif %}
 
-				{% assign newsFeed = data | where: "id", currentID | first %}
-				
-				{% assign galleryFeed = dataPhotos | where: "id", currentID | first %}
+				{{ content | strip }}
 
-				{% if timestamp == nil and section == "fotd" or section == "news" or section == "photos" %}
-
-					<h1>{{ newsFeed.title }}</h1>
-
-					{% if section == "news" or section == "fotd" %}
-
-					<p class="published-date">Posted by <b>{{ newsFeed.author }}</b> on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }}</time></p>
-
-					<p class="current-members">Number of people currently in line: <b>{{ newsFeed.members }}</b></p>
-
-					{% endif %}
-
-					{% if section == "photos" %}
-
-					<p class="published-date">Posted on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y" }}</time></p>
-
-					{% endif %}
-
-				{% endif %}
-
-
-
-
-
-
-
-
-				{{ content }}
-
-
-				{% if section == "photos" %}
+				{%- if sectionName == "photos" %}
 
 				<div class="gallery">
 				
 					<ul>
 				
-						{% for image in galleryFeed.gallery %}
+					{%- for image in galleryFeed.gallery %}
 				
-							<li><a href="/gallery/source/{{ currentID }}/{{ image.name }}"><img src="/gallery/source/{{ currentID }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+						<li><a href="/gallery/source/{{ pageID }}/{{ image.name }}"><img src="/gallery/source/{{ pageID }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
 				
-						{% endfor %}
+					{%- endfor %}
 				
 					</ul>
 				
 				</div>
 
-				{% endif %}
+				{%- endif %}
 
+				{%- if sectionName == "news" and newsGallery %}
 
+    			<section id="story-highlights">
 
+        			<h2>Story Highlights</h2>
 
-{% assign newsGallery = newsFeed.gallery %}
-{% assign newsVideos = newsFeed.video %}
+        			{%- assign relatedImages = dataPhotos | where: "id", newsGallery | first %}
 
+        			<ul>
 
-{% assign galleryRelated = galleryFeed.related %}
+        			{%- for image in relatedImages.gallery %}
 
-{% if newsGallery %}
+            		{%- for pageSelection in image.highlight %}
 
-    <section id="story-highlights">
+                	{%- if pageID == pageSelection %}
 
-        <h2>Story Highlights</h2>
+                    	<li><a href="/gallery/source/{{ newsGallery }}/{{ image.name }}"><img src="/gallery/source/{{ newsGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
 
-        {% assign relatedImages = dataPhotos | where: "id", newsGallery | first %}
+                	{%- endif %}
 
-        <ul>
-
-        {% for image in relatedImages.gallery %}
-
-            {% for pageSelection in image.highlight %}
-
-                {% if currentID == pageSelection %}
-
-                    <li><a href="/gallery/source/{{ newsGallery }}/{{ image.name }}"><img src="/gallery/source/{{ newsGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
-
-                {% endif %}
-
-            {% endfor %}
+            		{%- endfor %}
     
-        {% endfor %}
+        			{%- endfor %}
 
-        </ul>
+        			</ul>
 
-    </section>
+    			</section>
 
-{% endif %}
+				{%- endif %}
 
-{% if newsGallery or newsVideos or galleryRelated %}
+				{%- if newsGallery or newsVideos or relatedGallery %}
 
-    <aside id="related-media">
+    			<aside id="related-media">
 
-        {% if newsGallery or newsVideos %}
+        		{%- if sectionName == "news" and newsGallery or newsVideos %}
 
-        <h2>Related Media</h2>
+        			<h2>Related Media</h2>
 
-        <ul>
+        			<ul>
 
-            {% for relatedID in newsGallery %}
+            		{%- for relatedID in newsGallery %}
 
-                {% assign relatedPost = dataPhotos | where: "id", relatedID | first %}
+                		{%- assign relatedPost = dataPhotos | where: "id", relatedID | first -%}
 
-                <li><a href="/gallery/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
+                		<li><a href="/gallery/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
 
-            {% endfor %}
+            		{%- endfor %}
 
-            {% for relatedID in newsVideos %}
+            		{%- for relatedID in newsVideos %}
 
-                {% assign relatedPost = dataVideos | where: "id", relatedID | first %}
+                		{%- assign relatedPost = dataVideos | where: "id", relatedID | first %}
 
-                <li><a href="{{ relatedPost.href }}">{{ relatedPost.title }}</a></li>
+                		<li><a href="{{ relatedPost.href }}">{{ relatedPost.title }}</a></li>
 
-            {% endfor %}
+            		{%- endfor %}
 
-        </ul>
+        			</ul>
 
-    {% endif %}
+    				{%- endif -%}
 
-    {% if galleryRelated %}
+    				{%- if sectionName == "photos" and relatedGallery %}
 
-        <h2>Related Content</h2>
+        			<h2>Related Content</h2>
 
-        <ul>
+        			<ul>
 
-            {% for relatedID in galleryRelated %}
+            		{%- for relatedID in relatedGallery %}
 
-                {% assign relatedPost = dataNews | where: "id", relatedID | first %}
+                		{%- assign relatedPost = dataNews | where: "id", relatedID | first %}
 
-                <li><a href="/news/{{ theme }}/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
+                		<li><a href="/news/{{ themeName }}/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
 
-            {% endfor %}
+            		{%- endfor %}
 
-        </ul>
+        			</ul>
 
-    {% endif %}
+    			{%- endif %}
 
-</aside>
+				</aside>
 
-{% endif %}
+			{%- endif %}
 
 			</article>
 
@@ -270,7 +267,7 @@
 
 		</footer>
 
-	</div><!--/#page-->
+	</div>
 
 	<script src="/js/global.js"></script>
 

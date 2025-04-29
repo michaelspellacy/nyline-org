@@ -1,0 +1,92 @@
+
+{% assign currentID = page.id %}
+{% assign theme = page.theme %}
+
+{% assign newsFeed = site.data.news[theme] | where: "id", currentID | first %}
+{% assign newsGallery = newsFeed.gallery %}
+{% assign newsVideos = newsFeed.video %}
+
+{% assign galleryFeed = site.data.gallery[theme] | where: "id", currentID | first %}
+{% assign galleryRelated = galleryFeed.related %}
+
+{% if newsGallery %}
+
+    <section id="story-highlights">
+
+        <h2>Story Highlights</h2>
+
+        {% assign relatedImages = site.data.gallery[theme] | where: "id", newsGallery | first %}
+
+        <ul>
+
+        {% for image in relatedImages.gallery %}
+
+            {% for pageSelection in image.highlight %}
+
+                {% if currentID == pageSelection %}
+
+                    <li><a href="/gallery/source/{{ newsGallery }}/{{ image.name }}"><img src="/gallery/source/{{ newsGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+
+                {% endif %}
+
+            {% endfor %}
+    
+        {% endfor %}
+
+        </ul>
+
+    </section>
+
+{% endif %}
+
+{% if newsGallery or newsVideos or galleryRelated %}
+
+    <aside id="related-media">
+
+        {% if newsGallery or newsVideos %}
+
+        <h2>Related Media</h2>
+
+        <ul>
+
+            {% for relatedID in newsGallery %}
+
+                {% assign relatedPost = site.data.gallery[theme] | where: "id", relatedID | first %}
+
+                <li><a href="/gallery/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
+
+            {% endfor %}
+
+            {% for relatedID in newsVideos %}
+
+                {% assign relatedPost = site.data.video[theme] | where: "id", relatedID | first %}
+
+                <li><a href="{{ relatedPost.href }}">{{ relatedPost.title }}</a></li>
+
+            {% endfor %}
+
+        </ul>
+
+    {% endif %}
+
+    {% if galleryRelated %}
+
+        <h2>Related Content</h2>
+
+        <ul>
+
+            {% for relatedID in galleryRelated %}
+
+                {% assign relatedPost = site.data.news[theme] | where: "id", relatedID | first %}
+
+                <li><a href="/news/{{ theme }}/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
+
+            {% endfor %}
+
+        </ul>
+
+    {% endif %}
+
+</aside>
+
+{% endif %}

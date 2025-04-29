@@ -24,12 +24,6 @@ episode-1:
    published: "1999-05-31 08:11:00"
    members: 0
 
- - id: better-every-time
-   title: "Better Every Time!"
-   author: Matt
-   published: "1999-05-21 23:52:00"
-   members: 0
-
  - id: a-good-time-was-had-by-all
    title: "A Good Time Was Had By All!"
    author: Robert
@@ -46,6 +40,12 @@ episode-1:
    title: "Contact List"
    author: Matt
    published: "1999-05-22 00:07:00"
+   members: 0
+
+ - id: better-every-time
+   title: "Better Every Time!"
+   author: Matt
+   published: "1999-05-21 23:52:00"
    members: 0
 
  - id: forum-is-back
@@ -77,18 +77,21 @@ episode-1:
    author: Matt
    published: "1999-05-18 14:55:00"
    members: 40
+   gallery: nyline-1-day-18
 
  - id: martin-sheen-drops-by-line
    title: "Martin Sheen Drops By Line"
    author: Steve
    published: "1999-05-18 08:37:00"
    members: 10
+   gallery: nyline-1-day-18
 
  - id: 19-hours-to-go
    title: "19 Hours To Go!"
    author: Steve
    published: "1999-05-18 05:19:00"
    members: 8
+   gallery: nyline-1-day-18
 
  - id: starlight-episode-1-the-stand-a-thon-part-2
    title: "Starlight: Episode 1 - The Stand-a-thon (Part 2)"
@@ -101,6 +104,7 @@ episode-1:
    author: Robert
    published: "1999-05-17 00:38:00"
    members: 14
+   gallery: nyline-1-day-17
 
  - id: ticket-distribution-and-t-shirts
    title: "Ticket Distribution and T-Shirts!"
@@ -114,11 +118,17 @@ episode-1:
    published: "1999-05-15 20:25:00"
    members: 11
 
+ - id: webcam-is-back-online
+   title: "Webcam Is Back Online!"
+   author: Ariel
+   published: "1999-05-14 11:43:00"
+   members: 10
+
  - id: the-phantom-menace-in-manhattan
    title: "The Phantom Menace In Manhattan"
    author: Ariel
    published: "1999-05-14 11:40:00"
-   members: 6
+   members: 10
 
  - id: girls-night-out
    title: "Girls Night Out!!!"
@@ -138,11 +148,18 @@ episode-1:
    published: "1999-05-14 00:14:00"
    members: 8
 
+ - id: reminder
+   title: "Reminder..."
+   author: Steve
+   published: "1999-05-13 23:30:00"
+   members: 8
+
  - id: nyliners-we-need-your-support
    title: "NYLiners: We Need Your Support!"
    author: Steve
    published: "1999-05-13 17:42:00"
    members: 8
+   gallery: nyline-1-day-13
 
  - id: notting-hill-premiere-at-the-ziegfeld
    title: "Notting Hill Premiere at the Ziegfeld"
@@ -150,23 +167,13 @@ episode-1:
    published: "1999-05-13 17:35:00"
    members: 14
 
- - id: webcam-is-back-online
-   title: "Webcam Is Back Online!"
-   author: Ariel
-   published: "1999-05-14 11:43:00"
-   members: 10
-
  - id: we-survived-the-onslaught
    title: "We Survived The Onslaught!"
    author: Robert
    published: "1999-05-13 08:42:00"
    members: 10
-
- - id: reminder
-   title: "Reminder..."
-   author: Steve
-   published: "1999-05-13 23:30:00"
-   members: 8
+   gallery: nyline-1-day-13
+   video: nyline-1-news-episode-4-live-from-the-ticket-buyers-line
 
  - id: ziegfeld-theater-seating-chart
    title: "Ziegfeld Theater Seating Chart!"
@@ -179,6 +186,7 @@ episode-1:
    author: Ariel
    published: "1999-05-12 21:52:00"
    members: 1000
+   gallery: nyline-1-day-12
 
  - id: phantom-menace-tickets-now-on-sale
    title: "Phantom Menace Tickets Now On Sale"
@@ -197,6 +205,7 @@ episode-1:
    author: Steve
    published: "1999-05-12 00:20:00"
    members: 250
+   gallery: nyline-1-day-12
 
  - id: only-one-week-left
    title: "Only One Week Left!"
@@ -227,6 +236,7 @@ episode-1:
    author: Ariel
    published: "1999-05-10 13:57:00"
    members: 12
+   gallery: nyline-1-day-10
 
  - id: press-coverage
    title: "Press Coverage"
@@ -264,23 +274,25 @@ episode-1:
    published: "1999-05-10 04:19:00"
    members: 8
 
- - id: a-quiet-sunday
-   title: "A Queit Sunday..."
+ - id: darth-maul-visits-line
+   title: "Darth Maul Visits Line"
    author: Matt
-   published: "1999-05-09 22:31:00"
+   published: "1999-05-09 22:15:00"
+   members: 18
+   gallery: nyline-1-day-9
+
+ - id: a-quiet-sunday
+   title: "A Quiet Sunday..."
+   author: Matt
+   published: "1999-05-09 21:31:00"
    members: 10
 
  - id: a-wacky-sunday-morning
    title: "A Wacky Sunday Morning!"
    author: Robert
-   published: "1999-05-09 20:04:00"
+   published: "1999-05-09 08:04:00"
    members: 16
-
- - id: darth-maul-visits-line
-   title: "Darth Maul Visits Line"
-   author: Matt
-   published: "1999-05-09 12:15:00"
-   members: 18
+   gallery: nyline-1-day-9
 
  - id: nyline-show-times-now-frozen
    title: "NYLine Show Times Now Frozen"
@@ -293,12 +305,14 @@ episode-1:
    author: Steve
    published: "1999-05-08 19:31:00"
    members: 12
+   gallery: nyline-1-day-8
 
  - id: nyliners-survive-downpour
    title: "NYLiners Survive Downpour"
    author: Steve
    published: "1999-05-08 08:36:00"
    members: 11
+   gallery: nyline-1-day-8
 
  - id: its-really-late
    title: "It's Really Late..."
@@ -341,6 +355,7 @@ episode-1:
    author: Spell
    published: "1999-05-07 01:29:00"
    members: 0
+   gallery: nyline-1-day-7-i-want-my-mtv
 
  - id: international-sign-up-form-online
    title: "International Sign Up Form Online!"
@@ -371,6 +386,7 @@ episode-1:
    author: Steve
    published: "1999-05-06 12:22:07"
    members: 11
+   video: nyline-1-star-wars-celebration-1-part-1-3
 
  - id: news-flash
    title: 'News "Flash"'
@@ -437,6 +453,7 @@ episode-1:
    author: Ariel
    published: "1999-05-03 13:41:00"
    members: 8
+   gallery: nyline-1-day-3-singin-in-the-rain
 
  - id: link-to-our-message-board
    title: "Link To Our Message Board..."
@@ -455,12 +472,14 @@ episode-1:
    author: Steve
    published: "1999-05-02 21:46:27"
    members: 16
+   gallery: nyline-1-day-2
 
  - id: echo-base
    title: "Echo Base"
    author: Jewels
    published: "1999-05-02 15:27:55"
    members: 23
+   gallery: nyline-1-day-2
 
  - id: you-must-contact-me-err-us
    title: "You Must Contact Me...Err...Us"
@@ -473,12 +492,14 @@ episode-1:
    author: Mike
    published: "1999-05-02 13:45:45"
    members: 38
+   gallery: nyline-1-day-2
 
  - id: yo-yo-madness
    title: "Yo-Yo Madness!"
    author: Matt
    published: "1999-05-02 12:11:38"
    members: 28
+   gallery: nyline-1-day-2
 
  - id: webcam-difficulties
    title: "Webcam Difficulties"
@@ -491,6 +512,7 @@ episode-1:
    author: Matt
    published: "1999-05-02 11:25:52"
    members: 18
+   gallery: nyline-1-day-1-the-countdown-begins
 
  - id: live-webcam
    title: "Live Webcam"
@@ -509,12 +531,14 @@ episode-1:
    author: Steve
    published: "1999-05-01 14:07:28"
    members: 35
+   gallery: nyline-1-day-1-the-countdown-begins
 
  - id: line-members-engage-in-some-trivial-behavior
    title: "Line Members Engage In Some Trivial Behavior"
    author: Matt
    published: "1999-05-01 11:48:55"
    members: 50
+   gallery: nyline-1-day-1-the-countdown-begins
 
  - id: 40-die-hard-fans-kick-off-nyline-festivities
    title: "40 Die-Hard Fans Kick Off NYLine Festivities"
@@ -527,12 +551,14 @@ episode-1:
    author: Matt
    published: "1999-05-01 07:27:54"
    members: 4
+   gallery: nyline-1-day-1-the-countdown-begins
 
  - id: the-line-opens-in-3-hours
    title: "The Line Opens In 3 Hours!"
    author: Ariel
    published: "1999-05-01 04:54:22"
    members: 0
+   gallery: nyline-1-day-1-the-countdown-begins
 
  - id: nyline-schedule-arrives
    title: "NYLine Schedule Arrives!"

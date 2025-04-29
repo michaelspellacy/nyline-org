@@ -88,13 +88,17 @@
 
 			<article>
 
-				{% if page.timestamp == nil and page.section == "news" or page.section == "photos" %}
+				{% include heading.html %}
 
-				{% include news-heading.html %}
+				{{ content }}
+
+				{% if page.section == "photos" %}
+
+					{% include photos.html %}
 
 				{% endif %}
 
-				{{ content }}
+				{% include related-content.html %}
 
 			</article>
 

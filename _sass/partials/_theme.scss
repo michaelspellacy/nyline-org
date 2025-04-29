@@ -459,12 +459,17 @@ word-wrap: break-word;
 	font-size: .8rem;
 	outline: 1px #999db0 solid;
 	padding: 1.5em 1em;
+	margin-top: 1em;
 
 		@include breakpoint(yavin) {
 
-			float: left;
-			margin-top: 4.8em;
-			width: 25%;
+			#news-index & {
+
+				float: left;
+				margin-top: 4.8em;
+				width: 25%;
+
+			}
 
 		}
 
@@ -563,35 +568,33 @@ margin: 15px 15px 0 15px;
 
 // Highlights
 
-#story-highlights {
+#story-highlights, .gallery {
 
-	@include breakpoint(yavin) {
+	ul {
+	display: grid;
+	gap: 1em;
+	grid-template-columns: repeat(auto-fill, minmax(calc(125rem / 16), 1fr));
+	list-style: none;
+	padding: 0;
+	}
 
-		float: left;
-		width: 75%;
-
+	img{ 
+	height: calc(125rem/16);
+	width: 100%;
 	}
 
 }
 
-#story-highlights, .photo-gallery {
+.photo-gallery {
+display: grid;
+gap: 1em;
+grid-template-columns: repeat(auto-fill, minmax(calc(125rem / 16), 1fr));
+list-style: none;
+padding: 0;
 
-	> a, > img {
-	display: inline-block;
-	margin: 0 2% 2% 0;
-	width: 47%;
-
-		@include breakpoint(yavin) {
-
-			width: 22%;
-			height: 200px;
-
-		}
-
-		img {
-		width: 100%;
-		}
-
+	img{ 
+	height: 100%;
+	width: 100%;
 	}
 
 }

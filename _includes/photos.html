@@ -1,0 +1,17 @@
+{% assign currentID = page.id %}
+{% assign theme = page.theme %}
+{% assign test = site.data.gallery[theme] | where: "id", currentID | first %}
+
+<div class="gallery">
+
+    <ul>
+
+        {% for image in test.gallery %}
+
+            <li><a href="/gallery/source/{{ currentID }}/{{ image.name }}"><img src="/gallery/source/{{ currentID }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+
+        {% endfor %}
+
+    </ul>
+
+</div>

@@ -135,46 +135,57 @@ episode-2:
  - id: nyline-highlights-2002
    published: "2004-07-04"
    title: "NYLine Highlights: 2002 (NYLine Trading Cards)"
+   gallery: 
 
  - id: the-best-of-lauren-kent-2002
    published: "2004-07-04"
    title: "The Best of Lauren Kent: 2002"
+   gallery: 
 
  - id: the-best-of-jedi-rob-2002
    published: "2004-07-04"
    title: 'The Best of "Jedi Rob" Martin: 2002'
+   gallery: 
 
  - id: the-best-of-amit-saxena
    published: "2004-07-04"
    title: "The Best of Amit Saxena"
+   gallery: 
 
  - id: nyline-2-day-19-attack-of-the-fans
    published: "2002-05-15"
    title: "NYLine II: Day 19 - Attack of the Fans!"
+   gallery: 
 
  - id: nyline-2-day-17
    published: "2002-05-13"
    title: "NYLine II: Day 17"
+   gallery:
 
  - id: nyline-2-day-16
    published: "2002-05-12"
    title: "NYLine II: Day 16"
+   gallery: 
 
  - id: nyline-2-day-15-line-wedding
    published: "2002-05-11"
    title: "NYLine II: Day 15 - Line Wedding"
+   gallery: 
 
  - id: nyline-2-day-14
    published: "2002-05-10"
    title: "NYLine II: Day 14"
+   gallery: 
 
  - id: nyline-2-day-11
    published: "2002-05-07"
    title: "NYLine II: Day 11"
+   gallery: 
 
  - id: nyline-2-day-10
    published: "2002-05-06"
    title: "NYLine II: Day 10"
+   gallery: 
 
  - id: nyline-2-day-9
    published: "2002-05-05"
@@ -246,6 +257,7 @@ episode-2:
    related: 
 
     - your-line-is-very-impressive-picture-time
+    - nyline-day-2-a-hard-days-night
 
  - id: nyline-2-day-1-the-line-continues
    published: "2002-04-27"
@@ -271,6 +283,7 @@ episode-2:
    related: 
    
     - your-line-is-very-impressive-picture-time
+    - nyline-day-1-death-star-bellies-and-deep-pockets
  
 episode-1:
 

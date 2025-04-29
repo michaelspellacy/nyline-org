@@ -88,17 +88,173 @@
 
 			<article>
 
-				{% include heading.html %}
 
-				{{ content }}
+				{% assign currentID = page.id %}
+				{% assign section = page.section %}
+				{% assign theme = page.theme %}
+				{% assign timestamp = page.timestamp %} <!-- do i still need this? -->
 
-				{% if page.section == "photos" %}
+				{% assign dataFOTD = site.data.news[section] %}
+				{% assign dataNews = site.data.news[theme] %}
+				{% assign dataPhotos = site.data.gallery[theme] %}
+				{% assign dataVideos = site.data.video[theme] %}
 
-					{% include photos.html %}
+				{% if section == "fotd" %}
+
+					data = dataFOTD
+
+					{% assign data = dataFOTD %}
 
 				{% endif %}
 
-				{% include related-content.html %}
+				{% if section == "news" %}
+
+					{% assign data = dataNews %}
+
+				{% endif %}
+
+				{% assign newsFeed = data | where: "id", currentID | first %}
+				
+				{% assign galleryFeed = dataPhotos | where: "id", currentID | first %}
+
+				{% if timestamp == nil and section == "fotd" or section == "news" or section == "photos" %}
+
+					<h1>{{ newsFeed.title }}</h1>
+
+					{% if section == "news" or section == "fotd" %}
+
+					<p class="published-date">Posted by <b>{{ newsFeed.author }}</b> on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }}</time></p>
+
+					<p class="current-members">Number of people currently in line: <b>{{ newsFeed.members }}</b></p>
+
+					{% endif %}
+
+					{% if section == "photos" %}
+
+					<p class="published-date">Posted on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y" }}</time></p>
+
+					{% endif %}
+
+				{% endif %}
+
+
+
+
+
+
+
+
+				{{ content }}
+
+
+				{% if section == "photos" %}
+
+				<div class="gallery">
+				
+					<ul>
+				
+						{% for image in galleryFeed.gallery %}
+				
+							<li><a href="/gallery/source/{{ currentID }}/{{ image.name }}"><img src="/gallery/source/{{ currentID }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+				
+						{% endfor %}
+				
+					</ul>
+				
+				</div>
+
+				{% endif %}
+
+
+
+
+{% assign newsGallery = newsFeed.gallery %}
+{% assign newsVideos = newsFeed.video %}
+
+
+{% assign galleryRelated = galleryFeed.related %}
+
+{% if newsGallery %}
+
+    <section id="story-highlights">
+
+        <h2>Story Highlights</h2>
+
+        {% assign relatedImages = dataPhotos | where: "id", newsGallery | first %}
+
+        <ul>
+
+        {% for image in relatedImages.gallery %}
+
+            {% for pageSelection in image.highlight %}
+
+                {% if currentID == pageSelection %}
+
+                    <li><a href="/gallery/source/{{ newsGallery }}/{{ image.name }}"><img src="/gallery/source/{{ newsGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+
+                {% endif %}
+
+            {% endfor %}
+    
+        {% endfor %}
+
+        </ul>
+
+    </section>
+
+{% endif %}
+
+{% if newsGallery or newsVideos or galleryRelated %}
+
+    <aside id="related-media">
+
+        {% if newsGallery or newsVideos %}
+
+        <h2>Related Media</h2>
+
+        <ul>
+
+            {% for relatedID in newsGallery %}
+
+                {% assign relatedPost = dataPhotos | where: "id", relatedID | first %}
+
+                <li><a href="/gallery/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
+
+            {% endfor %}
+
+            {% for relatedID in newsVideos %}
+
+                {% assign relatedPost = dataVideos | where: "id", relatedID | first %}
+
+                <li><a href="{{ relatedPost.href }}">{{ relatedPost.title }}</a></li>
+
+            {% endfor %}
+
+        </ul>
+
+    {% endif %}
+
+    {% if galleryRelated %}
+
+        <h2>Related Content</h2>
+
+        <ul>
+
+            {% for relatedID in galleryRelated %}
+
+                {% assign relatedPost = dataNews | where: "id", relatedID | first %}
+
+                <li><a href="/news/{{ theme }}/{{ relatedPost.id }}">{{ relatedPost.title }}</a></li>
+
+            {% endfor %}
+
+        </ul>
+
+    {% endif %}
+
+</aside>
+
+{% endif %}
 
 			</article>
 

@@ -385,7 +385,7 @@ article {
 background: #efebe7;
 overflow: hidden;
 padding: 1em;
-word-wrap: break-word;
+text-wrap: pretty;
 
 	@include breakpoint(yavin) {
 

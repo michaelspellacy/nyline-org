@@ -133,60 +133,144 @@ episode-3:
 episode-2:
 
  - id: nyline-highlights-2002
-   published: "XXX"
+   published: "2004-07-04"
    title: "NYLine Highlights: 2002 (NYLine Trading Cards)"
 
  - id: the-best-of-lauren-kent-2002
-   published: "XXX"
+   published: "2004-07-04"
    title: "The Best of Lauren Kent: 2002"
 
  - id: the-best-of-jedi-rob-2002
-   published: "XXX"
+   published: "2004-07-04"
    title: 'The Best of "Jedi Rob" Martin: 2002'
 
  - id: the-best-of-amit-saxena
-   published: "XXX"
+   published: "2004-07-04"
    title: "The Best of Amit Saxena"
 
  - id: nyline-2-day-19-attack-of-the-fans
-   published: "XXX"
+   published: "2002-05-15"
    title: "NYLine II: Day 19 - Attack of the Fans!"
 
  - id: nyline-2-day-17
-   published: "XXX"
+   published: "2002-05-13"
    title: "NYLine II: Day 17"
 
  - id: nyline-2-day-16
-   published: "XXX"
+   published: "2002-05-12"
    title: "NYLine II: Day 16"
 
  - id: nyline-2-day-15-line-wedding
-   published: "XXX"
+   published: "2002-05-11"
    title: "NYLine II: Day 15 - Line Wedding"
 
  - id: nyline-2-day-14
-   published: "XXX"
+   published: "2002-05-10"
    title: "NYLine II: Day 14"
 
  - id: nyline-2-day-11
-   published: "XXX"
+   published: "2002-05-07"
    title: "NYLine II: Day 11"
 
  - id: nyline-2-day-10
-   published: "XXX"
+   published: "2002-05-06"
    title: "NYLine II: Day 10"
 
  - id: nyline-2-day-9
-   published: "XXX"
+   published: "2002-05-05"
    title: "NYLine II: Day 9"
+   gallery: 
+
+    - name: nyline-05052002A.JPG
+    - name: nyline-05052002B.JPG
+    - name: nyline-05052002BA.JPG
+    - name: nyline-05052002BB.JPG
+    - name: nyline-05052002BC.JPG
+    - name: nyline-05052002BD.JPG
+    - name: nyline-05052002BE.JPG
+    - name: nyline-05052002BF.JPG
+    - name: nyline-05052002BG.JPG
+    - name: nyline-05052002BH.JPG
+    - name: nyline-05052002BI.JPG
+    - name: nyline-05052002BJ.JPG
+    - name: nyline-05052002BK.JPG
+    - name: nyline-05052002BL.JPG
+    - name: nyline-05052002BM.JPG
+    - name: nyline-05052002BN.JPG
+    - name: nyline-05052002BO.JPG
+    - name: nyline-05052002BP.JPG
+    - name: nyline-05052002BQ.JPG
+    - name: nyline-05052002C.JPG
+    - name: nyline-05052002D.JPG
+    - name: nyline-05052002E.JPG
+    - name: nyline-05052002F.JPG
+    - name: nyline-05052002G.JPG
+    - name: nyline-05052002H.JPG
+    - name: nyline-05052002I.JPG
+    - name: nyline-05052002J.JPG
+    - name: nyline-05052002K.JPG
+    - name: nyline-05052002L.JPG
+    - name: nyline-05052002M.JPG
+    - name: nyline-05052002N.JPG
+    - name: nyline-05052002O.JPG
+    - name: nyline-05052002P.JPG
+    - name: nyline-05052002Q.JPG
+    - name: nyline-05052002R.JPG
+    - name: nyline-05052002S.JPG
+    - name: nyline-05052002T.JPG
+    - name: nyline-05052002U.JPG
+    - name: nyline-05052002V.JPG
+    - name: nyline-05052002W.JPG
+    - name: nyline-05052002X.JPG
+    - name: nyline-05052002Y.JPG
+    - name: nyline-05052002Z.JPG
 
  - id: nyline-2-day-2
-   published: "XXX"
+   published: "2002-04-28"
    title: "NYLine II: Day 2"
+   gallery: 
+
+    - name: nyline-04282002A.JPG
+    - name: nyline-04282002B.JPG
+    - name: nyline-04282002C.JPG
+    - name: nyline-04282002D.JPG
+    - name: nyline-04282002E.JPG
+    - name: nyline-04282002F.JPG
+    - name: nyline-04282002G.JPG
+    - name: nyline-04282002H.JPG
+    - name: nyline-04282002I.JPG
+    - name: nyline-04282002J.JPG
+    - name: nyline-04282002K.JPG
+    - name: nyline-04282002L.JPG
+
+   related: 
+
+    - your-line-is-very-impressive-picture-time
 
  - id: nyline-2-day-1-the-line-continues
-   published: "XXX"
+   published: "2002-04-27"
    title: "NYLine II: Day 1 - The Line Continues..."
+   gallery: 
+
+    - name: nyline-04272002A.JPG
+    - name: nyline-04272002B.JPG
+    - name: nyline-04272002C.JPG
+    - name: nyline-04272002D.JPG
+    - name: nyline-04272002E.JPG
+    - name: nyline-04272002F.JPG
+    - name: nyline-04272002G.JPG
+    - name: nyline-04272002H.JPG
+    - name: nyline-04272002I.JPG
+    - name: nyline-04272002J.JPG
+    - name: nyline-04272002K.JPG
+    - name: nyline-04272002L.JPG
+    - name: nyline-04272002M.JPG
+    - name: nyline-04272002N.JPG
+    - name: nyline-04272002O.JPG
+
+   related: 
+   
+    - your-line-is-very-impressive-picture-time
  
 episode-1:
 

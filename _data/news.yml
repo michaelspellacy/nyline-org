@@ -967,6 +967,10 @@ episode-2:
   author: Matt
   published: "2002-04-29 21:06:48"
   members: 22
+  gallery: 
+
+    - nyline-2-day-2
+    - nyline-2-day-1-the-line-continues
 
 - id: nyline-day-2-a-hard-days-night
   title: "NYLine Day 2 - A Hard Days Night"

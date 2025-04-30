@@ -591,68 +591,6 @@ episode-1:
    published: "1999-04-09 13:28:28"
    members: 0
 
-fotd:
-
- - id: frank-bianco
-   title: "Frank Bianco"
-   author: Spell
-   published: "2004-05-03 14:54:57"
-   members: 0
-
- - id: jedi-rob-martin
-   title: '"Jedi Rob" Martin'
-   author: Spell
-   published: "2002-05-16 15:00:48"
-   members: 12
-
- - id: salman-hamdani
-   title: "Salman Hamdani"
-   author: Spell
-   published: "2002-04-08 15:06:22"
-   members: 0
-
- - id: lee-goldberg
-   title: "Lee Goldberg"
-   author: Steve
-   published: "1999-05-17 01:17:34"
-   members: 14
-
- - id: cool-say-dee
-   title: "Cool Say-Dee (Lynne Lipton)"
-   author: Robert
-   published: "1999-05-12 09:11:00"
-   members: 250
-
- - id: jewels-sem-green
-   title: "Jewels Green"
-   author: Michele
-   published: "1999-05-10 23:45:06"
-   members: 0
-
- - id: michele-hadlow
-   title: "Michele Hadlow"
-   author: Jewels
-   published: "1999-05-09 00:23:46"
-   members: 0
-
- - id: suzanne-sousa
-   title: "Suzanne Sousa"
-   author: Robert
-   published: "1999-05-08 00:11:32"
-   members: 30
-
- - id: steve-lubot
-   title: "Steve Lubot"
-   author: Steve
-   published: "1999-05-07 09:11:00"
-   members: 0
-
- - id: robert-cartagena
-   title: "Robert Cartagena"
-   author: Suzanne
-   published: "1999-05-01 11:03:12"
-   members: 45
-
 episode-2:
 
 - id: the-return-of-blackwolf-the-dragonmaster
@@ -774,7 +712,6 @@ episode-2:
   author: SWNYC
   published: "2002-05-23 20:43:15"
   members: 127
-
 
 - id: thank-you
   title: "Thank You !!!!!!"
@@ -972,11 +909,16 @@ episode-2:
     - nyline-2-day-2
     - nyline-2-day-1-the-line-continues
 
+  video: nyline-2-news-episode-3-the-line-continues
+
 - id: nyline-day-2-a-hard-days-night
   title: "NYLine Day 2 - A Hard Days Night"
   author: Amit
   published: "2002-04-29 01:24:11"
   members: 1 
+  gallery: 
+
+    - nyline-2-day-2
 
 - id: ongoing-events-for-nyline-members
   title: "Ongoing Events for NYLine Members"
@@ -1283,3 +1225,65 @@ episode-2:
   author: Matt
   published: "2001-05-19 05:19:22"
   members: 0
+
+fotd:
+
+ - id: frank-bianco
+   title: "Frank Bianco"
+   author: Spell
+   published: "2004-05-03 14:54:57"
+   members: 0
+
+ - id: jedi-rob-martin
+   title: '"Jedi Rob" Martin'
+   author: Spell
+   published: "2002-05-16 15:00:48"
+   members: 12
+
+ - id: salman-hamdani
+   title: "Salman Hamdani"
+   author: Spell
+   published: "2002-04-08 15:06:22"
+   members: 0
+
+ - id: lee-goldberg
+   title: "Lee Goldberg"
+   author: Steve
+   published: "1999-05-17 01:17:34"
+   members: 14
+
+ - id: cool-say-dee
+   title: "Cool Say-Dee (Lynne Lipton)"
+   author: Robert
+   published: "1999-05-12 09:11:00"
+   members: 250
+
+ - id: jewels-sem-green
+   title: "Jewels Green"
+   author: Michele
+   published: "1999-05-10 23:45:06"
+   members: 0
+
+ - id: michele-hadlow
+   title: "Michele Hadlow"
+   author: Jewels
+   published: "1999-05-09 00:23:46"
+   members: 0
+
+ - id: suzanne-sousa
+   title: "Suzanne Sousa"
+   author: Robert
+   published: "1999-05-08 00:11:32"
+   members: 30
+
+ - id: steve-lubot
+   title: "Steve Lubot"
+   author: Steve
+   published: "1999-05-07 09:11:00"
+   members: 0
+
+ - id: robert-cartagena
+   title: "Robert Cartagena"
+   author: Suzanne
+   published: "1999-05-01 11:03:12"
+   members: 45

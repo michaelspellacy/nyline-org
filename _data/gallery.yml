@@ -2,7 +2,7 @@ episode-3:
 
  - id: nyline-3-fan-day
    title: "NYLine III: Fan Day"
-   published: "June 18th, 2005"
+   published: "6/18/2005"
    desc: "NYLine Staff and Members celebrate the one month anniversary of Star Wars: Episode 3 - Revenge of the Sith"
 
  - id: nyline-3-day-19-the-final-countdown
@@ -24,6 +24,41 @@ episode-3:
    title: "NYLine III: Day 16 - Madagascar Premiere"
    published: "5/15/05"
    desc: "Will Smith, David Schwimmer, and more come out for the premiere of Madagascar. NYLine is there as usual..."
+   gallery: 
+
+    - name: nyline-skypics 001.jpg
+    - name: nyline-skypics 002.jpg
+    - name: nyline-skypics 003.jpg
+    - name: nyline-skypics 004.jpg
+    - name: nyline-skypics 005.jpg
+    - name: nyline-skypics 006.jpg
+    - name: nyline-skypics 007.jpg
+    - name: nyline-skypics 009.jpg
+    - name: nyline-skypics 010.jpg
+    - name: nyline-skypics 011.jpg
+    - name: nyline-skypics 012.jpg
+    - name: nyline-skypics 017.jpg
+    - name: nyline-skypics 018.jpg
+    - name: nyline-skypics 019.jpg
+    - name: nyline-skypics 020.jpg
+    - name: nyline-skypics 021.jpg
+    - name: nyline-skypics 022.jpg
+    - name: nyline-skypics 023.jpg
+    - name: nyline-skypics 024.jpg
+    - name: nyline-skypics 025.jpg
+    - name: nyline-skypics 026.jpg
+    - name: nyline-skypics 027.jpg
+    - name: nyline-skypics 028.jpg
+    - name: nyline-skypics 029.jpg
+    - name: nyline-skypics 030.jpg
+    - name: nyline-skypics 031.jpg
+    - name: nyline-skypics 032.jpg
+    - name: nyline-skypics 033.jpg
+    - name: nyline-skypics 034.jpg
+    - name: nyline-skypics 035.jpg
+    - name: nyline-skypics 036.jpg
+    - name: nyline-skypics 037.jpg
+    - name: nyline-skypics 038.jpg
 
  - id: nyline-3-day-15-padawan-picnic
    title: "NYLine III: Day 15 - Padawan Picnic" 
@@ -135,57 +170,234 @@ episode-2:
  - id: nyline-highlights-2002
    published: "2004-07-04"
    title: "NYLine Highlights: 2002 (NYLine Trading Cards)"
-   gallery: 
 
  - id: the-best-of-lauren-kent-2002
    published: "2004-07-04"
    title: "The Best of Lauren Kent: 2002"
-   gallery: 
 
  - id: the-best-of-jedi-rob-2002
    published: "2004-07-04"
    title: 'The Best of "Jedi Rob" Martin: 2002'
-   gallery: 
 
  - id: the-best-of-amit-saxena
    published: "2004-07-04"
    title: "The Best of Amit Saxena"
-   gallery: 
 
  - id: nyline-2-day-19-attack-of-the-fans
    published: "2002-05-15"
    title: "NYLine II: Day 19 - Attack of the Fans!"
-   gallery: 
 
  - id: nyline-2-day-17
    published: "2002-05-13"
    title: "NYLine II: Day 17"
-   gallery:
 
  - id: nyline-2-day-16
    published: "2002-05-12"
    title: "NYLine II: Day 16"
-   gallery: 
 
  - id: nyline-2-day-15-line-wedding
    published: "2002-05-11"
    title: "NYLine II: Day 15 - Line Wedding"
    gallery: 
 
+    - name: nyline-AOTC001.JPG
+    - name: nyline-AOTC002.JPG
+    - name: nyline-AOTC003.JPG
+    - name: nyline-AOTC004.JPG
+    - name: nyline-AOTC005.JPG
+    - name: nyline-AOTC006.JPG
+    - name: nyline-AOTC007.JPG
+    - name: nyline-AOTC008.JPG
+    - name: nyline-AOTC009.JPG
+    - name: nyline-AOTC010.JPG
+    - name: nyline-AOTC011.JPG
+    - name: nyline-AOTC012.JPG
+    - name: nyline-AOTC013.JPG
+    - name: nyline-AOTC014.JPG
+    - name: nyline-AOTC015.JPG
+    - name: nyline-AOTC016.JPG
+    - name: nyline-AOTC017.JPG
+    - name: nyline-AOTC018.JPG
+    - name: nyline-AOTC019.JPG
+    - name: nyline-AOTC020.JPG
+    - name: nyline-AOTC021.JPG
+    - name: nyline-AOTC022.JPG
+    - name: nyline-AOTC023.JPG
+    - name: nyline-AOTC024.JPG
+    - name: nyline-AOTC025.JPG
+    - name: nyline-AOTC026.JPG
+    - name: nyline-AOTC027.JPG
+    - name: nyline-AOTC028.JPG
+    - name: nyline-AOTC029.JPG
+    - name: nyline-AOTC030.JPG
+    - name: nyline-AOTC031.JPG
+    - name: nyline-AOTC032.JPG
+    - name: nyline-AOTC033.JPG
+    - name: nyline-AOTC034.JPG
+    - name: nyline-AOTC035.JPG
+    - name: nyline-AOTC036.JPG
+    - name: nyline-AOTC037.JPG
+    - name: nyline-AOTC038.JPG
+    - name: nyline-AOTC039.JPG
+    - name: nyline-AOTC040.JPG
+    - name: nyline-AOTC041.JPG
+    - name: nyline-AOTC042.JPG
+    - name: nyline-AOTC043.JPG
+    - name: nyline-AOTC044.JPG
+    - name: nyline-AOTC045.JPG
+    - name: nyline-AOTC046.JPG
+    - name: nyline-AOTC047.JPG
+    - name: nyline-AOTC048.JPG
+    - name: nyline-AOTC050.JPG
+    - name: nyline-AOTC051.JPG
+    - name: nyline-AOTC052.JPG
+    - name: nyline-AOTC053.JPG
+    - name: nyline-AOTC054.JPG
+    - name: nyline-AOTC055.JPG
+    - name: nyline-AOTC056.JPG
+    - name: nyline-AOTC057.JPG
+    - name: nyline-AOTC058.JPG
+    - name: nyline-AOTC059.JPG
+    - name: nyline-AOTC060.JPG
+    - name: nyline-AOTC061.JPG
+    - name: nyline-AOTC062.JPG
+    - name: nyline-AOTC063.JPG
+
  - id: nyline-2-day-14
    published: "2002-05-10"
    title: "NYLine II: Day 14"
    gallery: 
+
+    - name: nyline-AOTC001.JPG
+    - name: nyline-AOTC002.JPG
+    - name: nyline-AOTC003.JPG
+    - name: nyline-AOTC004.JPG
+    - name: nyline-AOTC005.JPG
+    - name: nyline-AOTC006.JPG
+    - name: nyline-AOTC007.JPG
+    - name: nyline-AOTC008.JPG
+    - name: nyline-AOTC009.JPG
+    - name: nyline-AOTC010.JPG
+    - name: nyline-AOTC011.JPG
+    - name: nyline-AOTC012.JPG
+    - name: nyline-AOTC013.JPG
 
  - id: nyline-2-day-11
    published: "2002-05-07"
    title: "NYLine II: Day 11"
    gallery: 
 
+    - name: nyline-05062002A.JPG
+    - name: nyline-05062002BA.JPG
+    - name: nyline-05062002BB.JPG
+    - name: nyline-05062002BC.JPG
+    - name: nyline-05062002BD.JPG
+    - name: nyline-05062002BE.JPG
+    - name: nyline-05062002BF.JPG
+    - name: nyline-05062002BG.JPG
+    - name: nyline-05062002C.JPG
+    - name: nyline-05062002D.JPG
+    - name: nyline-05062002E.JPG
+    - name: nyline-05062002F.JPG
+    - name: nyline-05062002G.JPG
+    - name: nyline-05062002H.JPG
+    - name: nyline-05062002I.JPG
+    - name: nyline-05062002J.JPG
+    - name: nyline-05062002K.JPG
+    - name: nyline-05062002L.JPG
+    - name: nyline-05062002M.JPG
+    - name: nyline-05062002N.JPG
+    - name: nyline-05062002O.JPG
+    - name: nyline-05062002P.JPG
+    - name: nyline-05062002Q.JPG
+    - name: nyline-05062002R.JPG
+    - name: nyline-05062002S.JPG
+    - name: nyline-05062002T.JPG
+    - name: nyline-05062002U.JPG
+    - name: nyline-05062002V.JPG
+    - name: nyline-05062002W.JPG
+    - name: nyline-05062002X.JPG
+    - name: nyline-05062002Y.JPG
+    - name: nyline-05062002Z.JPG
+
  - id: nyline-2-day-10
    published: "2002-05-06"
    title: "NYLine II: Day 10"
    gallery: 
+
+    - name: nyline-05062002A.JPG
+    - name: nyline-05062002B.JPG
+    - name: nyline-05062002BA.JPG
+    - name: nyline-05062002BB.JPG
+    - name: nyline-05062002BC.JPG
+    - name: nyline-05062002BD.JPG
+    - name: nyline-05062002BE.JPG
+    - name: nyline-05062002BF.JPG
+    - name: nyline-05062002BG.JPG
+    - name: nyline-05062002BH.JPG
+    - name: nyline-05062002BI.JPG
+    - name: nyline-05062002BJ.JPG
+    - name: nyline-05062002BK.JPG
+    - name: nyline-05062002BL.JPG
+    - name: nyline-05062002BM.JPG
+    - name: nyline-05062002BN.JPG
+    - name: nyline-05062002BO.JPG
+    - name: nyline-05062002BP.JPG
+    - name: nyline-05062002BQ.JPG
+    - name: nyline-05062002BR.JPG
+    - name: nyline-05062002BS.JPG
+    - name: nyline-05062002BT.JPG
+    - name: nyline-05062002BU.JPG
+    - name: nyline-05062002BV.JPG
+    - name: nyline-05062002BW.JPG
+    - name: nyline-05062002BX.JPG
+    - name: nyline-05062002BY.JPG
+    - name: nyline-05062002BZ.JPG
+    - name: nyline-05062002C.JPG
+    - name: nyline-05062002CA.JPG
+    - name: nyline-05062002CB.JPG
+    - name: nyline-05062002CC.JPG
+    - name: nyline-05062002CD.JPG
+    - name: nyline-05062002CE.JPG
+    - name: nyline-05062002CF.JPG
+    - name: nyline-05062002CG.JPG
+    - name: nyline-05062002CH.JPG
+    - name: nyline-05062002CI.JPG
+    - name: nyline-05062002CJ.JPG
+    - name: nyline-05062002CK.JPG
+    - name: nyline-05062002CL.JPG
+    - name: nyline-05062002CM.JPG
+    - name: nyline-05062002CN.JPG
+    - name: nyline-05062002CO.JPG
+    - name: nyline-05062002CP.JPG
+    - name: nyline-05062002CQ.JPG
+    - name: nyline-05062002CR.JPG
+    - name: nyline-05062002CS.JPG
+    - name: nyline-05062002CT.JPG
+    - name: nyline-05062002CU.JPG
+    - name: nyline-05062002D.JPG
+    - name: nyline-05062002E.JPG
+    - name: nyline-05062002F.JPG
+    - name: nyline-05062002G.JPG
+    - name: nyline-05062002H.JPG
+    - name: nyline-05062002I.JPG
+    - name: nyline-05062002J.JPG
+    - name: nyline-05062002K.JPG
+    - name: nyline-05062002L.JPG
+    - name: nyline-05062002M.JPG
+    - name: nyline-05062002N.JPG
+    - name: nyline-05062002O.JPG
+    - name: nyline-05062002P.JPG
+    - name: nyline-05062002Q.JPG
+    - name: nyline-05062002R.JPG
+    - name: nyline-05062002S.JPG
+    - name: nyline-05062002T.JPG
+    - name: nyline-05062002U.JPG
+    - name: nyline-05062002V.JPG
+    - name: nyline-05062002W.JPG
+    - name: nyline-05062002X.JPG
+    - name: nyline-05062002Y.JPG
+    - name: nyline-05062002Z.JPG
 
  - id: nyline-2-day-9
    published: "2002-05-05"
@@ -242,16 +454,22 @@ episode-2:
    gallery: 
 
     - name: nyline-04282002A.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002B.JPG
     - name: nyline-04282002C.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002D.JPG
     - name: nyline-04282002E.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002F.JPG
     - name: nyline-04282002G.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002H.JPG
     - name: nyline-04282002I.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002J.JPG
     - name: nyline-04282002K.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002L.JPG
 
    related: 
@@ -262,28 +480,33 @@ episode-2:
  - id: nyline-2-day-1-the-line-continues
    published: "2002-04-27"
    title: "NYLine II: Day 1 - The Line Continues..."
-   gallery: 
+   gallery:
 
     - name: nyline-04272002A.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002B.JPG
     - name: nyline-04272002C.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002D.JPG
     - name: nyline-04272002E.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002F.JPG
     - name: nyline-04272002G.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002H.JPG
     - name: nyline-04272002I.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002J.JPG
     - name: nyline-04272002K.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002L.JPG
     - name: nyline-04272002M.JPG
+      highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04272002N.JPG
     - name: nyline-04272002O.JPG
+      highlight: your-line-is-very-impressive-picture-time
 
-   related: 
-   
-    - your-line-is-very-impressive-picture-time
-    - nyline-day-1-death-star-bellies-and-deep-pockets
+   related: your-line-is-very-impressive-picture-time
  
 episode-1:
 

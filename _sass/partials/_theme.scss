@@ -463,7 +463,7 @@ text-wrap: pretty;
 	background-position: top left, bottom left;
 	background-repeat: repeat-x;
 	border: 1px #fff solid;
-	font-size: .8rem;
+	// font-size: .8rem;
 	outline: 1px #999db0 solid;
 	padding: 1.5em 1em;
 	margin-top: 1em;
@@ -472,21 +472,20 @@ text-wrap: pretty;
 
 			#news-index & {
 
-				float: left;
-				margin-top: 4.8em;
-				width: 25%;
+				//float: left;
+				//margin-top: 4.8em;
+				//width: 25%;
 
 			}
 
 		}
 
 		h2, h3 {
-		@extend h1;
+		// @extend h1;
 		}
 
 		a {
-		display: inline-block;
-		text-decoration: none;
+		display: block;
 		}
 
 	}
@@ -640,26 +639,26 @@ body#sponsors {
 
 	section {
 
+		
+
+		ul {
+		display: grid;
+		
+		gap: 1em;
+		list-style: none;
+    	padding: 0;
+
+
 		@include breakpoint(yavin) {
 
-			float: left;
-			width: 75%;
+			grid-template-columns: repeat(3, 1fr);
+
+		}
 
 		}
 
 		a {
 		display: block;
-		margin-bottom: 1em;
-
-			@include breakpoint(yavin) {
-
-				display: inline-block;
-				margin-bottom: 0;
-				margin-right: 1em;
-				width: 30%;
-
-			}
-
 		}
 
 		img {

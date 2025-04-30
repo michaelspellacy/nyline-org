@@ -161,7 +161,7 @@
 
 				{%- endif %}
 
-				{{ content }}
+				{{ content | strip }}
 
 				{%- if sectionName == "photos" %}
 
@@ -185,11 +185,13 @@
 
     			<section id="story-highlights">
 
-        			<h2>Story Highlights</h2>
-
-        			{%- assign relatedImages = dataPhotos | where: "id", newsGallery | first %}
+					<h2>Highlights from the Line</h2>
 
         			<ul>
+
+					{%- for imageGallery in newsGallery %}
+
+					{%- assign relatedImages = dataPhotos | where: "id", imageGallery | first %}
 
         			{%- for image in relatedImages.gallery %}
 
@@ -197,13 +199,15 @@
 
                 	{%- if pageID == pageSelection %}
 
-                    	<li><a href="/gallery/source/{{ newsGallery }}/{{ image.name }}"><img src="/gallery/source/{{ newsGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+                    	<li><a href="/gallery/source/{{ imageGallery }}/{{ image.name }}"><img src="/gallery/source/{{ imageGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
 
                 	{%- endif %}
 
             		{%- endfor %}
     
         			{%- endfor %}
+
+					{%- endfor %}
 
         			</ul>
 
@@ -269,7 +273,7 @@
 
 		<footer>
 
-			<p><small>&copy; {{ "now" | date: "%Y" }} All Rights Reserved. This site is not affiliated with Star Wars, Lucasfilm Ltd, or The Walt Disney Company. Please read our <a href="/disclaimer.html">Disclaimer</a> and <a href="/privacy-statement.html">Privacy Statement</a>.</small></p>
+			<p><small>&copy; 1999-{{ "now" | date: "%Y" }} All Rights Reserved. This site is not affiliated with Star Wars, Lucasfilm Ltd, or The Walt Disney Company. Please read our <a href="/disclaimer.html">Disclaimer</a> and <a href="/privacy-statement.html">Privacy Statement</a>.</small></p>
 
 			<p><small>Web design and development by <a href="http://www.toshistation.com/">Chris Holoka</a> and <a href="https://michaelspellacy.com/">Michael "Spell" Spellacy</a>.</small></p>
 

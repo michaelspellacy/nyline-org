@@ -186,10 +186,236 @@ episode-2:
  - id: nyline-2-day-19-attack-of-the-fans
    published: "2002-05-15"
    title: "NYLine II: Day 19 - Attack of the Fans!"
+   gallery: 
+
+    - name: nyline-AOTC001.JPG
+    - name: nyline-AOTC002.JPG
+    - name: nyline-AOTC003.JPG
+    - name: nyline-AOTC004.JPG
+    - name: nyline-AOTC005.JPG
+    - name: nyline-AOTC006.JPG
+    - name: nyline-AOTC007.JPG
+    - name: nyline-AOTC008.JPG
+    - name: nyline-AOTC009.JPG
+    - name: nyline-AOTC010.JPG
+    - name: nyline-AOTC011.JPG
+    - name: nyline-AOTC012.JPG
+    - name: nyline-AOTC013.JPG
+    - name: nyline-AOTC014.JPG
+    - name: nyline-AOTC015.JPG
+    - name: nyline-AOTC016.JPG
+    - name: nyline-AOTC017.JPG
+    - name: nyline-AOTC018.JPG
+    - name: nyline-AOTC019.JPG
+    - name: nyline-AOTC020.JPG
+    - name: nyline-AOTC021.JPG
+    - name: nyline-AOTC022.JPG
+    - name: nyline-AOTC023.JPG
+    - name: nyline-AOTC024.JPG
+    - name: nyline-AOTC025.JPG
+    - name: nyline-AOTC026.JPG
+    - name: nyline-AOTC027.JPG
+    - name: nyline-AOTC028.JPG
+    - name: nyline-AOTC029.JPG
+    - name: nyline-AOTC030.JPG
+    - name: nyline-AOTC031.JPG
+    - name: nyline-AOTC032.JPG
+    - name: nyline-AOTC033.JPG
+    - name: nyline-AOTC034.JPG
+    - name: nyline-AOTC035.JPG
+    - name: nyline-AOTC036.JPG
+    - name: nyline-AOTC037.JPG
+    - name: nyline-AOTC038.JPG
+    - name: nyline-AOTC039.JPG
+    - name: nyline-AOTC040.JPG
+    - name: nyline-AOTC041.JPG
+    - name: nyline-AOTC042.JPG
+    - name: nyline-AOTC043.JPG
+    - name: nyline-AOTC044.JPG
+    - name: nyline-AOTC045.JPG
+    - name: nyline-AOTC046.JPG
+    - name: nyline-AOTC047.JPG
+    - name: nyline-AOTC048.JPG
+    - name: nyline-AOTC049.JPG
+    - name: nyline-AOTC050.JPG
+    - name: nyline-AOTC051.JPG
+    - name: nyline-AOTC052.JPG
+    - name: nyline-AOTC053.JPG
+    - name: nyline-AOTC054.JPG
+    - name: nyline-AOTC055.JPG
+    - name: nyline-AOTC056.JPG
+    - name: nyline-AOTC057.JPG
+    - name: nyline-AOTC058.JPG
+    - name: nyline-AOTC059.JPG
+    - name: nyline-AOTC060.JPG
+    - name: nyline-AOTC061.JPG
+    - name: nyline-AOTC062.JPG
+    - name: nyline-AOTC063.JPG
+    - name: nyline-AOTC064.JPG
+    - name: nyline-AOTC065.JPG
+    - name: nyline-AOTC066.JPG
+    - name: nyline-AOTC067.JPG
+    - name: nyline-AOTC068.JPG
+    - name: nyline-AOTC069.JPG
+    - name: nyline-AOTC070.JPG
+    - name: nyline-AOTC071.JPG
+    - name: nyline-AOTC072.JPG
+    - name: nyline-AOTC073.JPG
+    - name: nyline-AOTC074.JPG
+    - name: nyline-AOTC075.JPG
+    - name: nyline-AOTC076.JPG
+    - name: nyline-AOTC077.JPG
+    - name: nyline-AOTC078.JPG
+    - name: nyline-AOTC079.JPG
+    - name: nyline-AOTC080.JPG
+    - name: nyline-AOTC081.JPG
+    - name: nyline-AOTC082.JPG
+    - name: nyline-AOTC083.JPG
+    - name: nyline-AOTC084.JPG
+    - name: nyline-AOTC085.JPG
+    - name: nyline-AOTC086.JPG
+    - name: nyline-AOTC087.JPG
+    - name: nyline-AOTC088.JPG
+    - name: nyline-AOTC089.JPG
+    - name: nyline-AOTC090.JPG
+    - name: nyline-AOTC091.JPG
+    - name: nyline-AOTC092.JPG
+    - name: nyline-AOTC093.JPG
+    - name: nyline-AOTC094.JPG
+    - name: nyline-AOTC095.JPG
+    - name: nyline-AOTC096.JPG
+    - name: nyline-AOTC097.JPG
+    - name: nyline-AOTC098.JPG
+    - name: nyline-AOTC099.JPG
+    - name: nyline-AOTC100.JPG
+    - name: nyline-AOTC101.JPG
+    - name: nyline-AOTC102.JPG
+    - name: nyline-AOTC103.JPG
+    - name: nyline-AOTC104.JPG
+    - name: nyline-AOTC105.JPG
+    - name: nyline-AOTC106.JPG
+    - name: nyline-AOTC107.JPG
+    - name: nyline-AOTC108.JPG
+    - name: nyline-AOTC109.JPG
+    - name: nyline-AOTC110.JPG
+    - name: nyline-AOTC111.JPG
+    - name: nyline-AOTC112.JPG
+    - name: nyline-AOTC113.JPG
+    - name: nyline-AOTC114.JPG
+    - name: nyline-AOTC115.JPG
+    - name: nyline-AOTC116.JPG
+    - name: nyline-AOTC117.JPG
+    - name: nyline-AOTC118.JPG
+    - name: nyline-AOTC119.JPG
+    - name: nyline-AOTC120.JPG
+    - name: nyline-AOTC121.JPG
+    - name: nyline-AOTC122.JPG
+    - name: nyline-AOTC123.JPG
+    - name: nyline-AOTC124.JPG
+    - name: nyline-AOTC125.JPG
+    - name: nyline-AOTC126.JPG
+    - name: nyline-AOTC127.JPG
+    - name: nyline-AOTC128.JPG
+    - name: nyline-AOTC129.JPG
+    - name: nyline-AOTC130.JPG
+    - name: nyline-AOTC131.JPG
+    - name: nyline-AOTC132.JPG
+    - name: nyline-AOTC133.JPG
+    - name: nyline-AOTC134.JPG
+    - name: nyline-AOTC135.JPG
+    - name: nyline-AOTC136.JPG
+    - name: nyline-AOTC137.JPG
+    - name: nyline-AOTC138.JPG
+    - name: nyline-AOTC139.JPG
+    - name: nyline-AOTC140.JPG
+    - name: nyline-AOTC141.JPG
+    - name: nyline-AOTC142.JPG
+    - name: nyline-AOTC143.JPG
+    - name: nyline-AOTC144.JPG
+    - name: nyline-AOTC145.JPG
+    - name: nyline-AOTC146.JPG
+    - name: nyline-AOTC147.JPG
+    - name: nyline-AOTC148.JPG
+    - name: nyline-AOTC149.JPG
+    - name: nyline-AOTC150.JPG
+    - name: nyline-AOTC151.JPG
+    - name: nyline-AOTC152.JPG
+    - name: nyline-AOTC153.JPG
+    - name: nyline-AOTC154.JPG
+    - name: nyline-AOTC155.JPG
+    - name: nyline-AOTC156.JPG
+    - name: nyline-AOTC157.JPG
+    - name: nyline-AOTC158.JPG
+    - name: nyline-AOTC159.JPG
+    - name: nyline-AOTC160.JPG
+    - name: nyline-AOTC161.JPG
+    - name: nyline-AOTC162.JPG
+    - name: nyline-AOTC163.JPG
+    - name: nyline-AOTC164.JPG
+    - name: nyline-AOTC165.JPG
+    - name: nyline-AOTC166.JPG
+    - name: nyline-AOTC167.JPG
+    - name: nyline-AOTC168.JPG
+    - name: nyline-AOTC169.JPG
+    - name: nyline-AOTC170.JPG
+    - name: nyline-AOTC171.JPG
+    - name: nyline-AOTC172.JPG
+    - name: nyline-AOTC173.JPG
+    - name: nyline-AOTC174.JPG
+    - name: nyline-AOTC175.JPG
+    - name: nyline-AOTC176.JPG
+    - name: nyline-AOTC177.JPG
+    - name: nyline-AOTC178.JPG
+    - name: nyline-AOTC179.JPG
+    - name: nyline-AOTC180.JPG
+    - name: nyline-AOTC181.JPG
+    - name: nyline-AOTC182.JPG
+    - name: nyline-AOTC183.JPG
+    - name: nyline-AOTC184.JPG
+    - name: nyline-AOTC185.JPG
+    - name: nyline-AOTC186.JPG
+    - name: nyline-AOTC187.JPG
+    - name: nyline-AOTC188.JPG
+    - name: nyline-AOTC189.JPG
+    - name: nyline-AOTC190.JPG
+    - name: nyline-AOTC191.JPG
+    - name: nyline-AOTC192.JPG
+    - name: nyline-AOTC193.JPG
+    - name: nyline-AOTC194.JPG
+    - name: nyline-AOTC195.JPG
+    - name: nyline-AOTC196.JPG
+    - name: nyline-AOTC197.JPG
+    - name: nyline-AOTC198.JPG
+    - name: nyline-AOTC199.JPG
 
  - id: nyline-2-day-17
    published: "2002-05-13"
    title: "NYLine II: Day 17"
+   gallery: 
+
+    - name: nyline-AOTC001.JPG
+    - name: nyline-AOTC003.JPG
+    - name: nyline-AOTC004.JPG
+    - name: nyline-AOTC005.JPG
+    - name: nyline-AOTC006.JPG
+    - name: nyline-AOTC007.JPG
+    - name: nyline-AOTC008.JPG
+    - name: nyline-AOTC009.JPG
+    - name: nyline-AOTC010.JPG
+    - name: nyline-AOTC011.JPG
+    - name: nyline-AOTC012.JPG
+    - name: nyline-AOTC013.JPG
+    - name: nyline-AOTC014.JPG
+    - name: nyline-AOTC015.JPG
+    - name: nyline-AOTC016.JPG
+    - name: nyline-AOTC017.JPG
+    - name: nyline-AOTC018.JPG
+    - name: nyline-AOTC019.JPG
+    - name: nyline-AOTC020.JPG
+    - name: nyline-AOTC021.JPG
+    - name: nyline-AOTC022.JPG
+    - name: nyline-AOTC023.JPG
+    - name: nyline-AOTC024.JPG
 
  - id: nyline-2-day-16
    published: "2002-05-12"
@@ -481,18 +707,23 @@ episode-2:
     - name: nyline-04282002A.JPG
       highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002B.JPG
+      highlight: nyline-day-2-a-hard-days-night
     - name: nyline-04282002C.JPG
       highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002D.JPG
+      highlight: nyline-day-2-a-hard-days-night
     - name: nyline-04282002E.JPG
       highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002F.JPG
+      highlight: nyline-day-2-a-hard-days-night
     - name: nyline-04282002G.JPG
       highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002H.JPG
+      highlight: nyline-day-2-a-hard-days-night
     - name: nyline-04282002I.JPG
       highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002J.JPG
+      highlight: nyline-day-2-a-hard-days-night
     - name: nyline-04282002K.JPG
       highlight: your-line-is-very-impressive-picture-time
     - name: nyline-04282002L.JPG

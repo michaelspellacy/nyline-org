@@ -431,8 +431,16 @@ text-wrap: pretty;
 	}
 
 	blockquote {
-	color: #005eb1;
+	color: $episode-7-color;
 	font: italic 1.3em/1.6 "Times New Roman", Times, serif;
+
+		.episode-1 & {
+		color: $episode-1-color;
+		}
+
+		.episode-2 & {
+		color: $episode-2-color;
+		}
 
 		.episode-1 & {
 		color: $episode-1-color;
@@ -441,7 +449,6 @@ text-wrap: pretty;
 	}
 
 	blockquote cite {
-	color: #666;
 	display: block;
 	margin: 1em 0 0 1em;
 	}

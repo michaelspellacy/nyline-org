@@ -121,33 +121,31 @@ title: Wish you were here
 
 		<h2>2002 Galleries</h2>
 
-		<h3><a href="nyline-highlights-2002.html">NYLine Highlights: 2002 (NYLine Trading Cards)</a></h3>
+		<ul class="page-listings">
 
-		<h3><a href="the-best-of-lauren-kent-2002.html">The Best of Lauren Kent: 2002</a></h3>
+			{%- for article in site.data.gallery.episode-2 %} 
 
-		<h3><a href="the-best-of-jedi-rob-2002.html">The Best of "Jedi Rob" Martin: 2002</a></h3>
+			<li>
 
-		<h3><a href="the-best-of-amit-saxena.html">The Best of Amit Saxena</a></h3>
+				<h3><a href="{{ article.id }}.html">{{ article.title }}</a></h3>
 
-		<h3><a href="nyline-2-day-19-attack-of-the-fans.html">NYLine II: Day 19 - Attack of the Fans!</a></h3>
+				<p class="time-stamp">Posted on <time datetime="{{ article.published }}">{{ article.published | date: "%A, %B %-d, %Y" }}</time></p>
 
-		<h3><a href="nyline-2-day-17.html">NYLine II: Day 17</a></h3>
+				{%- if article.desc %}
 
-		<h3><a href="nyline-2-day-16.html">NYLine II: Day 16</a></h3>
+				<p>{{ article. desc }}</p>
 
-		<h3><a href="nyline-2-day-15-line-wedding.html">NYLine II: Day 15 - Line Wedding</a></h3>
+				{%- else %}
 
-		<h3><a href="nyline-2-day-14.html">NYLine II: Day 14</a></h3>
+				{% include gallery.html theme="episode-2" %}
 
-		<h3><a href="nyline-2-day-11.html">NYLine II: Day 11</a></h3>
+				{%- endif %}
 
-		<h3><a href="nyline-2-day-10.html">NYLine II: Day 10</a></h3>
+			</li>
 
-		<h3><a href="nyline-2-day-9.html">NYLine II: Day 9</a></h3>
+			{%- endfor %}
 
-		<h3><a href="nyline-2-day-2.html">NYLine II: Day 2</a></h3>
-
-		<h3><a href="nyline-2-day-1-the-line-continues.html">NYLine II: Day 1 - The Line Continues...</a></h3>
+		</ul>
 
 	</section>
 
@@ -155,32 +153,30 @@ title: Wish you were here
 
 		<h2>1999 Galleries</h2>
 
-		<h3><a href="nyline-highlights-1999.html">NYLine Highlights: 1999 (NYLine Trading Cards)</a></h3>
+		<ul class="page-listings">
 
-		<h3><a href="the-best-of-nyline-1-1999.html">The Best of NYLine 1</a></h3>
+			{%- for article in site.data.gallery.episode-1 %} 
 
-		<h3><a href="the-best-of-jedi-rob-1999.html">The Best of "Jedi Rob" Martin: 1999</a></h3>
+			<li>
 
-		<h3><a href="nyline-1-day-18.html">NYLine I: Day 18</a></h3>
+				<h3><a href="{{ article.id }}.html">{{ article.title }}</a></h3>
 
-		<h3><a href="nyline-1-day-17.html">NYLine I: Day 17</a></h3>
+				<p class="time-stamp">Posted on <time datetime="{{ article.published }}">{{ article.published | date: "%A, %B %-d, %Y" }}</time></p>
 
-		<h3><a href="nyline-1-day-13.html">NYLine I: Day 13</a></h3>
+				{%- if article.desc %}
 
-		<h3><a href="nyline-1-day-12.html">NYLine I: Day 12</a></h3>
+				<p>{{ article. desc }}</p>
 
-		<h3><a href="nyline-1-day-10.html">NYLine I: Day 10</a></h3>
+				{%- else %}
 
-		<h3><a href="nyline-1-day-9.html">NYLine I: Day 9</a></h3>
+				{% include gallery.html theme="episode-1" %}
 
-		<h3><a href="nyline-1-day-8.html">NYLine I: Day 8</a></h3>
+				{%- endif %}
 
-		<h3><a href="nyline-1-day-7-i-want-my-mtv.html">NYLine I: Day 7 - I Want My MTV!</a></h3>
+			</li>
 
-		<h3><a href="nyline-1-day-3-singin-in-the-rain.html">NYLine I: Day 3 - Singin' in the Rain!</a></h3>
+			{%- endfor %}
 
-		<h3><a href="nyline-1-day-2.html">NYLine I: Day 2</a></h3>
-
-		<h3><a href="nyline-1-day-1-the-countdown-begins.html">NYLine I: Day 1 - The Countdown Begins</a></h3>
+		</ul>
 
 	</section>

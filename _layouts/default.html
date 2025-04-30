@@ -147,11 +147,21 @@
 
 				<p class="published-date">Posted on <time datetime="{{ newsFeed.published }}">{{ newsFeed.published | date: "%A, %B %-d, %Y" }}</time></p>
 
+				{%- if newsFeed.desc %}
+
+				<p>{{ newsFeed.desc }}</p>
+
+				{%- else %}
+
+				{% include gallery.html theme=themeName %}
+
+				{%- endif %}
+				
 				{%- endif %}
 
 				{%- endif %}
 
-				{{ content | strip }}
+				{{ content }}
 
 				{%- if sectionName == "photos" %}
 

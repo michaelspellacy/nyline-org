@@ -1,595 +1,595 @@
 episode-1:
 
- - id: episode-1-charity-screening
-   title: "Episode 1 Charity Screening"
-   author: Spell
-   published: "1999-12-02 19:02:00"
-   members: 0
-
- - id: episode-1-breaks-into-top-30
-   title: "Episode I Breaks Into Top 30"
-   author: Steve
-   published: "1999-05-31 16:57:00"
-   members: 0
-
- - id: starlight-foundation-wants-you
-   title: "Starlight Foundation Wants YOU!"
-   author: Michaela
-   published: "1999-05-31 11:15:00"
-   members: 0
-
- - id: sponsor-funds
-   title: "Sponsor Funds!"
-   author: Michaela
-   published: "1999-05-31 08:11:00"
-   members: 0
-
- - id: a-good-time-was-had-by-all
-   title: "A Good Time Was Had By All!"
-   author: Robert
-   published: "1999-05-28 09:30:00"
-   members: 0
-
- - id: updates
-   title: "Updates"
-   author: Matt
-   published: "1999-05-22 00:18:00"
-   members: 0
-
- - id: contact-list
-   title: "Contact List"
-   author: Matt
-   published: "1999-05-22 00:07:00"
-   members: 0
-
- - id: better-every-time
-   title: "Better Every Time!"
-   author: Matt
-   published: "1999-05-21 23:52:00"
-   members: 0
-
- - id: forum-is-back
-   title: "Forum Is Back!"
-   author: Matt
-   published: "1999-05-19 17:52:00"
-   members: 0
-
- - id: contact-information
-   title: "Contact Information"
-   author: Matt
-   published: "1999-05-19 12:18:00"
-   members: 0
-
- - id: updates-coming-later-today
-   title: "Updates Coming Later Today"
-   author: Matt
-   published: "1999-05-19 12:12:00"
-   members: 0
-
- - id: new-box-office-record
-   title: "New Box Office Record!"
-   author: Spell
-   published: "1999-05-19 10:53:00"
-   members: 0
-
- - id: posters-and-signs-have-been-changed
-   title: "Posters and Signs Have Been Changed"
-   author: Matt
-   published: "1999-05-18 14:55:00"
-   members: 40
-   gallery: nyline-1-day-18
-
- - id: martin-sheen-drops-by-line
-   title: "Martin Sheen Drops By Line"
-   author: Steve
-   published: "1999-05-18 08:37:00"
-   members: 10
-   gallery: nyline-1-day-18
-
- - id: 19-hours-to-go
-   title: "19 Hours To Go!"
-   author: Steve
-   published: "1999-05-18 05:19:00"
-   members: 8
-   gallery: nyline-1-day-18
-
- - id: starlight-episode-1-the-stand-a-thon-part-2
-   title: "Starlight: Episode 1 - The Stand-a-thon (Part 2)"
-   author: Suzanne
-   published: "1999-05-17 07:02:00"
-   members: 18
-
- - id: 1-day-23-hours-to-go-plus-sandtropper-visits-the-line
-   title: "1 Day 23 Hours To Go (Plus Sandtrooper Visits The Line)!"
-   author: Robert
-   published: "1999-05-17 00:38:00"
-   members: 14
-   gallery: nyline-1-day-17
-   video: nyline-1-star-wars-celebration-1-part-1-3
-
- - id: ticket-distribution-and-t-shirts
-   title: "Ticket Distribution and T-Shirts!"
-   author: Louis
-   published: "1999-05-16 09:27:00"
-   members: 10
-
- - id: television-news-coverage-scheduled-for-sunday
-   title: "Television News Coverage Scheduled For Sunday"
-   author: Steve
-   published: "1999-05-15 20:25:00"
-   members: 11
-
- - id: webcam-is-back-online
-   title: "Webcam Is Back Online!"
-   author: Ariel
-   published: "1999-05-14 11:43:00"
-   members: 10
-
- - id: the-phantom-menace-in-manhattan
-   title: "The Phantom Menace In Manhattan"
-   author: Ariel
-   published: "1999-05-14 11:40:00"
-   members: 10
-
- - id: girls-night-out
-   title: "Girls Night Out!!!"
-   author: Anonymous
-   published: "1999-05-14 10:38:00"
-   members: 10
-
- - id: lights-cameras-its-too-damn-early-for-national-television
-   title: "Lights, Cameras...It's Too Damn Early For National Television!"
-   author: Suzanne
-   published: "1999-05-14 00:17:00"
-   members: 8
-
- - id: starlight-episode-1-the-stand-a-thon-part-1
-   title: "Starlight: Episode 1 - The Stand-a-thon (Part 1)"
-   author: Suzanne
-   published: "1999-05-14 00:14:00"
-   members: 8
-
- - id: reminder
-   title: "Reminder..."
-   author: Steve
-   published: "1999-05-13 23:30:00"
-   members: 8
-
- - id: nyliners-we-need-your-support
-   title: "NYLiners: We Need Your Support!"
-   author: Steve
-   published: "1999-05-13 17:42:00"
-   members: 8
-   gallery: nyline-1-day-13
-
- - id: notting-hill-premiere-at-the-ziegfeld
-   title: "Notting Hill Premiere at the Ziegfeld"
-   author: Matt
-   published: "1999-05-13 17:35:00"
-   members: 14
-
- - id: we-survived-the-onslaught
-   title: "We Survived The Onslaught!"
-   author: Robert
-   published: "1999-05-13 08:42:00"
-   members: 10
-   gallery: nyline-1-day-13
-   video: nyline-1-news-episode-4-live-from-the-ticket-buyers-line
-
- - id: ziegfeld-theater-seating-chart
-   title: "Ziegfeld Theater Seating Chart!"
-   author: Ariel
-   published: "1999-05-12 22:01:00"
-   members: 1001
-
- - id: pictures-from-the-advance-sales-line-are-in
-   title: "Pictures From The Advance Sales Line Are In!"
-   author: Ariel
-   published: "1999-05-12 21:52:00"
-   members: 1000
-   gallery: nyline-1-day-12
-
- - id: phantom-menace-tickets-now-on-sale
-   title: "Phantom Menace Tickets Now On Sale"
-   author: Steve
-   published: "1999-05-12 18:16:00"
-   members: 1500
-
- - id: we-have-the-tickets-woo-hoo
-   title: "We Have The Tickets! Woo-hoo!!"
-   author: Robert
-   published: "1999-05-12 16:03:00"
-   members: 1500
-
- - id: oh-my-god
-   title: "Oh - My - God!"
-   author: Steve
-   published: "1999-05-12 00:20:00"
-   members: 250
-   gallery: nyline-1-day-12
-
- - id: only-one-week-left
-   title: "Only One Week Left!"
-   author: Steve
-   published: "1999-05-12 00:08:00"
-   members: 250
-
- - id: the-picture-gallery-is-up
-   title: "The Picture Gallery Is Up!"
-   author: Ariel
-   published: "1999-05-11 17:58:00"
-   members: 14
-
- - id: ticket-policy
-   title: "Ticket Policy"
-   author: Matt
-   published: "1999-05-10 19:47:00"
-   members: 30
-
- - id: ziegfeld-theater-meeting-to-set-advance-ticket-policy
-   title: "Ziegfeld Theater Meeting To Set Advance Ticket Policy"
-   author: Steve
-   published: "1999-05-10 13:58:00"
-   members: 10
-
- - id: suzanne-on-the-post
-   title: "Suzanne On The Post"
-   author: Ariel
-   published: "1999-05-10 13:57:00"
-   members: 12
-   gallery: nyline-1-day-10
-
- - id: press-coverage
-   title: "Press Coverage"
-   author: Suzanne
-   published: "1999-05-10 11:48:00"
-   members: 13
-
- - id: starlight-foundation
-   title: "Starlight Foundation"
-   author: Suzanne
-   published: "1999-05-10 11:32:00"
-   members: 0
-
- - id: thanks-to-you-all
-   title: "Thanks To You All!"
-   author: Suzanne
-   published: "1999-05-10 11:12:00"
-   members: 0
-
- - id: nyline-featured-on-film-scouts
-   title: "NYLine Featured On Film Scouts"
-   author: Robert
-   published: "1999-05-10 10:42:00"
-   members: 0
-
- - id: 1010-wookie
-   title: "1010 Wookie"
-   author: Spell
-   published: "1999-05-10 06:34:00"
-   members: 8
-
- - id: four-oclock-and-all-is-well
-   title: "Four O'Clock and All Is Well"
-   author: Spell
-   published: "1999-05-10 04:19:00"
-   members: 8
-
- - id: darth-maul-visits-line
-   title: "Darth Maul Visits Line"
-   author: Matt
-   published: "1999-05-09 22:15:00"
-   members: 18
-   gallery: nyline-1-day-9
-
- - id: a-quiet-sunday
-   title: "A Quiet Sunday..."
-   author: Matt
-   published: "1999-05-09 21:31:00"
-   members: 10
-
- - id: a-wacky-sunday-morning
-   title: "A Wacky Sunday Morning!"
-   author: Robert
-   published: "1999-05-09 08:04:00"
-   members: 16
-   gallery: nyline-1-day-9
-
- - id: nyline-show-times-now-frozen
-   title: "NYLine Show Times Now Frozen"
-   author: Steve
-   published: "1999-05-08 19:54:00"
-   members: 12
-
- - id: happy-birthday-suzanne
-   title: "Happy Birthday, Suzanne!"
-   author: Steve
-   published: "1999-05-08 19:31:00"
-   members: 12
-   gallery: nyline-1-day-8
-
- - id: nyliners-survive-downpour
-   title: "NYLiners Survive Downpour"
-   author: Steve
-   published: "1999-05-08 08:36:00"
-   members: 11
-   gallery: nyline-1-day-8
-
- - id: its-really-late
-   title: "It's Really Late..."
-   author: Amit
-   published: "1999-05-08 05:56:00"
-   members: 16000
-
- - id: episode-1-survival-guide
-   title: "Episode 1 Survival Guide"
-   author: Spell
-   published: "1999-05-08 00:10:00"
-   members: 30
-
- - id: live-birthday-party
-   title: "Live Birthday Party!"
-   author: Matt
-   published: "1999-05-07 23:40:00"
-   members: 30
-
- - id: nyline-tv-is-up
-   title: "NYLine TV Is Up!"
-   author: Jewels
-   published: "1999-05-07 19:29:00"
-   members: 19
-
- - id: the-real-phantom-menace
-   title: "The Real Phantom Menace"
-   author: Jason
-   published: "1999-05-07 14:37:00"
-   members: 11
-
- - id: steven-curnow-memorial
-   title: "Steven Curnow Memorial"
-   author: Spell
-   published: "1999-05-07 01:52:12"
-   members: 14
-
- - id: pics-from-the-line
-   title: "Pics From The Line"
-   author: Spell
-   published: "1999-05-07 01:29:00"
-   members: 0
-   gallery: nyline-1-day-7-i-want-my-mtv
-
- - id: international-sign-up-form-online
-   title: "International Sign Up Form Online!"
-   author: Matt
-   published: "1999-05-06 18:17:30"
-   members: 15
-
- - id: star-wars-twister-game
-   title: "Star Wars Twister Game"
-   author: Ariel
-   published: "1999-05-06 17:56:11"
-   members: 20
-
- - id: george-lucas-talks-about-fans-lining-up
-   title: "Georges Lucas Talks About Fans Lining Up!"
-   author: Amit
-   published: "1999-05-06 14:36:34"
-   members: 12
-
- - id: webcam-updates
-   title: "Webcam Updates"
-   author: Ariel
-   published: "1999-05-06 14:20:59"
-   members: 12
-
- - id: 24-hour-lineup-to-begin-tomorrow
-   title: "24-Hour Lineup To Begin Tomorrow"
-   author: Steve
-   published: "1999-05-06 12:22:07"
-   members: 11
-   video: nyline-1-star-wars-celebration-1-part-1-3
-
- - id: news-flash
-   title: 'News "Flash"'
-   author: Matt
-   published: "1999-05-05 21:46:03"
-   members: 18
-
- - id: modesty-please
-   title: "Modesty, Please"
-   author: Steve
-   published: "1999-05-05 21:13:37"
-   members: 20
-
- - id: soaps-yo-yos-and-the-bbc-oh-my
-   title: "Soaps, Yo-Yos & The BBC &mdash; Oh, My!"
-   author: Steve
-   published: "1999-05-05 20:17:56"
-   members: 23
-
- - id: overall-update
-   title: "Overall Update"
-   author: Ariel
-   published: "1999-05-05 17:01:40"
-   members: 19
-
- - id: starlight-orientation-tonight
-   title: "Starlight Orientation Tonight"
-   author: Spell
-   published: "1999-05-05 12:28:03"
-   members: 12
-
- - id: star-wars-is-back-non-spoiler
-   title: "Star Wars Is Back! (Non-Spolier)"
-   author: Beth
-   published: "1999-05-05 09:24:01"
-   members: 8
-
- - id: no-shows-damage-presence
-   title: "No Shows Damage Presence!!!"
-   author: Steve
-   published: "1999-05-04 16:01:36"
-   members: 6
-
- - id: raining-on-our-parade
-   title: "Raining On Our Parade!"
-   author: Steve
-   published: "1999-05-04 10:43:04"
-   members: 8
-
- - id: press-mania-baby
-   title: "Press Mania, Baby!"
-   author: Suzanne
-   published: "1999-05-04 08:05:06"
-   members: 0
-
- - id: more-rain
-   title: "More Rain"
-   author: Matt
-   published: "1999-05-04 07:56:23"
-   members: 0
-
- - id: singing-in-the-rain
-   title: "Singing In The Rain..."
-   author: Ariel
-   published: "1999-05-03 13:41:00"
-   members: 8
-   gallery: nyline-1-day-3-singin-in-the-rain
-
- - id: link-to-our-message-board
-   title: "Link To Our Message Board..."
-   author: Spell
-   published: "1999-05-03 12:21:12"
-   members: 7
-
- - id: webcam-icq-website-and-payphone-news
-   title: "Webcam, ICQ, Website, and Payphone News"
-   author: Ariel
-   published: "1999-05-03 10:53:12"
-   members: 11
-
- - id: nyline-on-local-media
-   title: "NYLine On Local Media"
-   author: Steve
-   published: "1999-05-02 21:46:27"
-   members: 16
-   gallery: nyline-1-day-2
-
- - id: echo-base
-   title: "Echo Base"
-   author: Jewels
-   published: "1999-05-02 15:27:55"
-   members: 23
-   gallery: nyline-1-day-2
-
- - id: you-must-contact-me-err-us
-   title: "You Must Contact Me...Err...Us"
-   author: Spell
-   published: "1999-05-02 13:59:43"
-   members: 39
-
- - id: fiesta-under-a-sunny-sky
-   title: "Fiesta Under A Sunny Sky..."
-   author: Mike
-   published: "1999-05-02 13:45:45"
-   members: 38
-   gallery: nyline-1-day-2
-
- - id: yo-yo-madness
-   title: "Yo-Yo Madness!"
-   author: Matt
-   published: "1999-05-02 12:11:38"
-   members: 28
-   gallery: nyline-1-day-2
-
- - id: webcam-difficulties
-   title: "Webcam Difficulties"
-   author: Matt
-   published: "1999-05-02 11:52:06"
-   members: 24
-
- - id: pictures-from-last-night
-   title: "Pictures From Last Night"
-   author: Matt
-   published: "1999-05-02 11:25:52"
-   members: 18
-   gallery: nyline-1-day-1-the-countdown-begins
-
- - id: live-webcam
-   title: "Live Webcam"
-   author: Matt
-   published: "1999-05-02 11:22:08"
-   members: 18
-
- - id: news-most-important
-   title: "News Most Important!"
-   author: Spell
-   published: "1999-05-01 23:51:45"
-   members: 0
-
- - id: aliens-stars-drop-in-on-line
-   title: "Aliens, Stars Drop In On Line"
-   author: Steve
-   published: "1999-05-01 14:07:28"
-   members: 35
-   gallery: nyline-1-day-1-the-countdown-begins
-
- - id: line-members-engage-in-some-trivial-behavior
-   title: "Line Members Engage In Some Trivial Behavior"
-   author: Matt
-   published: "1999-05-01 11:48:55"
-   members: 50
-   gallery: nyline-1-day-1-the-countdown-begins
-
- - id: 40-die-hard-fans-kick-off-nyline-festivities
-   title: "40 Die-Hard Fans Kick Off NYLine Festivities"
-   author: Steve
-   published: "1999-05-01 10:40:12"
-   members: 40
-
- - id: we-are-on-line
-   title: "We Are On Line!"
-   author: Matt
-   published: "1999-05-01 07:27:54"
-   members: 4
-   gallery: nyline-1-day-1-the-countdown-begins
-
- - id: the-line-opens-in-3-hours
-   title: "The Line Opens In 3 Hours!"
-   author: Ariel
-   published: "1999-05-01 04:54:22"
-   members: 0
-   gallery: nyline-1-day-1-the-countdown-begins
-
- - id: nyline-schedule-arrives
-   title: "NYLine Schedule Arrives!"
-   author: Spell
-   published: "1999-04-28 14:07:19"
-   members: 0
-
- - id: here-we-are-folks-meet-the-nyline-staff
-   title: "Here We Are, Folks! Meet The NYLine Staff!"
-   author: Robert
-   published: "1999-04-26 12:59:08"
-   members: 0
-
- - id: starlight-and-nyline-need-your-help
-   title: "Starlight and NYLine Need Your Help!"
-   author: Suzanne
-   published: "1999-04-23 13:59:12"
-   members: 0
-
- - id: stand-a-thon-for-the-starlight-foundation
-   title: "Stand-a-thon For The Starlight Foundation!"
-   author: Spell
-   published: "1999-04-13 13:40:52"
-   members: 0
-
- - id: to-the-ziegfeld-we-go
-   title: "To The Ziegfeld We Go!!!"
-   author: Robert
-   published: "1999-04-09 13:28:28"
-   members: 0
+- id: episode-1-charity-screening
+  title: "Episode 1 Charity Screening"
+  author: Spell
+  published: "1999-12-02 19:02:00"
+  members: 0
+
+- id: episode-1-breaks-into-top-30
+  title: "Episode I Breaks Into Top 30"
+  author: Steve
+  published: "1999-05-31 16:57:00"
+  members: 0
+
+- id: starlight-foundation-wants-you
+  title: "Starlight Foundation Wants YOU!"
+  author: Michaela
+  published: "1999-05-31 11:15:00"
+  members: 0
+
+- id: sponsor-funds
+  title: "Sponsor Funds!"
+  author: Michaela
+  published: "1999-05-31 08:11:00"
+  members: 0
+
+- id: a-good-time-was-had-by-all
+  title: "A Good Time Was Had By All!"
+  author: Robert
+  published: "1999-05-28 09:30:00"
+  members: 0
+
+- id: updates
+  title: "Updates"
+  author: Matt
+  published: "1999-05-22 00:18:00"
+  members: 0
+
+- id: contact-list
+  title: "Contact List"
+  author: Matt
+  published: "1999-05-22 00:07:00"
+  members: 0
+
+- id: better-every-time
+  title: "Better Every Time!"
+  author: Matt
+  published: "1999-05-21 23:52:00"
+  members: 0
+
+- id: forum-is-back
+  title: "Forum Is Back!"
+  author: Matt
+  published: "1999-05-19 17:52:00"
+  members: 0
+
+- id: contact-information
+  title: "Contact Information"
+  author: Matt
+  published: "1999-05-19 12:18:00"
+  members: 0
+
+- id: updates-coming-later-today
+  title: "Updates Coming Later Today"
+  author: Matt
+  published: "1999-05-19 12:12:00"
+  members: 0
+
+- id: new-box-office-record
+  title: "New Box Office Record!"
+  author: Spell
+  published: "1999-05-19 10:53:00"
+  members: 0
+
+- id: posters-and-signs-have-been-changed
+  title: "Posters and Signs Have Been Changed"
+  author: Matt
+  published: "1999-05-18 14:55:00"
+  members: 40
+  gallery: nyline-1-day-18
+
+- id: martin-sheen-drops-by-line
+  title: "Martin Sheen Drops By Line"
+  author: Steve
+  published: "1999-05-18 08:37:00"
+  members: 10
+  gallery: nyline-1-day-18
+
+- id: 19-hours-to-go
+  title: "19 Hours To Go!"
+  author: Steve
+  published: "1999-05-18 05:19:00"
+  members: 8
+  gallery: nyline-1-day-18
+
+- id: starlight-episode-1-the-stand-a-thon-part-2
+  title: "Starlight: Episode 1 - The Stand-a-thon (Part 2)"
+  author: Suzanne
+  published: "1999-05-17 07:02:00"
+  members: 18
+
+- id: 1-day-23-hours-to-go-plus-sandtropper-visits-the-line
+  title: "1 Day 23 Hours To Go (Plus Sandtrooper Visits The Line)!"
+  author: Robert
+  published: "1999-05-17 00:38:00"
+  members: 14
+  gallery: nyline-1-day-17
+  video: nyline-1-star-wars-celebration-1-part-1-3
+
+- id: ticket-distribution-and-t-shirts
+  title: "Ticket Distribution and T-Shirts!"
+  author: Louis
+  published: "1999-05-16 09:27:00"
+  members: 10
+
+- id: television-news-coverage-scheduled-for-sunday
+  title: "Television News Coverage Scheduled For Sunday"
+  author: Steve
+  published: "1999-05-15 20:25:00"
+  members: 11
+
+- id: webcam-is-back-online
+  title: "Webcam Is Back Online!"
+  author: Ariel
+  published: "1999-05-14 11:43:00"
+  members: 10
+
+- id: the-phantom-menace-in-manhattan
+  title: "The Phantom Menace In Manhattan"
+  author: Ariel
+  published: "1999-05-14 11:40:00"
+  members: 10
+
+- id: girls-night-out
+  title: "Girls Night Out!!!"
+  author: Anonymous
+  published: "1999-05-14 10:38:00"
+  members: 10
+
+- id: lights-cameras-its-too-damn-early-for-national-television
+  title: "Lights, Cameras...It's Too Damn Early For National Television!"
+  author: Suzanne
+  published: "1999-05-14 00:17:00"
+  members: 8
+
+- id: starlight-episode-1-the-stand-a-thon-part-1
+  title: "Starlight: Episode 1 - The Stand-a-thon (Part 1)"
+  author: Suzanne
+  published: "1999-05-14 00:14:00"
+  members: 8
+
+- id: reminder
+  title: "Reminder..."
+  author: Steve
+  published: "1999-05-13 23:30:00"
+  members: 8
+
+- id: nyliners-we-need-your-support
+  title: "NYLiners: We Need Your Support!"
+  author: Steve
+  published: "1999-05-13 17:42:00"
+  members: 8
+  gallery: nyline-1-day-13
+
+- id: notting-hill-premiere-at-the-ziegfeld
+  title: "Notting Hill Premiere at the Ziegfeld"
+  author: Matt
+  published: "1999-05-13 17:35:00"
+  members: 14
+
+- id: we-survived-the-onslaught
+  title: "We Survived The Onslaught!"
+  author: Robert
+  published: "1999-05-13 08:42:00"
+  members: 10
+  gallery: nyline-1-day-13
+  video: nyline-1-news-episode-4-live-from-the-ticket-buyers-line
+
+- id: ziegfeld-theater-seating-chart
+  title: "Ziegfeld Theater Seating Chart!"
+  author: Ariel
+  published: "1999-05-12 22:01:00"
+  members: 1001
+
+- id: pictures-from-the-advance-sales-line-are-in
+  title: "Pictures From The Advance Sales Line Are In!"
+  author: Ariel
+  published: "1999-05-12 21:52:00"
+  members: 1000
+  gallery: nyline-1-day-12
+
+- id: phantom-menace-tickets-now-on-sale
+  title: "Phantom Menace Tickets Now On Sale"
+  author: Steve
+  published: "1999-05-12 18:16:00"
+  members: 1500
+
+- id: we-have-the-tickets-woo-hoo
+  title: "We Have The Tickets! Woo-hoo!!"
+  author: Robert
+  published: "1999-05-12 16:03:00"
+  members: 1500
+
+- id: oh-my-god
+  title: "Oh - My - God!"
+  author: Steve
+  published: "1999-05-12 00:20:00"
+  members: 250
+  gallery: nyline-1-day-12
+
+- id: only-one-week-left
+  title: "Only One Week Left!"
+  author: Steve
+  published: "1999-05-12 00:08:00"
+  members: 250
+
+- id: the-picture-gallery-is-up
+  title: "The Picture Gallery Is Up!"
+  author: Ariel
+  published: "1999-05-11 17:58:00"
+  members: 14
+
+- id: ticket-policy
+  title: "Ticket Policy"
+  author: Matt
+  published: "1999-05-10 19:47:00"
+  members: 30
+
+- id: ziegfeld-theater-meeting-to-set-advance-ticket-policy
+  title: "Ziegfeld Theater Meeting To Set Advance Ticket Policy"
+  author: Steve
+  published: "1999-05-10 13:58:00"
+  members: 10
+
+- id: suzanne-on-the-post
+  title: "Suzanne On The Post"
+  author: Ariel
+  published: "1999-05-10 13:57:00"
+  members: 12
+  gallery: nyline-1-day-10
+
+- id: press-coverage
+  title: "Press Coverage"
+  author: Suzanne
+  published: "1999-05-10 11:48:00"
+  members: 13
+
+- id: starlight-foundation
+  title: "Starlight Foundation"
+  author: Suzanne
+  published: "1999-05-10 11:32:00"
+  members: 0
+
+- id: thanks-to-you-all
+  title: "Thanks To You All!"
+  author: Suzanne
+  published: "1999-05-10 11:12:00"
+  members: 0
+
+- id: nyline-featured-on-film-scouts
+  title: "NYLine Featured On Film Scouts"
+  author: Robert
+  published: "1999-05-10 10:42:00"
+  members: 0
+
+- id: 1010-wookie
+  title: "1010 Wookie"
+  author: Spell
+  published: "1999-05-10 06:34:00"
+  members: 8
+
+- id: four-oclock-and-all-is-well
+  title: "Four O'Clock and All Is Well"
+  author: Spell
+  published: "1999-05-10 04:19:00"
+  members: 8
+
+- id: darth-maul-visits-line
+  title: "Darth Maul Visits Line"
+  author: Matt
+  published: "1999-05-09 22:15:00"
+  members: 18
+  gallery: nyline-1-day-9
+
+- id: a-quiet-sunday
+  title: "A Quiet Sunday..."
+  author: Matt
+  published: "1999-05-09 21:31:00"
+  members: 10
+
+- id: a-wacky-sunday-morning
+  title: "A Wacky Sunday Morning!"
+  author: Robert
+  published: "1999-05-09 08:04:00"
+  members: 16
+  gallery: nyline-1-day-9
+
+- id: nyline-show-times-now-frozen
+  title: "NYLine Show Times Now Frozen"
+  author: Steve
+  published: "1999-05-08 19:54:00"
+  members: 12
+
+- id: happy-birthday-suzanne
+  title: "Happy Birthday, Suzanne!"
+  author: Steve
+  published: "1999-05-08 19:31:00"
+  members: 12
+  gallery: nyline-1-day-8
+
+- id: nyliners-survive-downpour
+  title: "NYLiners Survive Downpour"
+  author: Steve
+  published: "1999-05-08 08:36:00"
+  members: 11
+  gallery: nyline-1-day-8
+
+- id: its-really-late
+  title: "It's Really Late..."
+  author: Amit
+  published: "1999-05-08 05:56:00"
+  members: 16000
+
+- id: episode-1-survival-guide
+  title: "Episode 1 Survival Guide"
+  author: Spell
+  published: "1999-05-08 00:10:00"
+  members: 30
+
+- id: live-birthday-party
+  title: "Live Birthday Party!"
+  author: Matt
+  published: "1999-05-07 23:40:00"
+  members: 30
+
+- id: nyline-tv-is-up
+  title: "NYLine TV Is Up!"
+  author: Jewels
+  published: "1999-05-07 19:29:00"
+  members: 19
+
+- id: the-real-phantom-menace
+  title: "The Real Phantom Menace"
+  author: Jason
+  published: "1999-05-07 14:37:00"
+  members: 11
+
+- id: steven-curnow-memorial
+  title: "Steven Curnow Memorial"
+  author: Spell
+  published: "1999-05-07 01:52:12"
+  members: 14
+
+- id: pics-from-the-line
+  title: "Pics From The Line"
+  author: Spell
+  published: "1999-05-07 01:29:00"
+  members: 0
+  gallery: nyline-1-day-7-i-want-my-mtv
+
+- id: international-sign-up-form-online
+  title: "International Sign Up Form Online!"
+  author: Matt
+  published: "1999-05-06 18:17:30"
+  members: 15
+
+- id: star-wars-twister-game
+  title: "Star Wars Twister Game"
+  author: Ariel
+  published: "1999-05-06 17:56:11"
+  members: 20
+
+- id: george-lucas-talks-about-fans-lining-up
+  title: "Georges Lucas Talks About Fans Lining Up!"
+  author: Amit
+  published: "1999-05-06 14:36:34"
+  members: 12
+
+- id: webcam-updates
+  title: "Webcam Updates"
+  author: Ariel
+  published: "1999-05-06 14:20:59"
+  members: 12
+
+- id: 24-hour-lineup-to-begin-tomorrow
+  title: "24-Hour Lineup To Begin Tomorrow"
+  author: Steve
+  published: "1999-05-06 12:22:07"
+  members: 11
+  video: nyline-1-star-wars-celebration-1-part-1-3
+
+- id: news-flash
+  title: 'News "Flash"'
+  author: Matt
+  published: "1999-05-05 21:46:03"
+  members: 18
+
+- id: modesty-please
+  title: "Modesty, Please"
+  author: Steve
+  published: "1999-05-05 21:13:37"
+  members: 20
+
+- id: soaps-yo-yos-and-the-bbc-oh-my
+  title: "Soaps, Yo-Yos & The BBC &mdash; Oh, My!"
+  author: Steve
+  published: "1999-05-05 20:17:56"
+  members: 23
+
+- id: overall-update
+  title: "Overall Update"
+  author: Ariel
+  published: "1999-05-05 17:01:40"
+  members: 19
+
+- id: starlight-orientation-tonight
+  title: "Starlight Orientation Tonight"
+  author: Spell
+  published: "1999-05-05 12:28:03"
+  members: 12
+
+- id: star-wars-is-back-non-spoiler
+  title: "Star Wars Is Back! (Non-Spolier)"
+  author: Beth
+  published: "1999-05-05 09:24:01"
+  members: 8
+
+- id: no-shows-damage-presence
+  title: "No Shows Damage Presence!!!"
+  author: Steve
+  published: "1999-05-04 16:01:36"
+  members: 6
+
+- id: raining-on-our-parade
+  title: "Raining On Our Parade!"
+  author: Steve
+  published: "1999-05-04 10:43:04"
+  members: 8
+
+- id: press-mania-baby
+  title: "Press Mania, Baby!"
+  author: Suzanne
+  published: "1999-05-04 08:05:06"
+  members: 0
+
+- id: more-rain
+  title: "More Rain"
+  author: Matt
+  published: "1999-05-04 07:56:23"
+  members: 0
+
+- id: singing-in-the-rain
+  title: "Singing In The Rain..."
+  author: Ariel
+  published: "1999-05-03 13:41:00"
+  members: 8
+  gallery: nyline-1-day-3-singin-in-the-rain
+
+- id: link-to-our-message-board
+  title: "Link To Our Message Board..."
+  author: Spell
+  published: "1999-05-03 12:21:12"
+  members: 7
+
+- id: webcam-icq-website-and-payphone-news
+  title: "Webcam, ICQ, Website, and Payphone News"
+  author: Ariel
+  published: "1999-05-03 10:53:12"
+  members: 11
+
+- id: nyline-on-local-media
+  title: "NYLine On Local Media"
+  author: Steve
+  published: "1999-05-02 21:46:27"
+  members: 16
+  gallery: nyline-1-day-2
+
+- id: echo-base
+  title: "Echo Base"
+  author: Jewels
+  published: "1999-05-02 15:27:55"
+  members: 23
+  gallery: nyline-1-day-2
+
+- id: you-must-contact-me-err-us
+  title: "You Must Contact Me...Err...Us"
+  author: Spell
+  published: "1999-05-02 13:59:43"
+  members: 39
+
+- id: fiesta-under-a-sunny-sky
+  title: "Fiesta Under A Sunny Sky..."
+  author: Mike
+  published: "1999-05-02 13:45:45"
+  members: 38
+  gallery: nyline-1-day-2
+
+- id: yo-yo-madness
+  title: "Yo-Yo Madness!"
+  author: Matt
+  published: "1999-05-02 12:11:38"
+  members: 28
+  gallery: nyline-1-day-2
+
+- id: webcam-difficulties
+  title: "Webcam Difficulties"
+  author: Matt
+  published: "1999-05-02 11:52:06"
+  members: 24
+
+- id: pictures-from-last-night
+  title: "Pictures From Last Night"
+  author: Matt
+  published: "1999-05-02 11:25:52"
+  members: 18
+  gallery: nyline-1-day-1-the-countdown-begins
+
+- id: live-webcam
+  title: "Live Webcam"
+  author: Matt
+  published: "1999-05-02 11:22:08"
+  members: 18
+
+- id: news-most-important
+  title: "News Most Important!"
+  author: Spell
+  published: "1999-05-01 23:51:45"
+  members: 0
+
+- id: aliens-stars-drop-in-on-line
+  title: "Aliens, Stars Drop In On Line"
+  author: Steve
+  published: "1999-05-01 14:07:28"
+  members: 35
+  gallery: nyline-1-day-1-the-countdown-begins
+
+- id: line-members-engage-in-some-trivial-behavior
+  title: "Line Members Engage In Some Trivial Behavior"
+  author: Matt
+  published: "1999-05-01 11:48:55"
+  members: 50
+  gallery: nyline-1-day-1-the-countdown-begins
+
+- id: 40-die-hard-fans-kick-off-nyline-festivities
+  title: "40 Die-Hard Fans Kick Off NYLine Festivities"
+  author: Steve
+  published: "1999-05-01 10:40:12"
+  members: 40
+
+- id: we-are-on-line
+  title: "We Are On Line!"
+  author: Matt
+  published: "1999-05-01 07:27:54"
+  members: 4
+  gallery: nyline-1-day-1-the-countdown-begins
+
+- id: the-line-opens-in-3-hours
+  title: "The Line Opens In 3 Hours!"
+  author: Ariel
+  published: "1999-05-01 04:54:22"
+  members: 0
+  gallery: nyline-1-day-1-the-countdown-begins
+
+- id: nyline-schedule-arrives
+  title: "NYLine Schedule Arrives!"
+  author: Spell
+  published: "1999-04-28 14:07:19"
+  members: 0
+
+- id: here-we-are-folks-meet-the-nyline-staff
+  title: "Here We Are, Folks! Meet The NYLine Staff!"
+  author: Robert
+  published: "1999-04-26 12:59:08"
+  members: 0
+
+- id: starlight-and-nyline-need-your-help
+  title: "Starlight and NYLine Need Your Help!"
+  author: Suzanne
+  published: "1999-04-23 13:59:12"
+  members: 0
+
+- id: stand-a-thon-for-the-starlight-foundation
+  title: "Stand-a-thon For The Starlight Foundation!"
+  author: Spell
+  published: "1999-04-13 13:40:52"
+  members: 0
+
+- id: to-the-ziegfeld-we-go
+  title: "To The Ziegfeld We Go!!!"
+  author: Robert
+  published: "1999-04-09 13:28:28"
+  members: 0
 
 episode-2:
 
@@ -1226,64 +1226,872 @@ episode-2:
   published: "2001-05-19 05:19:22"
   members: 0
 
+episode-3:
+
+- id: nyline-boards-officially-closed"
+  title: "NYLine Boards Officially Closed!"
+  author: Suzanne
+  published: "2006-04-27 23:08:23"
+  members: 0
+
+- id: bbq-venue-change-star-wars-weekends-and-other-nyline-updates
+  title: "BBQ venue change, Star Wars Weekends, and other NYLine Updates"
+  author: Amit
+  published: "2006-04-22 16:44:36"
+  members: 0
+
+- id: approaching-the-1-year-anniversary-of-nyline-3
+  title: "Approaching the 1-Year Anniversary of NYLine III"
+  author: Suzanne
+  published: "2006-04-11 13:41:50"
+  members: 0
+
+- id: fun-center-dedication-at-metropolitan-hospital
+  title: "Fun Center Dedication at Metropolitan Hospital"
+  author: Amit
+  published: "2006-01-29 07:23:31"
+  members: 0
+
+- id: fulfilling-our-destiny-starlight-fun-centers
+  title: "Fulfilling Our Destiny: Starlight Fun Centers"
+  author: Amit
+  published: "2005-12-28 23:01:43"
+  members: 0
+
+- id: twas-the-night-before-sithmas
+  title: "'Twas The Night Before Sithmas"
+  author: Amit
+  published: "2005-12-23 05:46:52"
+  members: 0
+
+- id: the-end-of-the-run-this-thursday-9-1-05
+  title: "The End of the Run - THIS THURSDAY 9/1/05"
+  author: Simon
+  published: "2005-08-31 03:22:01"
+  members: 0
+
+- id: a-young-padawan-is-born
+  title: "A Young Padawan is Born"
+  author: Suzanne
+  published: "2005-08-30 20:18:35"
+  members: 0
+
+- id: fan-day-2-extra-t-shirts-and-an-opportunity-for-delusions-of-grandeur
+  title: "Fan Day II, Extra T-shirts, and an Opportunity for Delusions of Grandeur"
+  author: Amit
+  published: "2005-07-14 01:07:41"
+  members: 0
+
+- id: last-chance-to-see-episode-3-at-the-ziegfeld-6-28-05
+  title: "Last Chance to see Episode III at the Ziegfeld - 6/28"
+  author: Steve
+  published: "2005-06-26 20:45:45"
+  members: 0
+
+- id: pressterrific
+  title: "Pressterrific!"
+  author: Suzanne
+  published: "2005-06-23 22:23:23"
+  members: 0
+
+- id: fan-tastic
+  title: "Fan-tastic!"
+  author: Steve
+  published: "2005-06-20 00:16:19"
+  members: 0
+
+- id: join-us-for-fan-day-june-18th
+  title: "Join Us For Fan Day - June 18th!!"
+  author: Amit
+  published: "2005-06-14 03:23:57"
+  members: 0
+
+- id: half-full-or-half-empty
+  title: "Half Full or Half Empty?"
+  author: Steve
+  published: "2005-06-08 23:27:06"
+  members: 0
+
+- id: nyline-tv-update-and-a-gift
+  title: "NYLine TV Update...and a Gift!"
+  author: Amit
+  published: "2005-06-03 17:51:46"
+  members: 0
+
+- id: another-thank-you-from-me-sa
+  title: "Another Thank You, from Me(sa)"
+  author: Amit
+  published: "2005-06-03 17:32:37"
+  members: 0
+
+- id: nyline-press-report-coming-soon-to-a-computer-screen-near-u
+  title: "NYLine Press Report coming soon to a computer screen near U!"
+  author: Suzanne
+  published: "2005-05-30 22:04:54"
+  members: 0
+
+- id: you-can-waste-time-with-your-friends
+  title: "You can waste time with your friends..."
+  author: Spell
+  published: "2005-05-25 14:22:11"
+  members: 0
+
+- id: fan-day-saturday-june-18
+  title: "Fan Day - Saturday, June 18"
+  author: Steve
+  published: "2005-05-25 02:26:47"
+  members: 0
+
+- id: 80000-chewbacca-hugs
+  title: "80,000 Chewbacca Hugs"
+  author: Suzanne
+  published: "2005-05-22 22:01:49"
+  members: 0
+
+- id: 46600-ways-to-say-thank-you
+  title: "46,600 Ways to Say \"Thank You!\""
+  author: Steve
+  published: "2005-05-19 15:01:15"
+  members: 0
+
+- id: general-grievous-stops-by-the-nyline
+  title: "General Grievous stops by the NYLine!"
+  author: Vince
+  published: "2005-05-18 01:42:35"
+  members: 46
+
+- id: so-long-and-thanks-for-all-the-fish
+  title: "So long and thanks for all the Fish..."
+  author: Spell
+  published: "2005-05-18 00:41:45"
+  members: 41
+
+- id: end-of-the-line-a-new-hope-movieoke
+  title: "End of the Line: \"A New Hope\" Movieoke!"
+  author: Steve
+  published: "2005-05-17 18:13:40"
+  members: 50
+
+- id: nyline-tv-the-nyline-diaries
+  title: "NYLine TV: The NYLine Diaries"
+  author: Spell
+  published: "2005-05-17 00:43:10"
+  members: 43
+
+- id: nyline-tv-for-all-the-kids
+  title: "NYLine TV: For all the Kids..."
+  author: Spell
+  published: "2005-05-16 23:43:40"
+  members: 43
+
+- id: no-video-cameras-in-the-ziegfeld
+  title: "No Video Cameras in the Ziegfeld!"
+  author: Steve
+  published: "2005-05-16 18:03:45"
+  members: 40
+
+- id: clearview-rolls-out-the-red-carpet-for-nyline
+  title: "Clearview Rolls Out the Red Carpet for NYLine"
+  author: Steve
+  published: "2005-05-16 17:26:54"
+  members: 40
+
+- id: the-line-starts-with-them
+  title: "The Line Starts With Them!"
+  author: Steve
+  published: "2005-05-15 18:01:40"
+  members: 30
+
+- id: nyline-tv-jimmy-kimmel-live-from-nyline
+  title: "NYLine TV: Jimmy Kimmel Live...from NYLine!"
+  author: Spell
+  published: "2005-05-15 01:24:46"
+  members: 35
+
+- id: day-13-beyond-belief
+  title: "Day 13: Beyond Belief"
+  author: Steve
+  published: "2005-05-14 20:31:24"
+  members: 36
+
+- id: nyline-auction-4-last-minute-items-up-for-bids
+  title: "NYLine Auction: 4 Last Minute Items Up For Bids"
+  author: Amit
+  published: "2005-05-14 19:37:35"
+  members: 36
+
+- id: wizard-abc-news-story-video
+  title: "Wizard ABC News Story Video!"
+  author: Amit
+  published: "2005-05-13 22:48:47"
+  members: 43
+
+- id: nyline-tv-ziegfeld-follies-chf-charity-premiere
+  title: "NYLine TV: Ziegfeld Follies - CHF Charity Premiere"
+  author: Spell
+  published: "2005-05-13 15:01:38"
+  members: 35
+
+- id: nyline-tv-the-jedirob-and-amit-show
+  title: "NYLine TV: The JediRob and Amit Show"
+  author: Spell
+  published: "2005-05-12 02:18:46"
+  members: 12
+
+- id: attention-all-line-members-ticket-distribution-times
+  title: "Attention All NYLine Members! Ticket Distribution Times..."
+  author: Spell
+  published: "2005-05-12 02:15:23"
+  members: 12
+
+- id: is-this-the-line-for-star-wars
+  title: "Is this the line for Star Wars?"
+  author: Amit
+  published: "2005-05-11 17:02:09"
+  members: 26
+
+- id: weve-got-death-star
+  title: "We've Got Death Star!"
+  author: Steve
+  published: "2005-05-11 01:55:06"
+  members: 18
+
+- id: geek-squad-to-help-nyliners-telecocommute-from-54th-street
+  title: "GEEK SQUAD DOCKING BAY TO ROLL UP TO THE ZIEGFELD"
+  author: Jewels
+  published: "2005-05-10 14:07:42"
+  members: 17
+
+- id: registration-now-closed
+  title: "Registration Now Closed!"
+  author: Spell
+  published: "2005-05-09 00:20:17"
+  members: 18
+
+- id: nyline-day-9-your-thoughts-dwell-on-your-mother
+  title: "NYLine Day 9: Your Thoughts Dwell On Your Mother..."
+  author: Steve
+  published: "2005-05-08 23:38:35"
+  members: 18
+
+- id: press-wave
+  title: "Press Wave"
+  author: Suzanne
+  published: "2005-05-08 09:48:53"
+  members: 11
+
+- id: nyline-day-8-some-remodeling-at-our-54th-street-home
+  title: "NYLine Day 8: Some remodeling @ our 54th Street Home"
+  author: Suzanne
+  published: "2005-05-07 18:25:26"
+  members: 13
+
+- id: theres-something-familiar-about-this-place
+  title: "There's something familiar about this place..."
+  author: JediRob
+  published: "2005-05-07 03:27:53"
+  members: 28
+
+- id: it-was-a-dark-and-stormy-night
+  title: "It was a dark and stormy night..."
+  author: Suzanne
+  published: "2005-05-07 01:13:07"
+  members: 28
+
+- id: nyline-day-7-we-overdid-it
+  title: "NYLine Day 7: We Overdid It"
+  author: Amit
+  published: "2005-05-06 23:29:47"
+  members: 27
+
+- id: padawan-picnic-postponed
+  title: "Padawan Picnic Postponed!"
+  author: Spell
+  published: "2005-05-06 16:33:53"
+  members: 16
+
+- id: nyline-day-6-mind-tricks-dont-work-on-me-only-money
+  title: "NYLine Day 6: Mind Tricks Don't Work On Me, Only Money"
+  author: Amit
+  published: "2005-05-06 01:49:52"
+  members: 20
+
+- id: always-a-pleasure-to-meet-a-jedi-and-an-elf
+  title: "Always A Pleasure to Meet a Jedi... and an Elf?"
+  author: Steve
+  published: "2005-05-05 22:31:16"
+  members: 25
+
+- id: nyline-tv-line-mom-double-feature
+  title: "NYLine TV: Line Mom Double Feature"
+  author: Spell
+  published: "2005-05-04 11:51:33"
+  members: 12
+
+- id: nyline-day-5-tent-location-and-orlando-bloom-premiere
+  title: "NYLine Day 5: Tent Location and Orlando Bloom Premiere!"
+  author: Jewels
+  published: "2005-05-04 11:04:39"
+  members: 12
+
+- id: nyline-day-4-lady-vader-rise-updated
+  title: "NYLine Day 4: Lady Vader...Rise - UPDATED"
+  author: Amit
+  published: "2005-05-04 09:56:57"
+  members: 21
+
+- id: trivia-tournament-episode-2
+  title: "Trivia Tournament - Episode II"
+  author: Steve
+  published: "2005-05-03 23:59:39"
+  members: 19
+
+- id: nyline-day-3-wesa-back
+  title: "NYLine Day 3: Wesa Back"
+  author: Amit
+  published: "2005-05-03 03:17:58"
+  members: 22
+
+- id: photo-gallery-update-day-2-and-3
+  title: "Photo Gallery Update - Day 2 & 3"
+  author: Spell
+  published: "2005-05-02 17:00:08"
+  members: 15
+
+- id: dont-miss-out-nyline-registration-closes-this-weekend
+  title: "Don't Miss Out - NYLine Registration Closes This Weekend!"
+  author: Suzanne
+  published: "2005-05-02 12:22:52"
+  members: 14
+
+- id: nyline-day-2-greetings-from-the-pavement
+  title: "NYLine Day 2: Greetings from the Pavement"
+  author: Amit
+  published: "2005-05-01 22:26:21"
+  members: 27
+
+- id: it-will-be-a-day-long-remembered
+  title: "It will be a day long remembered..."
+  author: Suzanne
+  published: "2005-05-01 00:21:04"
+  members: 17
+
+- id: and-so-it-begins
+  title: "And so it begins..."
+  author: Spell
+  published: "2005-04-30 22:25:16"
+  members: 20
+
+- id: nyline-3-almost-there
+  title: "NYLine III: Almost There..."
+  author: Spell
+  published: "2005-04-30 00:00:37"
+  members: 0
+
+- id: see-you-on-54th-street
+  title: "See You on 54th Street!"
+  author: Steve
+  published: "2005-04-29 22:37:57"
+  members: 0
+
+- id: celebration-3-roundup
+  title: "Celebration III Roundup"
+  author: Amit
+  published: "2005-04-29 04:42:08"
+  members: 0
+
+- id: nyline-tv-celebration-3-day-2
+  title: "NYLine TV: Celebration 3 - Day 2"
+  author: Spell
+  published: "2005-04-27 01:52:49"
+  members: 0
+
+- id: what-it-takes
+  title: "What it takes..."
+  author: Suzanne
+  published: "2005-04-26 23:03:19"
+  members: 0
+
+- id: official-nyline-press-release-and-live-wire-story
+  title: "Official NYLine Press Release & Live Wire Story"
+  author: Suzanne
+  published: "2005-04-25 21:45:05"
+  members: 0
+
+- id: registration-waivers-and-payment-its-not-too-late
+  title: "Registration, Waivers and Payment - It's Not Too Late!"
+  author: Steve
+  published: "2005-04-24 04:56:42"
+  members: 0
+
+- id: nyline-photo-gallery-now-live
+  title: "NYLine Photo Gallery - Now Live"
+  author: Spell
+  published: "2005-04-24 02:50:13"
+  members: 0
+
+- id: geek-squad-to-help-nyliners-telecocommute-from-54th-street
+  title: "Geek Squad to Help NYLiners Telecommute from 54th Street"
+  author: Steve
+  published: "2005-04-23 00:08:44"
+  members: 0
+
+- id: celebration-3-weve-been-blogged-by-usa-today
+  title: "CIII: We've Been Blogged by USA Today"
+  author: Steve
+  published: "2005-04-22 02:22:55"
+  members: 0
+
+- id: nyline-on-showbiz-tonight-at-10pm-and-midnight
+  title: "NYLine on \"Showbiz Tonight\" @ 10 p.m. and midnight!"
+  author: Steve
+  published: "2005-04-21 21:42:30"
+  members: 0
+
+- id: nyline-tv-celebration-3-day-1
+  title: "NYLine TV: Celebration 3 - Day 1"
+  author: Spell
+  published: "2005-04-21 20:53:44"
+  members: 0
+
+- id: nyline-gets-praise-in-daily-news
+  title: "NYLine gets praise in Daily News..."
+  author: Spell
+  published: "2005-04-21 17:47:28"
+  members: 0
+
+- id: the-nyline-auction-starts-today
+  title: "The NYLine Auction Starts Today!"
+  author: Spell
+  published: "2005-04-21 12:29:39"
+  members: 0
+
+- id: nyline-auction-item-the-nyline-experience
+  title: "NYLine Auction Item: The NYLine Experience"
+  author: Amit
+  published: "2005-04-20 23:53:23"
+  members: 0
+
+
+- id: nyline-auction-item-mark-hamill-limited-edition-autographed-plaque
+  title: "NYLine Auction Item: Mark Hamill Limited Edition Autographed Plaque"
+  author: Amit
+  published: "2005-04-20 21:39:14"
+  members: 0
+
+- id: nyline-auction-item-rubies-supreme-edition-collectors-life-size-yoda-replica
+  title: "NYLine Auction Item: Rubies Supreme Edition Collector's Life Size Yoda Replica"
+  author: Amit
+  published: "2005-04-20 00:08:17"
+  members: 0
+
+- id: nyline-auction-item-set-of-9-rotj-sigma-ceramic-figurines
+  title: "NYLine Auction Item: Set of 9 ROTJ Sigma Ceramic Figurines"
+  author: Amit
+  published: "2005-04-19 23:23:22"
+  members: 0
+
+- id: nyline-at-star-wars-celebration-this-week-in-indianapolis
+  title: "NYLine at Star Wars Celebration this week in Indianapolis!"
+  author: Suzanne
+  published: "2005-04-19 22:59:31"
+  members: 0
+
+- id: nyline-3-badges-we-need-to-see-your-identification
+  title: "NYLine III Badges - We Need to See Your Identification!"
+  author: Amit
+  published: "2005-04-19 03:27:01"
+  members: 0
+
+- id: nyline-auction-item-dark-horse-comics-droids-the-kalarba-adventures-signed-limited-edition-hardcover
+  title: "NYLine Auction Item: Dark Horse Comics Droids - The Kalarba Adventures Signed Limited Edition Hardcover"
+  author: Amit
+  published: "2005-04-19 02:05:38"
+  members: 0
+
+- id: nyline-auction-item-complete-set-of-farce-wars-the-fantom-meanies-plush-toys
+  title: "NYLine Auction Item: Complete Set of Farce Wars - The Fantom Meanies Plush Toys"
+  author: Amit
+  published: "2005-04-19 01:43:28"
+  members: 0
+
+- id: nyline-auction-item-starwars-autograph-lot-original-trilogy-stars-billy-dee-williams
+  title: "NYLine Auction Item: Star Wars Autograph Lot - Original Trilogy Stars, including Billy Dee Williams"
+  author: Amit
+  published: "2005-04-19 00:53:18"
+  members: 0
+
+- id: the-nyline-star-wars-blowout-slots-for-new-members-still-available
+  title: "The NYLine Star Wars Blowout: Slots for New Members Still Available!"
+  author: Amit
+  published: "2005-04-18 01:58:26"
+  members: 0
+
+- id: nyline-auction-item-dark-horse-comics-dark-empire-2-signed-limited-edition-hardcover
+  title: "NYLine Auction Item: Dark Horse Comics Dark Empire II Signed Limited Edition Hardcover"
+  author: Amit
+  published: "2005-04-18 00:03:24"
+  members: 0
+
+- id: nyline-auction-item-master-replicas-stormtrooper-blaster-artist-proof
+  title: "NYLine Auction Item: Master Replicas Stormtrooper Blaster - Artist Proof"
+  author: Amit
+  published: "2005-04-17 23:24:22"
+  members: 0
+
+- id: nyline-auction-item-star-wars-autograph-lot-attack-of-the-clones-including-jedi-con-2004-exclusive-figures
+  title: "NYLine Auction Item: Star Wars Autograph Lot - Attack of the Clones, including Jedi-Con '04 Exclusive Figures"
+  author: Amit
+  published: "2005-04-17 22:53:58"
+  members: 0
+
+- id: a-message-from-ghetto-fett-aka-the-super-sucklord
+  title: "A Message from Ghetto Fett, aka the SUPER SUCKLORD"
+  author: Amit
+  published: "2005-04-17 05:32:29"
+  members: 0
+
+- id: nyline-auction-item-master-replicas-obi-wan-kenobi-episode-3-lightsaber-artist-proof
+  title: "NYLine Auction Item: Master Replicas Obi-Wan Kenobi Episode III Lightsaber - Artist Proof"
+  author: Amit
+  published: "2005-04-16 20:05:06"
+  members: 0
+
+- id: nyline-auction-item-star-wars-autograph-lot-the-phantom-menace-including-ray-park
+  title: "NYLine Auction Item: Star Wars Autograph Lot - The Phantom Menace, including Ray Park"
+  author: Amit
+  published: "2005-04-16 19:41:10"
+  members: 0
+
+- id: nyline-tv-revenge-of-the-sith-book-signing
+  title: "NYLine TV: ROTS Book Signing"
+  author: JediRob
+  published: "2005-04-15 19:38:09"
+  members: 0
+
+- id: weve-got-the-tickets
+  title: "WE'VE GOT THE TICKETS!!"
+  author: Amit
+  published: "2005-04-15 16:55:26"
+  members: 0
+
+- id: nyline-online-donations-to-starlight-now-active
+  title: "NYLine Online Donations to Starlight Now Active!"
+  author: Amit
+  published: "2005-04-15 03:01:17"
+  members: 0
+
+- id: nyline-auction-item-master-replicas-anakin-skywalker-episode-3-lightsaber
+  title: "NYLine Auction Item: Master Replicas Anakin Skywalker Episode III Lightsaber - Artist Proof"
+  author: Amit
+  published: "2005-04-14 23:32:24"
+  members: 0
+
+- id: nyline-auction-item-star-wars-autograph-lot-return-of-the-jedi-including-david-prowse
+  title: "NYLine Auction Item: Star Wars Autograph Lot - Return of the Jedi, including David Prowse"
+  author: Amit
+  published: "2005-04-14 23:08:19"
+  members: 0
+
+- id: join-the-nyline-international-explosion
+  title: "Join the NYLine International Explosion!"
+  author: Amit
+  published: "2005-04-13 10:57:04"
+  members: 0
+
+- id: nyline-auction-item-master-replicas-snowspeeder-artist-proof
+  title: "NYLine Auction Item: Master Replicas Snowspeeder - Artist Proof"
+  author: Amit
+  published: "2005-04-13 03:49:29"
+  members: 0
+
+- id: nyline-auction-item-star-wars-autograph-lot-imperial-officers-including-david-prowse
+  title: "NYLine Auction Item: Star Wars Autograph Lot - Imperial Officers, including David Prowse"
+  author: Amit
+  published: "2005-04-13 03:08:39"
+  members: 0
+
+- id: nyline-auction-item-star-wars-autograph-lot-rebel-leaders-including-celebration-2-carrie-fisher
+  title: "NYLine Auction Item: Star Wars Autograph Lot - Rebel Leaders, including CII Carrie Fisher"
+  author: Amit
+  published: "2005-04-12 02:22:39"
+  members: 0
+
+- id: nyline-auction-item-dutch-movie-shots-star-wars-mini-film-frames-and-album
+  title: "NYLine Auction Item: Dutch Movie Shots Star Wars Mini Film Frames and Album"
+  author: Amit
+  published: "2005-04-12 01:46:22"
+  members: 0
+
+- id: nyline-auction-item-star-wars-weekend-extravaganza-with-jedi-mickey
+  title: "NYLine Auction Item: Star Wars Weekends Extravaganza with Jedi Mickey"
+  author: Amit
+  published: "2005-04-11 00:24:20"
+  members: 0
+
+- id: nyline-auction-item-celebration-2-and-3-exclusive-figures
+  title: "NYLine Auction Item: Celebration II and III Exclusive Figures"
+  author: Amit
+  published: "2005-04-10 23:06:18"
+  members: 0
+
+- id: nyline-auction-item-lego-star-destroyer
+  title: "NYLine Auction Item: Lego Star Destroyer"
+  author: Amit
+  published: "2005-04-10 03:27:38"
+  members: 0
+
+- id: nyline-auction-item-set-of-4-star-wars-hamiliton-collector-plates
+  title: "NYLine Auction Item: Set of 4 Star Wars Hamilton Collector Plates"
+  author: Amit
+  published: "2005-04-09 16:44:53"
+  members: 0
+
+- id: the-buzz-begins-nyline-on-newsweek-com
+  title: "The Buzz Begins: NYLine on Newsweek.com"
+  author: Steve
+  published: "2005-04-09 00:16:02"
+  members: 0
+
+- id: nyline-auction-item-lucasfilm-revenge-of-the-sith-gift-set
+  title: "NYLine Auction Item: Lucasfilm Revenge of the Sith Gift Set"
+  author: Amit
+  published: "2005-04-08 00:16:37"
+  members: 0
+
+- id: the-return-of-nyline-tv
+  title: "The Return of NYLine TV"
+  author: JediRob
+  published: "2005-04-05 18:59:46"
+  members: 0
+
+- id: nyline-auction-item-toy-fair-lego-star-wars-vip-gala-lot
+  title: "NYLine Auction Item: Toy Fair Lego Star Wars VIP Gala Lot"
+  author: Amit
+  published: "2005-04-04 23:00:53"
+  members: 0
+
+- id: how-nyline-works-wheres-your-spot-in-the-line
+  title: "How NYLine Works: Where's Your Spot In the Line?"
+  author: Steve
+  published: "2005-04-03 17:21:11"
+  members: 0
+
+- id: nyline-registration-update
+  title: "NYLine Registration Update"
+  author: Steve
+  published: "2005-04-02 16:37:12"
+  members: 0
+
+- id: midnight-madness-coverage-updated
+  title: "Midnight Madness Coverage - Updated"
+  author: Spell
+  published: "2005-04-01 18:45:26"
+  members: 0
+
+- id: more-fun-than-a-barrel-of-wookies
+  title: "More Fun Than A Barrel of... Wookiees?"
+  author: Steve
+  published: "2005-03-31 20:11:23"
+  members: 0
+
+- id: know-thy-pavement
+  title: "Know Thy Pavement..."
+  author: Spell
+  published: "2005-03-30 15:50:12"
+  members: 0
+
+- id: nyline-registration-open-sign-up-now
+  title: "NYLine Registration Open - Sign up NOW!"
+  author: Amit
+  published: "2005-03-18 11:59:42"
+  members: 0
+
+- id: incentive-t-shirts-the-trilogy-is-now-complete
+  title: "Incentive T-Shirts: The Trilogy Is Now Complete!"
+  author: Steve
+  published: "2005-03-18 00:09:17"
+  members: 0
+
+- id: ive-got-a-spoiler-for-you-you-will-register-soon
+  title: "I've Got a Spoiler For You: You Will Register Soon!"
+  author: Steve
+  published: "2005-03-16 23:36:20"
+  members: 0
+
+- id: lego-master-builds-liberty-jedi-for-nyline-auction
+  title: "Lego Master Builds Liberty Jedi for NYLine Auction!"
+  author: Amit
+  published: "2005-03-14 02:57:32"
+  members: 0
+
+- id: i-never-doubted-you-for-a-second-wonderful
+  title: "I Never Doubted You For A Second! Wonderful!"
+  author: Steve
+  published: "2005-03-07 22:19:18"
+  members: 0
+
+- id: these-are-the-droids-youre-looking-for
+  title: "These <em>Are</em> the Droids You're Looking For"
+  author: Steve
+  published: "2005-03-05 04:35:34"
+  members: 0
+
+- id: nyline-weeps-happy-tears-for-the-onion
+  title: "NYLine weeps happy tears for The Onion!"
+  author: Suzanne
+  published: "2005-03-03 21:29:59"
+  members: 0
+
+- id: nyline-to-hold-online-auction-for-the-starlight-childrens-foundation
+  title: "NYLine To Hold Online Auction for the Starlight Starbright Children's Foundation"
+  author: Amit
+  published: "2005-02-28 03:38:35"
+  members: 0
+
+- id: 99
+  title: "99"
+  author: Steve
+  published: "2005-02-08 11:15:15"
+  members: 0
+
+- id: help-wanted-writers-for-the-ny-clone-newsletter
+  title: "Help Wanted: Writers for the NY Clone (newsletter)"
+  author: Steve
+  published: "2005-02-07 10:22:30"
+  members: 0
+
+- id: help-wanted-a-recruit-to-help-with-recruitment
+  title: "Help Wanted: A Recruit to Help With Recruitment"
+  author: Amit
+  published: "2005-01-31 15:52:47"
+  members: 0
+
+- id: tentative-line-schedule
+  title: "Tentative Line Schedule"
+  author: Spell
+  published: "2005-01-16 22:28:07"
+  members: 0
+
+
+- id: nyline-headlines-are-here
+  title: "NYLine Headlines are Here!"
+  author: Spell
+  published: "2005-01-13 13:36:16"
+  members: 0
+
+- id: row-m-and-nyline-perfect-together
+  title: "Row M and NYLine - Perfect Together"
+  author: Spell
+  published: "2005-01-13 13:04:42"
+  members: 0
+
+- id: happy-holidays-from-nyline
+  title: "Happy Holidays from NYLine!"
+  author: Spell
+  published: "2004-12-22 14:04:49"
+  members: 0
+
+- id: thumbs-up-on-ziegfeld
+  title: "Thumbs up on Ziegfeld!"
+  author: Spell
+  published: "2004-12-13 00:23:39"
+  members: 0
+
+- id: nyline-interview-in-usa-today
+  title: "NYLine Interview in USA Today"
+  author: Spell
+  published: "2004-12-09 00:17:49"
+  members: 0
+
+- id: seen-the-rots-trailer-yet-its-incredible
+  title: "Seen the RotS Trailer Yet?  It's Incredible!"
+  author: Simon
+  published: "2004-11-10 18:15:12"
+  members: 0
+
+- id: star-wars-trilogy-hits-dvd
+  title: "Star Wars Trilogy Hits DVD!"
+  author: Simon
+  published: "2004-09-20 21:18:33"
+  members: 0
+
+- id: revenge-of-the-nyline
+  title: "Revenge of the NYLine!"
+  author: Spell
+  published: "2004-07-25 11:09:26"
+  members: 0
+
+- id: dark-horse-rising
+  title: "Dark Horse Rising"
+  author: Amit
+  published: "2004-06-30 14:34:10"
+  members: 0
+
+- id: next-stop-episode-3
+  title: "Next Stop, Episode III"
+  author: Amit
+  published: "2004-05-24 16:52:10"
+  members: 0
+
 fotd:
 
- - id: frank-bianco
-   title: "Frank Bianco"
-   author: Spell
-   published: "2004-05-03 14:54:57"
-   members: 0
+- id: frank-bianco
+  title: "Frank Bianco"
+  author: Spell
+  published: "2004-05-03 14:54:57"
+  members: 0
 
- - id: jedi-rob-martin
-   title: '"Jedi Rob" Martin'
-   author: Spell
-   published: "2002-05-16 15:00:48"
-   members: 12
+- id: jedi-rob-martin
+  title: '"Jedi Rob" Martin'
+  author: Spell
+  published: "2002-05-16 15:00:48"
+  members: 12
 
- - id: salman-hamdani
-   title: "Salman Hamdani"
-   author: Spell
-   published: "2002-04-08 15:06:22"
-   members: 0
+- id: salman-hamdani
+  title: "Salman Hamdani"
+  author: Spell
+  published: "2002-04-08 15:06:22"
+  members: 0
 
- - id: lee-goldberg
-   title: "Lee Goldberg"
-   author: Steve
-   published: "1999-05-17 01:17:34"
-   members: 14
+- id: lee-goldberg
+  title: "Lee Goldberg"
+  author: Steve
+  published: "1999-05-17 01:17:34"
+  members: 14
 
- - id: cool-say-dee
-   title: "Cool Say-Dee (Lynne Lipton)"
-   author: Robert
-   published: "1999-05-12 09:11:00"
-   members: 250
+- id: cool-say-dee
+  title: "Cool Say-Dee (Lynne Lipton)"
+  author: Robert
+  published: "1999-05-12 09:11:00"
+  members: 250
 
- - id: jewels-sem-green
-   title: "Jewels Green"
-   author: Michele
-   published: "1999-05-10 23:45:06"
-   members: 0
+- id: jewels-sem-green
+  title: "Jewels Green"
+  author: Michele
+  published: "1999-05-10 23:45:06"
+  members: 0
 
- - id: michele-hadlow
-   title: "Michele Hadlow"
-   author: Jewels
-   published: "1999-05-09 00:23:46"
-   members: 0
+- id: michele-hadlow
+  title: "Michele Hadlow"
+  author: Jewels
+  published: "1999-05-09 00:23:46"
+  members: 0
 
- - id: suzanne-sousa
-   title: "Suzanne Sousa"
-   author: Robert
-   published: "1999-05-08 00:11:32"
-   members: 30
+- id: suzanne-sousa
+  title: "Suzanne Sousa"
+  author: Robert
+  published: "1999-05-08 00:11:32"
+  members: 30
 
- - id: steve-lubot
-   title: "Steve Lubot"
-   author: Steve
-   published: "1999-05-07 09:11:00"
-   members: 0
+- id: steve-lubot
+  title: "Steve Lubot"
+  author: Steve
+  published: "1999-05-07 09:11:00"
+  members: 0
 
- - id: robert-cartagena
-   title: "Robert Cartagena"
-   author: Suzanne
-   published: "1999-05-01 11:03:12"
-   members: 45
+- id: robert-cartagena
+  title: "Robert Cartagena"
+  author: Suzanne
+  published: "1999-05-01 11:03:12"
+  members: 45

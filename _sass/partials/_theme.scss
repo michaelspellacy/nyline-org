@@ -70,19 +70,19 @@ margin: 2em 0;
 // Skip Navigation
 
 #skip-nav {
-background-color: rgba(0, 0, 0, .3);
+background-color: rgba(0, 0, 0, .4);
 color: #fff;
-left: -200px;
-min-width: 200px;
+inset-inline-start: calc(-200rem/16);
+min-width: calc(200rem/16);
 opacity: 0;
-padding: 5px;
+padding: .5em;
 position: absolute;
 text-align: center;
-top: 5px;
-z-index: 2;
+inset-block-start: calc(10rem/16);
+z-index: 1;
 
   &:focus {
-  left: 5px;
+  inset-inline-start: calc(10rem/16);
   opacity: 1;
   }
 
@@ -105,6 +105,8 @@ position: relative;
 position: sticky;
 top: 0;
 z-index: 1;
+display: grid;
+overflow: hidden;
 
 	@include breakpoint(yavin) {
 
@@ -162,6 +164,8 @@ text-align: center;
 text-decoration: none;
 text-shadow: 1px 1px 0 #000;
 top: 10px;
+cursor: pointer;
+z-index: 1;
 
 	@include breakpoint(yavin) {
 
@@ -179,6 +183,7 @@ top: 10px;
 
 #primary-navigation {
 position: relative;
+order: 2;
 
 	.js & {
 	display: none;
@@ -286,6 +291,7 @@ border-top: 2px #fff solid;
 color: #fff;
 font-size: px(20);
 padding: .5em .8em;
+order: 3;
 
 	@include breakpoint(yavin) {
 
@@ -389,7 +395,7 @@ text-wrap: pretty;
 
 	@include breakpoint(yavin) {
 
-		padding: 2em;
+		padding: 1em 2em;
 
 	}
 

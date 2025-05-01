@@ -42,7 +42,7 @@
 {%- endif -%}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">{% if page.noindex %}
@@ -59,70 +59,70 @@
 	<title>{{ newsTitle }}{{ page.title }} - {{ site.name }}</title>
 </head>
 
-<body id="{{ pageName }}" class="{% if themeName %}{{ themeName }}{% else %}{{ site.theme-name }}{% endif %}{% if sectionName %} {{ sectionName }}{% endif %}">
+<body class="{% if themeName %}{{ themeName }}{% else %}{{ site.theme-name }}{% endif %}"{% if sectionName %} data-section="{{ sectionName }}"{% endif %} id="{{ pageName }}">
 
 	<div id="page">
 
-		<a id="skip-nav" href="#content">Skip to main content</a>
-
 		<header id="banner">
 
-			<div id="creative">
-
-			{%- if page.creative -%}
-
-				<img src="/img/template/{{ page.creative }}.jpg" alt="">
-
-			{% else %}
-
-				<img src="/img/template/creative-default.jpg" alt="">
-
-			{% endif -%}
-
-			</div>
-
-			<nav id="primary-navigation" aria-label="primary">
-
-				<ul>
-					<li id="nav-index"><a href="/index.html">Home</a></li>
-					<li id="nav-news-index"><a href="/news/">News Archives</a></li>
-					<li id="nav-our-charity"><a href="{{site.charity}}">Our Charity</a></li>
-					<li id="nav-gallery-index"><a href="/gallery/">Photos</a></li>
-					<li id="nav-nyline-tv"><a href="{{site.video}}">Videos</a></li>
-					<li id="nav-forumns"><a href="{{site.forum}}">Forum</a></li>
-					<li id="nav-contact-us"><a href="/contact-us.html">Contact Us</a></li>
-				</ul>
-
-			</nav>
+			<a href="#content" id="skip-nav">Skip to main content</a>
 
 			<div id="page-heading">
 
 				{%- if themeName == "episode-1" %}
 
-				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>1</b></a>
-
-				<p class="subheading"><em>The Line Starts Here</em></p>
-
+					{%- assign episodeNumber = "1" -%}
+					{%- assign subHeading = "The Line Starts Here" -%}
+					
 				{%- elsif themeName == "episode-2" %}
 
-				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>2</b></a>
-
-				<p class="subheading"><em>The Line Continues...</em></p>
+					{%- assign episodeNumber = "2" -%}
+					{%- assign subHeading = "The Line Continues..." -%}
 
 				{%- elsif themeName == "episode-3" %}
 
-				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>3</b></a>
-
-				<p class="subheading"><em>Almost There...</em></p>
+					{%- assign episodeNumber = "3" -%}
+					{%- assign subHeading = "Almost There..." -%}
 
 				{%- else %}
 
-				<a href="/" class="logo">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>{{ site.episode }}</b></a>
-
-				<p class="subheading"><em>{{site.subheading }}</em></p>
+					{%- assign episodeNumber = site.episode -%}
+					{%- assign subHeading = site.subheading -%}
 
 				{%- endif %}
 
+				<a class="logo" href="/">{{ site.name }}<span>:</span> <b><span>Episode</span></b> <b>{{ episodeNumber }}</b></a>
+
+				<p class="subheading"><em>{{ subHeading }}</em></p>
+
+			</div>
+
+			<nav aria-label="primary" id="primary-navigation">
+
+				<ul>
+					<li id="nav-index"><a href="/index.html">Home</a></li>
+					<li id="nav-news-index"><a href="/news/">News Archives</a></li>
+					<li id="nav-our-charity"><a href="{{ site.charity }}">Our Charity</a></li>
+					<li id="nav-gallery-index"><a href="/gallery/">Photos</a></li>
+					<li id="nav-nyline-tv"><a href="{{ site.video }}">Videos</a></li>
+					<li id="nav-forumns"><a href="{{ site.forum }}">Forum</a></li>
+					<li id="nav-contact-us"><a href="/contact-us.html">Contact Us</a></li>
+				</ul>
+
+			</nav>
+
+			<div id="creative">
+
+				{%- if page.creative -%}
+	
+					<img src="/img/template/{{ page.creative }}.jpg" alt="">
+	
+				{% else %}
+	
+					<img src="/img/template/creative-default.jpg" alt="">
+	
+				{% endif -%}
+	
 			</div>
 
 		</header>
@@ -161,7 +161,7 @@
 
 				{%- endif %}
 
-				{{ content | strip }}
+				{{ content }}
 
 				{%- if sectionName == "photos" %}
 
@@ -171,7 +171,7 @@
 				
 					{%- for image in galleryFeed.gallery %}
 				
-						<li><a href="/gallery/source/{{ pageID }}/{{ image.name }}"><img src="/gallery/source/{{ pageID }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+						<li><a href="/gallery/source/{{ pageID }}/{{ image.name }}"><img alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy" src="/gallery/source/{{ pageID }}/{{ image.name }}"></a></li>
 				
 					{%- endfor %}
 				
@@ -199,7 +199,7 @@
 
                 	{%- if pageID == pageSelection %}
 
-                    	<li><a href="/gallery/source/{{ imageGallery }}/{{ image.name }}"><img src="/gallery/source/{{ imageGallery }}/{{ image.name }}" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy"></a></li>
+                    	<li><a href="/gallery/source/{{ imageGallery }}/{{ image.name }}"><img alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" loading="lazy" src="/gallery/source/{{ imageGallery }}/{{ image.name }}"></a></li>
 
                 	{%- endif %}
 
@@ -215,11 +215,21 @@
 
 				{%- endif %}
 
-				{%- if newsGallery or newsVideos or relatedGallery %}
+				{%- if sectionName == "photos" and relatedGallery %}
+
+  					{%- assign relatedMedia = true %}
+
+				{%- elsif sectionName == "news" and newsGallery %}
+  
+					{%- assign relatedMedia = true %}
+
+				{%- endif %}
+
+				{%- if relatedMedia %}
 
     			<aside id="related-media">
 
-        		{%- if sectionName == "news" and newsGallery or newsVideos %}
+        		{%- if sectionName == "news" %}
 
         			<h2>Related Media</h2>
 
@@ -243,9 +253,9 @@
 
         			</ul>
 
-    				{%- endif -%}
+    			{%- endif -%}
 
-    				{%- if relatedGallery %}
+    			{%- if sectionName == "photos" %}
 
         			<h2>Related Content</h2>
 
@@ -265,7 +275,7 @@
 
 				</aside>
 
-			{%- endif %}
+				{%- endif %}
 
 			</article>
 

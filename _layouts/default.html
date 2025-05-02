@@ -111,17 +111,19 @@
 
 			</nav>
 
-			<div id="creative">
+			<div id="hero"> 
 
-				{%- if page.creative -%}
-	
-					<img src="/img/template/{{ page.creative }}.jpg" alt="">
+				{%- if page.hero -%}
+
+					{%- assign hero = page.hero -%}
 	
 				{% else %}
-	
-					<img src="/img/template/creative-default.jpg" alt="">
+
+					{%- assign hero = "creative-default.jpg" -%}
 	
 				{% endif -%}
+
+				<img alt="" src="/img/template/{{ hero }}">
 	
 			</div>
 

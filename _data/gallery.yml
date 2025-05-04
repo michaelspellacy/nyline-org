@@ -124,11 +124,74 @@ episode-3:
    title: "NYLine III: Day 2"
    published: "5/1/05"
    desc: "A few shots of members and staff hanging out and doing the sidewalk thing. Do I see Epic Duels being played???"
+   gallery: 
+
+    - name: nyline-IMGP0120.JPG
+    - name: nyline-IMGP0121.JPG
+    - name: nyline-IMGP0122.JPG
+    - name: nyline-IMGP0123.JPG
+    - name: nyline-IMGP0124.JPG
+    - name: nyline-IMGP0125.JPG
+    - name: nyline-SANY0130.jpg
+    - name: nyline-SANY0131.jpg
+    - name: nyline-SANY0133.jpg
+    - name: nyline-SANY0138.jpg
+    - name: nyline-SANY0140.jpg
+    - name: nyline-SANY0142.jpg
+    - name: nyline-SANY0145.jpg
+    - name: nyline-SANY0146.jpg
+    - name: nyline-SANY0147.jpg
+    - name: nyline-SANY0148.jpg
+    - name: nyline-SANY0149.jpg
+    - name: nyline-SANY0151.jpg
+    - name: nyline-SANY0153.jpg
 
  - id: nyline-3-day-1-almost-there
    title: "NYLine III: Day 1 - Almost There..."
    published: "4/30/05"
    desc: "The first batch of pics from the opening day of NYLine III!"
+   gallery: 
+
+    - name: nyline-0001 - Morning Everyone.jpg
+    - name: nyline-0002 - The Sign.jpg
+    - name: nyline-0003 - Darth Vader.jpg
+    - name: nyline-0004 - Stormtrooper.jpg
+    - name: nyline-0005 - The Camp.jpg"
+    - name: nyline-P4300001.JPG
+    - name: nyline-P4300003.JPG
+    - name: nyline-P4300004.JPG
+    - name: nyline-P4300005.JPG
+    - name: nyline-P4300006.JPG
+    - name: nyline-P4300009.JPG
+    - name: nyline-P4300010.JPG
+    - name: nyline-P4300011.JPG
+    - name: nyline-P4300012.JPG
+    - name: nyline-P4300013.JPG
+    - name: nyline-P4300014.JPG
+    - name: nyline-P4300016.JPG
+    - name: nyline-P4300018.JPG
+    - name: nyline-P4300019.JPG
+    - name: nyline-P4300020.JPG
+    - name: nyline-P4300021.JPG
+    - name: nyline-P4300022.JPG
+    - name: nyline-P4300023.JPG
+    - name: nyline-P4300024.JPG
+    - name: nyline-P4300025.JPG
+    - name: nyline-P4300027.JPG
+    - name: nyline-P4300028.JPG
+    - name: nyline-P4300029.JPG
+    - name: nyline-P4300030.JPG
+    - name: nyline-P4300031.JPG
+    - name: nyline-P4300032.JPG
+    - name: nyline-P4300033.JPG
+    - name: nyline-P4300034.JPG
+    - name: nyline-P4300035.JPG
+    - name: nyline-P4300036.JPG
+    - name: nyline-P4300037.JPG
+    - name: nyline-P4300038.JPG
+    - name: nyline-P4300039.JPG
+    - name: nyline-P4300040.JPG
+    - name: nyline-P4300041.JPG
 
  - id: celebration-3-day-2
    title: "Celebration III: Day 2"
@@ -885,6 +948,7 @@ episode-1:
  - id: nyline-highlights-1999
    published: "2004-07-04 00:01:00"
    title: "NYLine Highlights: 1999 (NYLine Trading Cards)"
+   desc: "NYLine Trading Cards: 1999 Edition...Collect them all! Trade them with your friends or put them in the spokes or your bicycle to make a cool sound effect...just like when you were a kid! But most of all, enjoy the memories!"
    gallery: 
 
     - name: nyline-NYLINE_CARD_001.JPG

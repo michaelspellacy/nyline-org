@@ -16,8 +16,6 @@
 
 <div align="center">
 
-    <p>&nbsp;</p>
-
     <table width="95%" border="0">
     <tr>
         <td> 
@@ -41,18 +39,23 @@
 
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td align=right>
+                                    <td align="right">
 
                                         <form name="linearchive">
 
                                             <select name="showlist" size="1" onChange="location.href=document.linearchive.showlist.options[document.linearchive.showlist.selectedIndex].value;">
-                                                <option value="news_001.html" >May 07
-                                                <option value="news_002.html" >May 06
-                                                <option value="news_001.html" >May 05	
-                                                <option value="news_001.html" >May 04
-                                                <option value="news_001.html" >May 03
-                                                <option value="news_001.html" >May 02
-                                                <option value="news_001.html" >May 01
+                                                <option value="/news/episode-1/1999-05-07.html" >May 07
+                                                <option value="/news/episode-1/1999-05-06.html" >May 06
+                                                <option value="/news/episode-1/1999-05-05.html" >May 05	
+                                                <option value="/news/episode-1/1999-05-04.html" >May 04
+                                                <option value="/news/episode-1/1999-05-03.html" >May 03
+                                                <option value="/news/episode-1/1999-05-02.html" >May 02
+                                                <option value="/news/episode-1/1999-05-01.html" >May 01
+                                                <option value="/news/episode-1/1999-04-28.html" >Apr 28
+                                                <option value="/news/episode-1/1999-04-26.html" >Apr 26
+                                                <option value="/news/episode-1/1999-04-23.html" >Apr 23
+                                                <option value="/news/episode-1/1999-04-13.html" >Apr 13
+                                                <option value="/news/episode-1/1999-04-09.html" >Apr 09
                                             </select>
 
                                         </form>
@@ -60,8 +63,6 @@
                                     </td>
                                 </tr>
                                 </table>
-
-                                <p>&nbsp;</p>
 
                                 {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
 
@@ -87,7 +88,7 @@
 
                                                 {% include_relative html/{{ article.id }}.html %}
 
-                                                <br><br>
+                                                <br>
 
                                                 {%- assign newsFeed = site.data.news.episode-1 | where: "id", article.id | first -%}
                                                 {%- assign newsGallery = newsFeed.gallery -%}
@@ -124,19 +125,17 @@
                                 </tr>
                                 </table>
 
-                                {% unless forloop.last %}
-                                
-                                <p>&nbsp;</p>
-                                
-                                {% endunless %}
+                                <br>
 
                                 {% endif %}
 
                                 {% endfor %}
 
-                                <br><br>
+                                {% if include.previous %}
 
-                                <b><a href='{{ include.previous }}.html'>Yesterday's News</a> :</b>
+                                <br>
+
+                                <b><a href="{{ include.previous }}.html">Yesterday's News</a> :</b>
 
                                 <br>
 
@@ -159,6 +158,8 @@
                                 </font>
 
                             </font>
+
+                            {% endif %}
 
                         </td>
                     </tr>

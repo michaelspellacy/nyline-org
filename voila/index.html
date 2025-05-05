@@ -151,9 +151,23 @@ layout: none
                         </td>
                         <td align="right" valign="top">
 
-                                <font face="verdana,arial,sans-serif" size="2"><a href="news.html"><b>LATEST NEWS:</b></a><p><b>Steven Curnow Memorial</b></p>
+                                <font face="verdana,arial,sans-serif" size="2"><a href="news.html"><b>LATEST NEWS:</b></a>
+                                        
+                                        {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
 
-                                <p><b>Pics from the line.</b></font>
+                                        {% for article in sorted_articles %}
+        
+                                        {% assign date_only = article.published | slice: 0, 10 %}
+        
+                                        {% if date_only == "1999-12-02" %}
+
+                                        <p><b>{{ article.title }}</b></p>
+
+                                        {% endif %}
+
+                                        {% endfor %}
+                                
+                                </font>
 
                         </td>
 

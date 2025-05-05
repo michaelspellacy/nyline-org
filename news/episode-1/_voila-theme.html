@@ -66,7 +66,7 @@ a:hover {
 
 {% for article in sorted_articles %}
 {% assign date_only = article.published | slice: 0, 10 %}
-{% if date_only == "1999-05-07" %}
+{% if date_only == include.current %}
 
 			<table border="0" cellspacing="0" cellpadding="0">
 			<tr>
@@ -87,7 +87,7 @@ a:hover {
 
 			<br><br>
 
-			<b><a href="news_002.html">Yesterday's News</a> :</b>
+			<b><a href='{{ include.previous }}.html'>Yesterday's News</a> :</b>
 			<br>
 			<font face="Verdana" size="2">
 
@@ -95,7 +95,7 @@ a:hover {
 
 {% for article in sorted_articles %}
 {% assign date_only = article.published | slice: 0, 10 %}
-{% if date_only == "1999-05-06" %}
+{% if date_only == include.previous %}
 
 <b>{{ article.title }}</b><br>
 

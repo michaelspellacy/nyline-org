@@ -80,7 +80,12 @@
                                             
                                             <b>{{ article.title }}</b><br>
 
-                                            <font size="1" color="#FF6600">{{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}</font>
+                                            <font size="2" color="#FF6600">
+
+                                                {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
+                                                NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
+                                            
+                                            </font>
 
                                             <br><br>
 

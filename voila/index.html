@@ -1,106 +1,177 @@
+---
+layout: none
+---
 <html>
-
 <head>
-<title>Voila : Countdown To Episode I</title>
-
-<style type="text/css">
-	a:hover {
-	color : #ff9900
-	}
-</style>
-
-<script language="JavaScript">
-<!--
-browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 )))
-
-if (browser) {
-off = new MakeArray(1);
-on = new MakeArray(7);
-
-off[1].src = "images/pixel.gif";
-
-on[1].src = "images/txt-news.gif";
-on[2].src = "images/txt-live-webcam.gif";
-on[3].src = "images/txt-nyline-tv.gif";
-on[4].src = "images/txt-jedi-search.gif";
-on[5].src = "images/txt-fan-of-the-day.gif";
-on[6].src = "images/txt-jedi-chat.gif";
-on[7].src = "images/txt-info-sponsors.gif";
-
-}
-
-function MakeArray(n) {
-        if (browser) {
-                this.length = n;
-                for (var i = 1; i<=n; i++) {
-                        this[i] = new Image();
-                }
-                return this;
+        <title>Voila : Countdown To Episode I</title>
+        <style type="text/css">
+        a:hover {
+        color : #ff9900
         }
-}
+        </style>
 
-function msOver(img,num) {
-        if (browser) {
-                if (document.images[img].src == on[num].src) return false;
-                else {
-                        document.images[img].src = on[num].src;
-                        return true;
+        <script language="JavaScript">
+
+        <!--
+
+                browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 )))
+
+                if (browser) {
+
+                        off = new MakeArray(1);
+                        on = new MakeArray(7);
+
+                        off[1].src = "images/pixel.gif";
+
+                        on[1].src = "images/txt-news.gif";
+                        on[2].src = "images/txt-live-webcam.gif";
+                        on[3].src = "images/txt-nyline-tv.gif";
+                        on[4].src = "images/txt-jedi-search.gif";
+                        on[5].src = "images/txt-fan-of-the-day.gif";
+                        on[6].src = "images/txt-jedi-chat.gif";
+                        on[7].src = "images/txt-info-sponsors.gif";
+
                 }
-        }
-}
 
-function msOut(img,num) {
-        if (browser) {
-                if (document.images[img].src == off[num].src) return false;
-                else {
-                        document.images[img].src = off[num].src;
-                        return true;
+                function MakeArray(n) {
+
+                        if (browser) {
+
+                                this.length = n;
+
+                                for (var i = 1; i<=n; i++) {
+
+                                        this[i] = new Image();
+
+                                }
+
+                                return this;
+
+                        }
+
                 }
-        }
-}
 
-// -->
-</script>
+                function msOver(img,num) {
+
+                        if (browser) {
+
+                                if (document.images[img].src == on[num].src) return false;
+
+                                else {
+
+                                        document.images[img].src = on[num].src;
+
+                                        return true;
+
+                                }
+
+                        }
+
+                }
+
+                function msOut(img,num) {
+
+                        if (browser) {
+
+                                if (document.images[img].src == off[num].src) return false;
+
+                                else {
+
+                                        document.images[img].src = off[num].src;
+
+                                        return true;
+
+                                }
+
+                        }
+
+                }
+
+        // -->
+
+        </script>
 
 </head>
 
 <body bgcolor="#000000" text="#ffffff" link="#ff6600" alink="#ff3333" vlink="#ff6600">
 
-<div align="center">
+        <div align="center">
 
-<table width="600" cellspacing="0" cellpadding="0" border="0">
-<tr>
-<td>
-	<table width="400" cellspacing="0" cellpadding="0" border="0" background="images/body-liberty.jpg">
-	<tr>
-		<td>
-		<img src="images/pixel.gif" width="52" height="1"> <a href="news.html" onMouseOver="msOver('t','1');" onMouseOut="msOut('t','1');"><img src="images/nav-news.gif" border="0" width="100" height="50"></a><br>
-		<img src="images/pixel.gif" width="15" height="1"> <a href="javascript:alert('The Force Is Not With You.');" onMouseOver="msOver('t','2');" onMouseOut="msOut('t','1');"><img src="images/nav-live-webcam.gif" width="100" height="50" border="0"></a><br>
-		<a href="javascript:alert('The Force Is Not With You.');" onMouseOver="msOver('t','3');" onMouseOut="msOut('t','1');"><img src="images/nav-nyline-tv.gif" width="100" height="50" border="0"></a><br>
-		<img src="images/pixel.gif" width="15" height="1"><a href="javascript:alert('The Force Is Not With You.');" onMouseOver="msOver('t','4');" onMouseOut="msOut('t','1');"><img src="images/nav-jedi-search.gif" width="100" height="50" border="0"></a><br>
-		<img src="images/pixel.gif" width="40" height="1"><a href="javascript:alert('The Force Is Not With You.');" onMouseOver="msOver('t','5');" onMouseOut="msOut('t','1');"><img src="images/nav-fan-of-the-day.gif" width="100" height="50" border="0"></a><br>
-		<img src="images/pixel.gif" width="100" height="1"><a href="javascript:alert('The Force Is Not With You.');" onMouseOver="msOver('t','6');" onMouseOut="msOut('t','1');"><img src="images/nav-jedi-chat.gif" width="100" height="50" border="0"></a><br>
-		<img src="images/pixel.gif" width="160" height="1"> <a href="javascript:alert('The Force Is Not With You.');" onMouseOver="msOver('t','7');" onMouseOut="msOut('t','1');"><img src="images/nav-info-sponsors.gif" width="100" height="50" border="0"></a>
-		</td>
-</tr>
-</table>
-</td>
-<td align="right" valign="top">
-<font face="verdana,arial,sans-serif" size="2"><a href="news.html"><b>LATEST NEWS:</b></a><p><b>Steven Curnow Memorial</b></p>
-<p><b>Pics from the line.</b></font>
-</td>
-</tr>
-</table>
+                <table width="600" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                        <td>
+
+                                <table width="400" cellspacing="0" cellpadding="0" border="0" background="images/body-liberty.jpg">
+                                <tr>
+                                        <td>
+                                                
+                                                <img src="images/pixel.gif" width="52" height="1"> 
+                                                
+                                                <a href="news.html" onMouseOver="msOver('t','1');" onMouseOut="msOut('t','1');"><img src="images/nav-news.gif" border="0" width="100" height="50"></a>
+                                                
+                                                <br>
+
+                                                <img src="images/pixel.gif" width="15" height="1"> 
+                                                
+                                                <a href="#" onMouseOver="msOver('t','2');" onMouseOut="msOut('t','1');"><img src="images/nav-live-webcam.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <a href="#" onMouseOver="msOver('t','3');" onMouseOut="msOut('t','1');"><img src="images/nav-nyline-tv.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <img src="images/pixel.gif" width="15" height="1">
+                                                
+                                                <a href="#" onMouseOver="msOver('t','4');" onMouseOut="msOut('t','1');"><img src="images/nav-jedi-search.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <img src="images/pixel.gif" width="40" height="1">
+                                                
+                                                <a href="#" onMouseOver="msOver('t','5');" onMouseOut="msOut('t','1');"><img src="images/nav-fan-of-the-day.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <img src="images/pixel.gif" width="100" height="1">
+                                                
+                                                <a href="#" onMouseOver="msOver('t','6');" onMouseOut="msOut('t','1');"><img src="images/nav-jedi-chat.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <img src="images/pixel.gif" width="160" height="1"> 
+                                                
+                                                <a href="#" onMouseOver="msOver('t','7');" onMouseOut="msOut('t','1');"><img src="images/nav-info-sponsors.gif" width="100" height="50" border="0"></a>
+
+                                        </td>
+
+                                </tr>
+                                </table>
+
+                        </td>
+                        <td align="right" valign="top">
+
+                                <font face="verdana,arial,sans-serif" size="2"><a href="news.html"><b>LATEST NEWS:</b></a><p><b>Steven Curnow Memorial</b></p>
+
+                                <p><b>Pics from the line.</b></font>
+
+                        </td>
+
+                </tr>
+                </table>
 
 
-<table width="600" height="69" cellspacing="0" cellpadding="0" border="0">
-<tr>
-	<td><img name="t" src="images/pixel.gif" width="600" height="69"></td>
-</tr>
-</table>
+                <table width="600" height="69" cellspacing="0" cellpadding="0" border="0">
+                <tr>
 
-<p><font face="verdana,arial,sans-serif" size="1"><b>This site is not affiliated with Star Wars or Lucasfilm Ltd. Please read our <a href="javascript:alert('Why should Lucasfilm care now?');">Disclaimer</a>.</b></font></p>
+                        <td><img name="t" src="images/pixel.gif" width="600" height="69"></td>
 
-</div>
+                </tr>
+                </table>
+
+                <p><font face="verdana,arial,sans-serif" size="1"><b>This site is not affiliated with Star Wars or Lucasfilm Ltd. Please read our <a href="#">Disclaimer</a>.</b></font></p>
+
+        </div>
+
 </body>
 </html>

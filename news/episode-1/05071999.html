@@ -1,0 +1,125 @@
+---
+layout: none
+---
+<html>
+<head>
+<title>NYline News</title>
+
+<style type="text/css">
+a:hover {
+	color : #3333FF
+	}
+	img {
+		display: block;
+	}
+</style>
+
+</head>
+
+<body bgcolor="Black" text="Black" link="Blue" alink="#3333FF" vlink="Blue">
+
+<a name=top></a>
+
+<div align=center>
+
+
+<p>&nbsp;</p>
+
+
+<table width="95%" border="0">
+<tr>
+	<td> 
+	<table width="100%" border="0" cellspacing="0" cellpadding="1">
+	<tr>
+		<td><img src="/voila/images/heading-news.gif" width="238" height="20" border="0" alt=""></td>
+		<td align="right"><img src="voila/images/txt-previous-days.gif" width="113" height="14" border="0" alt=""><img src="images/pixel.gif" width="40" height="1" border="0" alt=""></td>
+	</tr>
+	</table>
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="3" bgcolor="#FF6600">
+	<tr>
+		<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="White">
+		<tr>
+			<td>
+			<font face=verdana,arial,sans-serif>
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr><form name="linearchive">
+				<td align=right>
+				<select name="showlist" size="1" onChange="location.href=document.linearchive.showlist.options[document.linearchive.showlist.selectedIndex].value;">
+					<option value="news_001.html" >May 07
+					<option value="news_002.html" >May 06
+					<option value="news_001.html" >May 05	
+					<option value="news_001.html" >May 04
+					<option value="news_001.html" >May 03
+					<option value="news_001.html" >May 02
+					<option value="news_001.html" >May 01
+				</select>
+				</td>
+			</tr></form>
+			</table>
+			
+			<p>&nbsp;</p>
+
+{% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
+
+{% for article in sorted_articles %}
+{% assign date_only = article.published | slice: 0, 10 %}
+{% if date_only == "1999-05-07" %}
+
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+				<font face=verdana,arial,sans-serif><b>{{ article.title }}</b><br>
+				<font size=1 color=#FF6600>{{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}</font>
+
+				{% include_relative html/{{ article.id }}.html %}
+
+				</td>
+			</tr>
+			</table>
+
+            <p>&nbsp;</p>
+
+			{% endif %}
+			{% endfor %}
+
+			<br><br>
+
+			<b><a href="news_002.html">Yesterday's News</a> :</b>
+			<br>
+			<font face="Verdana" size="2">
+
+			{% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
+
+{% for article in sorted_articles %}
+{% assign date_only = article.published | slice: 0, 10 %}
+{% if date_only == "1999-05-06" %}
+
+<b>{{ article.title }}</b><br>
+
+			{% endif %}
+			{% endfor %}
+
+
+
+
+			</font></font>
+			</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	</table>
+
+	<a href="#top"><img src="/voila/images/txt-return-to-top.gif" border=0 width="209" height="20"></a>
+
+	</td>
+</tr>
+</table>
+
+</div>
+
+</body>
+</html>

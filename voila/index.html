@@ -1,6 +1,7 @@
 ---
 layout: none
 ---
+
 <!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
@@ -14,78 +15,78 @@ layout: none
 
         <!--
 
-                browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 )))
+        browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 )))
+
+        if (browser) {
+
+                off = new MakeArray(1);
+                on = new MakeArray(7);
+
+                off[1].src = "img/pixel.gif";
+
+                on[1].src = "img/txt-news.gif";
+                on[2].src = "img/txt-live-webcam.gif";
+                on[3].src = "img/txt-nyline-tv.gif";
+                on[4].src = "img/txt-jedi-search.gif";
+                on[5].src = "img/txt-fan-of-the-day.gif";
+                on[6].src = "img/txt-jedi-chat.gif";
+                on[7].src = "img/txt-info-sponsors.gif";
+
+        }
+
+        function MakeArray(n) {
 
                 if (browser) {
 
-                        off = new MakeArray(1);
-                        on = new MakeArray(7);
+                        this.length = n;
 
-                        off[1].src = "images/pixel.gif";
+                        for (var i = 1; i<=n; i++) {
 
-                        on[1].src = "images/txt-news.gif";
-                        on[2].src = "images/txt-live-webcam.gif";
-                        on[3].src = "images/txt-nyline-tv.gif";
-                        on[4].src = "images/txt-jedi-search.gif";
-                        on[5].src = "images/txt-fan-of-the-day.gif";
-                        on[6].src = "images/txt-jedi-chat.gif";
-                        on[7].src = "images/txt-info-sponsors.gif";
+                                this[i] = new Image();
+
+                        }
+
+                        return this;
 
                 }
 
-                function MakeArray(n) {
+        }
 
-                        if (browser) {
+        function msOver(img,num) {
 
-                                this.length = n;
+                if (browser) {
 
-                                for (var i = 1; i<=n; i++) {
+                        if (document.images[img].src == on[num].src) return false;
 
-                                        this[i] = new Image();
+                        else {
 
-                                }
+                                document.images[img].src = on[num].src;
 
-                                return this;
+                                return true;
 
                         }
 
                 }
 
-                function msOver(img,num) {
+        }
 
-                        if (browser) {
+        function msOut(img,num) {
 
-                                if (document.images[img].src == on[num].src) return false;
+                if (browser) {
 
-                                else {
+                        if (document.images[img].src == off[num].src) return false;
 
-                                        document.images[img].src = on[num].src;
+                        else {
 
-                                        return true;
+                                document.images[img].src = off[num].src;
 
-                                }
-
-                        }
-
-                }
-
-                function msOut(img,num) {
-
-                        if (browser) {
-
-                                if (document.images[img].src == off[num].src) return false;
-
-                                else {
-
-                                        document.images[img].src = off[num].src;
-
-                                        return true;
-
-                                }
+                                return true;
 
                         }
 
                 }
+
+        }
 
         // -->
 
@@ -101,47 +102,47 @@ layout: none
                 <tr>
                         <td>
 
-                                <table width="400" cellspacing="0" cellpadding="0" border="0" background="images/body-liberty.jpg">
+                                <table width="400" cellspacing="0" cellpadding="0" border="0" background="img/body-liberty.jpg">
                                 <tr>
                                         <td>
                                                 
-                                                <img src="images/pixel.gif" width="52" height="1"> 
+                                                <img src="img/pixel.gif" width="52" height="1"> 
                                                 
-                                                <a href="news.html" onMouseOver="msOver('t','1');" onMouseOut="msOut('t','1');"><img src="images/nav-news.gif" border="0" width="100" height="50"></a>
-                                                
-                                                <br>
-
-                                                <img src="images/pixel.gif" width="15" height="1"> 
-                                                
-                                                <a href="#" onMouseOver="msOver('t','2');" onMouseOut="msOut('t','1');"><img src="images/nav-live-webcam.gif" width="100" height="50" border="0"></a>
+                                                <a href="news.html" onMouseOver="msOver('t','1');" onMouseOut="msOut('t','1');"><img src="img/nav-news.gif" border="0" width="100" height="50"></a>
                                                 
                                                 <br>
 
-                                                <a href="{{ site.video }}" onMouseOver="msOver('t','3');" onMouseOut="msOut('t','1');"><img src="images/nav-nyline-tv.gif" width="100" height="50" border="0"></a>
+                                                <img src="img/pixel.gif" width="15" height="1"> 
+                                                
+                                                <a href="live.html" onMouseOver="msOver('t','2');" onMouseOut="msOut('t','1');"><img src="img/nav-live-webcam.gif" width="100" height="50" border="0"></a>
                                                 
                                                 <br>
 
-                                                <img src="images/pixel.gif" width="15" height="1">
-                                                
-                                                <a href="#" onMouseOver="msOver('t','4');" onMouseOut="msOut('t','1');"><img src="images/nav-jedi-search.gif" width="100" height="50" border="0"></a>
+                                                <a href="tv.html" onMouseOver="msOver('t','3');" onMouseOut="msOut('t','1');"><img src="img/nav-nyline-tv.gif" width="100" height="50" border="0"></a>
                                                 
                                                 <br>
 
-                                                <img src="images/pixel.gif" width="40" height="1">
+                                                <img src="img/pixel.gif" width="15" height="1">
                                                 
-                                                <a href="#" onMouseOver="msOver('t','5');" onMouseOut="msOut('t','1');"><img src="images/nav-fan-of-the-day.gif" width="100" height="50" border="0"></a>
-                                                
-                                                <br>
-
-                                                <img src="images/pixel.gif" width="100" height="1">
-                                                
-                                                <a href="#" onMouseOver="msOver('t','6');" onMouseOut="msOut('t','1');"><img src="images/nav-jedi-chat.gif" width="100" height="50" border="0"></a>
+                                                <a href="search" onMouseOver="msOver('t','4');" onMouseOut="msOut('t','1');"><img src="img/nav-jedi-search.gif" width="100" height="50" border="0"></a>
                                                 
                                                 <br>
 
-                                                <img src="images/pixel.gif" width="160" height="1"> 
+                                                <img src="img/pixel.gif" width="40" height="1">
                                                 
-                                                <a href="#" onMouseOver="msOver('t','7');" onMouseOut="msOut('t','1');"><img src="images/nav-info-sponsors.gif" width="100" height="50" border="0"></a>
+                                                <a href="fan.html" onMouseOver="msOver('t','5');" onMouseOut="msOut('t','1');"><img src="img/nav-fan-of-the-day.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <img src="img/pixel.gif" width="100" height="1">
+                                                
+                                                <a href="chat.html" onMouseOver="msOver('t','6');" onMouseOut="msOut('t','1');"><img src="img/nav-jedi-chat.gif" width="100" height="50" border="0"></a>
+                                                
+                                                <br>
+
+                                                <img src="img/pixel.gif" width="160" height="1"> 
+                                                
+                                                <a href="info.html" onMouseOver="msOver('t','7');" onMouseOut="msOut('t','1');"><img src="img/nav-info-sponsors.gif" width="100" height="50" border="0"></a>
 
                                         </td>
 
@@ -151,7 +152,7 @@ layout: none
                         </td>
                         <td align="right" valign="top">
 
-                                <font face="verdana,arial,sans-serif" size="2">
+                                <font face="Verdana, Arial, Sans-serif" size="2">
                                         
                                         <a href="news.html"><b>LATEST NEWS:</b></a>
                                         
@@ -163,7 +164,7 @@ layout: none
 
                                         {% if date_only == "1999-12-02" %}
 
-                                        <p><b>{{ article.title }}</b></p>
+                                        <p style="text-transform: uppercase;"><b>{{ article.title }} (Updated 12/2)</b></p>
 
                                         {% endif %}
 
@@ -179,12 +180,12 @@ layout: none
                 <table width="600" height="69" cellspacing="0" cellpadding="0" border="0">
                 <tr>
 
-                        <td><img name="t" src="images/pixel.gif" width="600" height="69"></td>
+                        <td><img name="t" src="img/pixel.gif" width="600" height="69"></td>
 
                 </tr>
                 </table>
 
-                <p><font face="verdana,arial,sans-serif" size="1"><b>This site is not affiliated with Star Wars or Lucasfilm Ltd. Please read our <a href="#">Disclaimer</a>.</b></font></p>
+                <p><font face="Verdana, Arial, Sans-serif" size="1"><b>This site is not affiliated with Star Wars or Lucasfilm Ltd. Please read our <a href="disclaimer.html">Disclaimer</a>.</b></font></p>
 
         </div>
 

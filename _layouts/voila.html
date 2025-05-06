@@ -1,3 +1,5 @@
+
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
     <title>NYline News</title>
@@ -22,8 +24,8 @@
 
             <table width="100%" border="0" cellspacing="0" cellpadding="1">
             <tr>
-                <td><img src="/voila/images/heading-news.gif" width="238" height="20" border="0" alt=""></td>
-                <td align="right"><img src="/voila/images/txt-previous-days.gif" width="113" height="14" border="0" alt=""><img src="images/pixel.gif" width="40" height="1" border="0" alt=""></td>
+                <td><img src="/voila/img/heading-news.gif" width="238" height="20" border="0" alt=""></td>
+                <td align="right"><img src="/voila/img/txt-previous-days.gif" width="113" height="14" border="0" alt=""><img src="/voila/img/pixel.gif" width="40" height="1" border="0" alt=""></td>
             </tr>
             </table>
 
@@ -70,21 +72,21 @@
 
                                 {% assign date_only = article.published | slice: 0, 10 %}
 
-                                {% if date_only == include.current %}
+                                {% if date_only == page.current %}
 
                                 <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
                                 <tr>
                                     <td>
 
                                         <font face="Verdana, Arial, Sans-serif">
-                                            
+
                                             <b>{{ article.title }}</b><br>
 
                                             <font size="2" color="#FF6600">
 
                                                 {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
                                                 NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
-                                            
+
                                             </font>
 
                                             <br><br>
@@ -99,29 +101,29 @@
                                                 {%- assign newsGallery = newsFeed.gallery -%}
 
                                                 {%- if newsGallery %}
-                                
+
                                                     {%- for imageGallery in newsGallery %}
-                                
+
                                                     {%- assign relatedImages = site.data.gallery.episode-1 | where: "id", imageGallery | first %}
-                                
+
                                                     {%- for image in relatedImages.gallery %}
-                                
+
                                                     {%- for pageSelection in image.highlight %}
-                                
+
                                                     {%- if article.id == pageSelection %}
 
                                                     <a href="javascript:void(0);" onClick="open('/gallery/source/{{ imageGallery }}/{{ image.name }}','','width=512,height=400');"><img src="/gallery/source/{{ imageGallery }}/{{ image.name }}" width="150" height="113" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" border="0"></a>&nbsp;&nbsp;
-                                
+
                                                     {%- endif %}
-                                
+
                                                     {%- endfor %}
-                                    
+
                                                     {%- endfor %}
-                                
+
                                                     {%- endfor %}
 
                                                 {% endif %}
-                                           
+
                                             </font>
 
                                         </font>
@@ -136,15 +138,15 @@
 
                                 {% endfor %}
 
-                                {% if include.previous %}
+                                {% if page.previous %}
 
                                 <br>
 
-                                <b><a href="{{ include.previous }}.html">Yesterday's News</a> :</b>
+                                <b><a href="{{ page.previous }}.html">Yesterday's News</a> :</b>
 
                                 <br>
 
-                                <font face="Verdana" size="2">
+                                <font face="Verdana, Arial, Sans-serif" size="2">
 
                                     {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
 
@@ -152,7 +154,7 @@
 
                                     {% assign date_only = article.published | slice: 0, 10 %}
 
-                                    {% if date_only == include.previous %}
+                                    {% if date_only == page.previous %}
 
                                     <b>{{ article.title }}</b><br>
 
@@ -174,7 +176,7 @@
             </tr>
             </table>
 
-            <a href="#top"><img src="/voila/images/txt-return-to-top.gif" border="0" width="209" height="20"></a>
+            <a href="#top"><img src="/voila/img/txt-return-to-top.gif" border="0" width="209" height="20"></a>
 
         </td>
     </tr>

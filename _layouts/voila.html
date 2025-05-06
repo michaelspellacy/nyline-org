@@ -1,10 +1,12 @@
 
 {% assign section = page.section %}
+{% assign current = page.current %}
+{% assign previous = page.previous %}
 
 <!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-    <title>NYline News</title>
+    <title>NYline News for {{ current }}</title>
     <style type="text/css">
     
     a:hover {
@@ -42,9 +44,9 @@
 
                 <table width="100%" border="0" cellspacing="0" cellpadding="1">
                 <tr>
-                    <td><img src="/voila/img/heading-{{ page.section }}.gif" vspace="8" border="0" alt=""></td>
+                    <td><img src="/voila/img/heading-{{ section }}.gif" vspace="8" border="0" alt=""></td>
 
-                    {% if page.section == "news" %}
+                    {% if section == "news" %}
 
                     <td align="right" valign="bottom">
                     
@@ -69,7 +71,7 @@
 
                             <font face="Verdana, Arial, Sans-serif">
 
-                                {% if page.section == "news" %}
+                                {% if section == "news" %}
 
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
@@ -79,35 +81,35 @@
 
                                                 <select name="showlist" size="1" onChange="location.href=document.linearchive.showlist.options[document.linearchive.showlist.selectedIndex].value;">
                                                     <option value="news.html" >Dec 02
-                                                    <option value="/news/episode-1/1999-05-31.html"{% if page.current == "1999-05-31" %} selected{% endif %}>May 31
-                                                    <option value="/news/episode-1/1999-05-28.html"{% if page.current == "1999-05-28" %} selected{% endif %}>May 28
-                                                    <option value="/news/episode-1/1999-05-22.html"{% if page.current == "1999-05-22" %} selected{% endif %}>May 22
-                                                    <option value="/news/episode-1/1999-05-21.html"{% if page.current == "1999-05-21" %} selected{% endif %}>May 21
-                                                    <option value="/news/episode-1/1999-05-19.html"{% if page.current == "1999-05-19" %} selected{% endif %}>May 19
-                                                    <option value="/news/episode-1/1999-05-18.html"{% if page.current == "1999-05-18" %} selected{% endif %}>May 18
-                                                    <option value="/news/episode-1/1999-05-17.html"{% if page.current == "1999-05-17" %} selected{% endif %}>May 17
-                                                    <option value="/news/episode-1/1999-05-16.html"{% if page.current == "1999-05-16" %} selected{% endif %}>May 16
-                                                    <option value="/news/episode-1/1999-05-15.html"{% if page.current == "1999-05-15" %} selected{% endif %}>May 15
-                                                    <option value="/news/episode-1/1999-05-14.html"{% if page.current == "1999-05-14" %} selected{% endif %}>May 14
-                                                    <option value="/news/episode-1/1999-05-13.html"{% if page.current == "1999-05-13" %} selected{% endif %}>May 13
-                                                    <option value="/news/episode-1/1999-05-12.html"{% if page.current == "1999-05-12" %} selected{% endif %}>May 12
-                                                    <option value="/news/episode-1/1999-05-11.html"{% if page.current == "1999-05-11" %} selected{% endif %}>May 11
-                                                    <option value="/news/episode-1/1999-05-10.html"{% if page.current == "1999-05-10" %} selected{% endif %}>May 10
-                                                    <option value="/news/episode-1/1999-05-09.html"{% if page.current == "1999-05-09" %} selected{% endif %}>May 09
-                                                    <option value="/news/episode-1/1999-05-08.html"{% if page.current == "1999-05-09" %} selected{% endif %}>May 08
-                                                    <option value="/news/episode-1/1999-05-07.html"{% if page.current == "1999-05-07" %} selected{% endif %}>May 07
-                                                    <option value="/news/episode-1/1999-05-06.html"{% if page.current == "1999-05-06" %} selected{% endif %}>May 06
-                                                    <option value="/news/episode-1/1999-05-05.html"{% if page.current == "1999-05-05" %} selected{% endif %}>May 05	
-                                                    <option value="/news/episode-1/1999-05-04.html"{% if page.current == "1999-05-04" %} selected{% endif %}>May 04
-                                                    <option value="/news/episode-1/1999-05-03.html"{% if page.current == "1999-05-03" %} selected{% endif %}>May 03
-                                                    <option value="/news/episode-1/1999-05-02.html"{% if page.current == "1999-05-02" %} selected{% endif %}>May 02
-                                                    <option value="/news/episode-1/1999-05-01.html"{% if page.current == "1999-05-01" %} selected{% endif %}>May 01
-                                                    <option value="/news/episode-1/1999-04-28.html"{% if page.current == "1999-04-28" %} selected{% endif %}>Apr 28
-                                                    <option value="/news/episode-1/1999-04-26.html"{% if page.current == "1999-04-26" %} selected{% endif %}>Apr 26
-                                                    <option value="/news/episode-1/1999-04-23.html"{% if page.current == "1999-04-23" %} selected{% endif %}>Apr 23
-                                                    <option value="/news/episode-1/1999-04-13.html"{% if page.current == "1999-04-13" %} selected{% endif %}>Apr 13
-                                                    <option value="/news/episode-1/1999-04-09.html"{% if page.current == "1999-04-09" %} selected{% endif %}>Apr 09
-                                                </select{% if page.current == "1999-05-31" %}selected{% endif %}
+                                                    <option value="/news/episode-1/1999-05-31.html"{% if current == "1999-05-31" %} selected{% endif %}>May 31
+                                                    <option value="/news/episode-1/1999-05-28.html"{% if current == "1999-05-28" %} selected{% endif %}>May 28
+                                                    <option value="/news/episode-1/1999-05-22.html"{% if current == "1999-05-22" %} selected{% endif %}>May 22
+                                                    <option value="/news/episode-1/1999-05-21.html"{% if current == "1999-05-21" %} selected{% endif %}>May 21
+                                                    <option value="/news/episode-1/1999-05-19.html"{% if current == "1999-05-19" %} selected{% endif %}>May 19
+                                                    <option value="/news/episode-1/1999-05-18.html"{% if current == "1999-05-18" %} selected{% endif %}>May 18
+                                                    <option value="/news/episode-1/1999-05-17.html"{% if current == "1999-05-17" %} selected{% endif %}>May 17
+                                                    <option value="/news/episode-1/1999-05-16.html"{% if current == "1999-05-16" %} selected{% endif %}>May 16
+                                                    <option value="/news/episode-1/1999-05-15.html"{% if current == "1999-05-15" %} selected{% endif %}>May 15
+                                                    <option value="/news/episode-1/1999-05-14.html"{% if current == "1999-05-14" %} selected{% endif %}>May 14
+                                                    <option value="/news/episode-1/1999-05-13.html"{% if current == "1999-05-13" %} selected{% endif %}>May 13
+                                                    <option value="/news/episode-1/1999-05-12.html"{% if current == "1999-05-12" %} selected{% endif %}>May 12
+                                                    <option value="/news/episode-1/1999-05-11.html"{% if current == "1999-05-11" %} selected{% endif %}>May 11
+                                                    <option value="/news/episode-1/1999-05-10.html"{% if current == "1999-05-10" %} selected{% endif %}>May 10
+                                                    <option value="/news/episode-1/1999-05-09.html"{% if current == "1999-05-09" %} selected{% endif %}>May 09
+                                                    <option value="/news/episode-1/1999-05-08.html"{% if current == "1999-05-09" %} selected{% endif %}>May 08
+                                                    <option value="/news/episode-1/1999-05-07.html"{% if current == "1999-05-07" %} selected{% endif %}>May 07
+                                                    <option value="/news/episode-1/1999-05-06.html"{% if current == "1999-05-06" %} selected{% endif %}>May 06
+                                                    <option value="/news/episode-1/1999-05-05.html"{% if current == "1999-05-05" %} selected{% endif %}>May 05	
+                                                    <option value="/news/episode-1/1999-05-04.html"{% if current == "1999-05-04" %} selected{% endif %}>May 04
+                                                    <option value="/news/episode-1/1999-05-03.html"{% if current == "1999-05-03" %} selected{% endif %}>May 03
+                                                    <option value="/news/episode-1/1999-05-02.html"{% if current == "1999-05-02" %} selected{% endif %}>May 02
+                                                    <option value="/news/episode-1/1999-05-01.html"{% if current == "1999-05-01" %} selected{% endif %}>May 01
+                                                    <option value="/news/episode-1/1999-04-28.html"{% if current == "1999-04-28" %} selected{% endif %}>Apr 28
+                                                    <option value="/news/episode-1/1999-04-26.html"{% if current == "1999-04-26" %} selected{% endif %}>Apr 26
+                                                    <option value="/news/episode-1/1999-04-23.html"{% if current == "1999-04-23" %} selected{% endif %}>Apr 23
+                                                    <option value="/news/episode-1/1999-04-13.html"{% if current == "1999-04-13" %} selected{% endif %}>Apr 13
+                                                    <option value="/news/episode-1/1999-04-09.html"{% if current == "1999-04-09" %} selected{% endif %}>Apr 09
+                                                </select{% if current == "1999-05-31" %}selected{% endif %}
 
                                             </form>
 
@@ -117,7 +119,7 @@
 
                                 {% endif %}
 
-                                {% if page.section == "news" %}
+                                {% if section == "news" %}
 
                                     {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
 
@@ -125,7 +127,7 @@
 
                                         {% assign date_only = article.published | slice: 0, 10 %}
 
-                                        {% if date_only == page.current %}
+                                        {% if date_only == current %}
 
                                             <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
                                             <tr>
@@ -187,7 +189,7 @@
 
                                     {% endfor %}
 
-                                    {% if page.previous %}
+                                    {% if previous %}
 
                                         <br>
 
@@ -203,7 +205,7 @@
 
                                                 {% assign date_only = article.published | slice: 0, 10 %}
 
-                                                {% if date_only == page.previous %}
+                                                {% if date_only == previous %}
 
                                                     <b>{{ article.title }}</b><br>
 
@@ -214,6 +216,51 @@
                                         </font>
 
                                     {% endif %}
+
+                                {% elsif section == "fan" %}
+
+                                    {% assign sorted_articles = site.data.news.fotd | sort: "published" | reverse %}
+
+                                    {% for article in sorted_articles %}
+
+                                        {% assign date_only = article.published | slice: 0, 10 %}
+
+                                        {% assign year_only = date_only | slice: 0, 4 %}
+
+                                        {% if year_only == "1999" %}
+
+                                            <br>
+
+                                            <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
+                                            <tr>
+                                                <td>
+
+                                                    <b>{{ article.title }}</b><br>
+
+                                                    <font color="#FF6600" size="2">
+
+                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
+                                                        NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
+
+                                                    </font>
+
+                                                    <br><br>
+
+                                                    <font size="2">
+
+                                                        {% include_relative html/{{ article.id }}.html %}
+
+                                                    </font>
+
+                                                    <br>
+
+                                                </td>
+                                            </tr>
+                                            </table>
+
+                                        {% endif %}
+
+                                    {% endfor %}
 
                                 {% else %}
 

@@ -1,4 +1,6 @@
 
+{% assign section = page.section %}
+
 <!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
@@ -8,6 +10,10 @@
     a:hover {
 	color : #3333FF
 	}
+
+    h2 {
+    font-size: 14px;
+    }
 
     </style>
 </head>
@@ -22,12 +28,36 @@
     <tr>
         <td> 
 
-            <table width="100%" border="0" cellspacing="0" cellpadding="1">
-            <tr>
-                <td><img src="/voila/img/heading-news.gif" width="238" height="20" border="0" alt=""></td>
-                <td align="right"><img src="/voila/img/txt-previous-days.gif" width="113" height="14" border="0" alt=""><img src="/voila/img/pixel.gif" width="40" height="1" border="0" alt=""></td>
-            </tr>
-            </table>
+            {% if section == "info" or section == "sponsors" or section == "about" or section == "disclaimer" %}
+
+                <table cellspacing="0" cellpadding="1" border="0"><tbody><tr>
+                    <td><a href="/voila/info" target="top"><img src="/voila/img/heading-quickfacts{% if section == "info" %}-on{% endif %}.gif" vspace="8" border="0" alt=""></a></td>
+                    <td><a href="/voila/sponsors" target="top"><img src="/voila/img/heading-sponsors{% if section == "sponsors" %}-on{% endif %}.gif" border="0" alt=""></a></td>
+                    <td><a href="/voila/about" target="top"><img src="/voila/img/heading-about{% if section == "about" %}-on{% endif %}.gif" border="0" alt=""></a></td>
+                    <td><a href="/voila/disclaimer" target="top"><img src="/voila/img/heading-disclaimer{% if section == "disclaimer" %}-on{% endif %}.gif" border="0" alt=""></a></td>
+                    </tr>
+                </table>
+
+            {% else %}
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="1">
+                <tr>
+                    <td><img src="/voila/img/heading-{{ page.section }}.gif" vspace="8" border="0" alt=""></td>
+
+                    {% if page.section == "news" %}
+
+                    <td align="right" valign="bottom">
+                    
+                        <img src="/voila/img/txt-previous-days.gif" width="113" vspace="5" height="14" border="0" alt=""><img src="/voila/img/pixel.gif" width="20" height="1" border="0" alt="">
+  
+                    </td>
+
+                    {% endif %}
+
+                </tr>
+                </table>
+
+            {% endif %}
 
             <table width="100%" border="0" cellspacing="0" cellpadding="3" bgcolor="#FF6600">
             <tr>
@@ -39,134 +69,153 @@
 
                             <font face="Verdana, Arial, Sans-serif">
 
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td align="right">
+                                {% if page.section == "news" %}
 
-                                        <form name="linearchive">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="right">
 
-                                            <select name="showlist" size="1" onChange="location.href=document.linearchive.showlist.options[document.linearchive.showlist.selectedIndex].value;">
-                                                <option value="/news/episode-1/1999-05-07.html" >May 07
-                                                <option value="/news/episode-1/1999-05-06.html" >May 06
-                                                <option value="/news/episode-1/1999-05-05.html" >May 05	
-                                                <option value="/news/episode-1/1999-05-04.html" >May 04
-                                                <option value="/news/episode-1/1999-05-03.html" >May 03
-                                                <option value="/news/episode-1/1999-05-02.html" >May 02
-                                                <option value="/news/episode-1/1999-05-01.html" >May 01
-                                                <option value="/news/episode-1/1999-04-28.html" >Apr 28
-                                                <option value="/news/episode-1/1999-04-26.html" >Apr 26
-                                                <option value="/news/episode-1/1999-04-23.html" >Apr 23
-                                                <option value="/news/episode-1/1999-04-13.html" >Apr 13
-                                                <option value="/news/episode-1/1999-04-09.html" >Apr 09
-                                            </select>
+                                            <form name="linearchive">
 
-                                        </form>
+                                                <select name="showlist" size="1" onChange="location.href=document.linearchive.showlist.options[document.linearchive.showlist.selectedIndex].value;">
+                                                    <option value="news.html" >Dec 02
+                                                    <option value="/news/episode-1/1999-05-07.html" >May 07
+                                                    <option value="/news/episode-1/1999-05-06.html" >May 06
+                                                    <option value="/news/episode-1/1999-05-05.html" >May 05	
+                                                    <option value="/news/episode-1/1999-05-04.html" >May 04
+                                                    <option value="/news/episode-1/1999-05-03.html" >May 03
+                                                    <option value="/news/episode-1/1999-05-02.html" >May 02
+                                                    <option value="/news/episode-1/1999-05-01.html" >May 01
+                                                    <option value="/news/episode-1/1999-04-28.html" >Apr 28
+                                                    <option value="/news/episode-1/1999-04-26.html" >Apr 26
+                                                    <option value="/news/episode-1/1999-04-23.html" >Apr 23
+                                                    <option value="/news/episode-1/1999-04-13.html" >Apr 13
+                                                    <option value="/news/episode-1/1999-04-09.html" >Apr 09
+                                                </select>
 
-                                    </td>
-                                </tr>
-                                </table>
+                                            </form>
 
-                                {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
-
-                                {% for article in sorted_articles %}
-
-                                {% assign date_only = article.published | slice: 0, 10 %}
-
-                                {% if date_only == page.current %}
-
-                                <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
-                                <tr>
-                                    <td>
-
-                                        <font face="Verdana, Arial, Sans-serif">
-
-                                            <b>{{ article.title }}</b><br>
-
-                                            <font size="2" color="#FF6600">
-
-                                                {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
-                                                NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
-
-                                            </font>
-
-                                            <br><br>
-
-                                            <font size="2">
-
-                                                {% include_relative html/{{ article.id }}.html %}
-
-                                                <br>
-
-                                                {%- assign newsFeed = site.data.news.episode-1 | where: "id", article.id | first -%}
-                                                {%- assign newsGallery = newsFeed.gallery -%}
-
-                                                {%- if newsGallery %}
-
-                                                    {%- for imageGallery in newsGallery %}
-
-                                                    {%- assign relatedImages = site.data.gallery.episode-1 | where: "id", imageGallery | first %}
-
-                                                    {%- for image in relatedImages.gallery %}
-
-                                                    {%- for pageSelection in image.highlight %}
-
-                                                    {%- if article.id == pageSelection %}
-
-                                                    <a href="javascript:void(0);" onClick="open('/gallery/source/{{ imageGallery }}/{{ image.name }}','','width=512,height=400');"><img src="/gallery/source/{{ imageGallery }}/{{ image.name }}" width="150" height="113" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" border="0"></a>&nbsp;&nbsp;
-
-                                                    {%- endif %}
-
-                                                    {%- endfor %}
-
-                                                    {%- endfor %}
-
-                                                    {%- endfor %}
-
-                                                {% endif %}
-
-                                            </font>
-
-                                        </font>
-
-                                    </td>
-                                </tr>
-                                </table>
-
-                                <br>
+                                        </td>
+                                    </tr>
+                                    </table>
 
                                 {% endif %}
 
-                                {% endfor %}
-
-                                {% if page.previous %}
-
-                                <br>
-
-                                <b><a href="{{ page.previous }}.html">Yesterday's News</a> :</b>
-
-                                <br>
-
-                                <font face="Verdana, Arial, Sans-serif" size="2">
+                                {% if page.section == "news" %}
 
                                     {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
 
                                     {% for article in sorted_articles %}
 
-                                    {% assign date_only = article.published | slice: 0, 10 %}
+                                        {% assign date_only = article.published | slice: 0, 10 %}
 
-                                    {% if date_only == page.previous %}
+                                        {% if date_only == page.current %}
 
-                                    <b>{{ article.title }}</b><br>
+                                            <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
+                                            <tr>
+                                                <td>
 
-                                    {% endif %}
+                                                    <b>{{ article.title }}</b><br>
+
+                                                    <font color="#FF6600" size="2">
+
+                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
+                                                        NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
+
+                                                    </font>
+
+                                                    <br><br>
+
+                                                    <font size="2">
+
+                                                        {% include_relative html/{{ article.id }}.html %}
+
+                                                    </font>
+
+                                                    <br>
+
+                                                    {%- assign newsFeed = site.data.news.episode-1 | where: "id", article.id | first -%}
+                                                    {%- assign newsGallery = newsFeed.gallery -%}
+
+                                                    {%- if newsGallery %}
+
+                                                        {%- for imageGallery in newsGallery %}
+
+                                                            {%- assign relatedImages = site.data.gallery.episode-1 | where: "id", imageGallery | first %}
+
+                                                            {%- for image in relatedImages.gallery %}
+
+                                                                {%- for pageSelection in image.highlight %}
+
+                                                                    {%- if article.id == pageSelection %}
+
+                                                                        <a href="javascript:void(0);" onClick="open('/gallery/source/{{ imageGallery }}/{{ image.name }}','','width=512,height=400');"><img src="/gallery/source/{{ imageGallery }}/{{ image.name }}" width="150" height="113" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" border="0"></a>&nbsp;&nbsp;
+
+                                                                    {%- endif %}
+
+                                                                {%- endfor %}
+
+                                                            {%- endfor %}
+
+                                                        {%- endfor %}
+
+                                                    {% endif %}
+
+                                                </td>
+                                            </tr>
+                                            </table>
+
+                                            <br>
+
+                                        {% endif %}
 
                                     {% endfor %}
 
+                                    {% if page.previous %}
+
+                                        <br>
+
+                                        <b><a href="{{ page.previous }}.html">Yesterday's News</a> :</b>
+
+                                        <br><br>
+                                            
+                                        <font size="2">
+
+                                            {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
+
+                                            {% for article in sorted_articles %}
+
+                                                {% assign date_only = article.published | slice: 0, 10 %}
+
+                                                {% if date_only == page.previous %}
+
+                                                    <b>{{ article.title }}</b><br>
+
+                                                {% endif %}
+
+                                            {% endfor %}
+
+                                        </font>
+
+                                    {% endif %}
+
+                                {% else %}
+
+                                <br><br>
+
+                                <!-- Content starts here --> 
+
+                                <font size="2">
+
+                                    {{ content }}
+
                                 </font>
 
-                            </font>
+                                <br><br>
 
-                            {% endif %}
+                                {% endif %}
+
+                            </font>
 
                         </td>
                     </tr>
@@ -176,7 +225,7 @@
             </tr>
             </table>
 
-            <a href="#top"><img src="/voila/img/txt-return-to-top.gif" border="0" width="209" height="20"></a>
+            <a href="#top"><img src="/voila/img/txt-return-to-top.gif" border="0" width="209" height="20" vspace="10"></a>
 
         </td>
     </tr>

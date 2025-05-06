@@ -96,98 +96,98 @@ layout: none
 
 <body bgcolor="#000000" text="#ffffff" link="#ff6600" alink="#ff3333" vlink="#ff6600">
 
-        <div align="center">
+<div align="center">
 
-                <table width="600" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                        <td>
+        <table width="600" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+                <td>
 
-                                <table width="400" cellspacing="0" cellpadding="0" border="0" background="img/body-liberty.jpg">
-                                <tr>
-                                        <td>
-                                                
-                                                <img src="img/pixel.gif" width="52" height="1"> 
-                                                
-                                                <a href="news.html" onMouseOver="msOver('t','1');" onMouseOut="msOut('t','1');"><img src="img/nav-news.gif" border="0" width="100" height="50"></a>
-                                                
-                                                <br>
-
-                                                <img src="img/pixel.gif" width="15" height="1"> 
-                                                
-                                                <a href="live.html" onMouseOver="msOver('t','2');" onMouseOut="msOut('t','1');"><img src="img/nav-live-webcam.gif" width="100" height="50" border="0"></a>
-                                                
-                                                <br>
-
-                                                <a href="tv.html" onMouseOver="msOver('t','3');" onMouseOut="msOut('t','1');"><img src="img/nav-nyline-tv.gif" width="100" height="50" border="0"></a>
-                                                
-                                                <br>
-
-                                                <img src="img/pixel.gif" width="15" height="1">
-                                                
-                                                <a href="search" onMouseOver="msOver('t','4');" onMouseOut="msOut('t','1');"><img src="img/nav-jedi-search.gif" width="100" height="50" border="0"></a>
-                                                
-                                                <br>
-
-                                                <img src="img/pixel.gif" width="40" height="1">
-                                                
-                                                <a href="fan.html" onMouseOver="msOver('t','5');" onMouseOut="msOut('t','1');"><img src="img/nav-fan-of-the-day.gif" width="100" height="50" border="0"></a>
-                                                
-                                                <br>
-
-                                                <img src="img/pixel.gif" width="100" height="1">
-                                                
-                                                <a href="chat.html" onMouseOver="msOver('t','6');" onMouseOut="msOut('t','1');"><img src="img/nav-jedi-chat.gif" width="100" height="50" border="0"></a>
-                                                
-                                                <br>
-
-                                                <img src="img/pixel.gif" width="160" height="1"> 
-                                                
-                                                <a href="info.html" onMouseOver="msOver('t','7');" onMouseOut="msOut('t','1');"><img src="img/nav-info-sponsors.gif" width="100" height="50" border="0"></a>
-
-                                        </td>
-
-                                </tr>
-                                </table>
-
-                        </td>
-                        <td align="right" valign="top">
-
-                                <font face="Verdana, Arial, Sans-serif" size="2">
+                        <table width="400" cellspacing="0" cellpadding="0" border="0" background="img/body-liberty.jpg">
+                        <tr>
+                                <td>
                                         
-                                        <a href="news.html"><b>LATEST NEWS:</b></a>
+                                        <img src="img/pixel.gif" width="52" height="1"> 
                                         
-                                        {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
+                                        <a href="news" onMouseOver="msOver('t','1');" onMouseOut="msOut('t','1');"><img src="img/nav-news.gif" border="0" width="100" height="50"></a>
+                                        
+                                        <br>
 
-                                        {% for article in sorted_articles %}
+                                        <img src="img/pixel.gif" width="15" height="1"> 
+                                        
+                                        <a href="live" onMouseOver="msOver('t','2');" onMouseOut="msOut('t','1');"><img src="img/nav-live-webcam.gif" width="100" height="50" border="0"></a>
+                                        
+                                        <br>
 
-                                        {% assign date_only = article.published | slice: 0, 10 %}
+                                        <a href="tv" onMouseOver="msOver('t','3');" onMouseOut="msOut('t','1');"><img src="img/nav-nyline-tv.gif" width="100" height="50" border="0"></a>
+                                        
+                                        <br>
 
-                                        {% if date_only == "1999-12-02" %}
+                                        <img src="img/pixel.gif" width="15" height="1">
+                                        
+                                        <a href="search" onMouseOver="msOver('t','4');" onMouseOut="msOut('t','1');"><img src="img/nav-jedi-search.gif" width="100" height="50" border="0"></a>
+                                        
+                                        <br>
 
-                                        <p style="text-transform: uppercase;"><b>{{ article.title }} (Updated 12/2)</b></p>
+                                        <img src="img/pixel.gif" width="40" height="1">
+                                        
+                                        <a href="fan" onMouseOver="msOver('t','5');" onMouseOut="msOut('t','1');"><img src="img/nav-fan-of-the-day.gif" width="100" height="50" border="0"></a>
+                                        
+                                        <br>
 
-                                        {% endif %}
+                                        <img src="img/pixel.gif" width="100" height="1">
+                                        
+                                        <a href="chat" onMouseOver="msOver('t','6');" onMouseOut="msOut('t','1');"><img src="img/nav-jedi-chat.gif" width="100" height="50" border="0"></a>
+                                        
+                                        <br>
 
-                                        {% endfor %}
+                                        <img src="img/pixel.gif" width="160" height="1"> 
+                                        
+                                        <a href="info" onMouseOver="msOver('t','7');" onMouseOut="msOut('t','1');"><img src="img/nav-info-sponsors.gif" width="100" height="50" border="0"></a>
 
-                                </font>
+                                </td>
 
-                        </td>
+                        </tr>
+                        </table>
 
-                </tr>
-                </table>
+                </td>
+                <td align="right" valign="top">
 
-                <table width="600" height="69" cellspacing="0" cellpadding="0" border="0">
-                <tr>
+                        <font face="Verdana, Arial, Sans-serif" size="2">
+                                
+                                <a href="news"><b>LATEST NEWS:</b></a>
+                                
+                                {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
 
-                        <td><img name="t" src="img/pixel.gif" width="600" height="69"></td>
+                                {% for article in sorted_articles %}
 
-                </tr>
-                </table>
+                                {% assign date_only = article.published | slice: 0, 10 %}
 
-                <p><font face="Verdana, Arial, Sans-serif" size="1"><b>This site is not affiliated with Star Wars or Lucasfilm Ltd. Please read our <a href="disclaimer.html">Disclaimer</a>.</b></font></p>
+                                {% if date_only == "1999-12-02" %}
 
-        </div>
+                                <p style="text-transform: uppercase;"><b>{{ article.title }} (Updated 12/2)</b></p>
+
+                                {% endif %}
+
+                                {% endfor %}
+
+                        </font>
+
+                </td>
+
+        </tr>
+        </table>
+
+        <table width="600" height="69" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+
+                <td><img name="t" src="img/pixel.gif" width="600" height="69"></td>
+
+        </tr>
+        </table>
+
+        <p><font face="Verdana, Arial, Sans-serif" size="1"><b>This site is not affiliated with Star Wars or Lucasfilm Ltd. Please read our <a href="disclaimer">Disclaimer</a>.</b></font></p>
+
+</div>
 
 </body>
 </html>

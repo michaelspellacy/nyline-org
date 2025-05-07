@@ -50,7 +50,7 @@
 	<meta content="article" name="og:type">
 	<meta content="https://nyline.org/img/app/social.png" property="og:image">
 	<meta content="NYLine Lady Liberty Logo" property="og:image:alt">
-	<meta content="{{ page.title }}" property="og:title">{% if page.description %}
+	<meta content="{{ page.title }}{{ newsTitle }}" property="og:title">{% if page.description %}
 	<meta content="{{ page.description }}" property="og:description" name="description">{% endif %}
 	<meta content="#870061" name="theme-color">
 	<link href="{{ site.url }}{{ page.url | replace:'.html',''}}" rel="canonical">

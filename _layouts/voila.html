@@ -20,7 +20,7 @@
     </style>
 </head>
 
-<body bgcolor="Black" text="Black" link="Blue" alink="#3333FF" vlink="Blue">
+<body bgcolor="#000000" text="#000000" link="#3333FF" alink="#3333FF" vlink="#3333FF">
 
 <a name="top"></a>
 
@@ -32,12 +32,13 @@
 
             {% if section == "info" or section == "sponsors" or section == "about" or section == "disclaimer" %}
 
-                <table cellspacing="0" cellpadding="1" border="0"><tbody><tr>
+                <table cellspacing="0" cellpadding="1" border="0">
+                <tr>
                     <td><a href="/voila/info" target="top"><img src="/voila/img/heading-quickfacts{% if section == "info" %}-on{% endif %}.gif" vspace="8" border="0" alt=""></a></td>
                     <td><a href="/voila/sponsors" target="top"><img src="/voila/img/heading-sponsors{% if section == "sponsors" %}-on{% endif %}.gif" border="0" alt=""></a></td>
                     <td><a href="/voila/about" target="top"><img src="/voila/img/heading-about{% if section == "about" %}-on{% endif %}.gif" border="0" alt=""></a></td>
                     <td><a href="/voila/disclaimer" target="top"><img src="/voila/img/heading-disclaimer{% if section == "disclaimer" %}-on{% endif %}.gif" border="0" alt=""></a></td>
-                    </tr>
+                </tr>
                 </table>
 
             {% else %}
@@ -109,7 +110,7 @@
                                                     <option value="/news/episode-1/1999-04-23.html"{% if current == "1999-04-23" %} selected{% endif %}>Apr 23
                                                     <option value="/news/episode-1/1999-04-13.html"{% if current == "1999-04-13" %} selected{% endif %}>Apr 13
                                                     <option value="/news/episode-1/1999-04-09.html"{% if current == "1999-04-09" %} selected{% endif %}>Apr 09
-                                                </select{% if current == "1999-05-31" %}selected{% endif %}
+                                                </select>
 
                                             </form>
 

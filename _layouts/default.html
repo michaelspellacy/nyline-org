@@ -53,6 +53,7 @@
 	<meta content="{{ page.title }}" property="og:title">{% if page.description %}
 	<meta content="{{ page.description }}" property="og:description" name="description">{% endif %}
 	<meta content="#870061" name="theme-color">
+	<link href="{{ site.url }}{{ page.url | replace:'.html','/'}}" rel="canonical">
 	<link href="/css/global.css" rel="stylesheet">
 	<link href="/manifest.json" rel="manifest">
 	<link href="/favicon.ico" rel="icon">

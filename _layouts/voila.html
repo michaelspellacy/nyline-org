@@ -282,7 +282,7 @@
 
                                                     <font color="#FF6600" size="2">
 
-                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
+                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {% if article.author == "Spell" %}Mike S{% else %}{{ article.author }}{% endif %}<br>
                                                         NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
 
                                                     </font>
@@ -340,7 +340,7 @@
 
                                         <b><a href="{{ page.previous }}.html">Yesterday's News</a> :</b>
 
-                                        <br><br>
+                                        <br>
                                             
                                         <font size="2">
 
@@ -382,7 +382,7 @@
 
                                                     <font color="#FF6600" size="2">
 
-                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {{ article.author }}<br>
+                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {% if article.author == "Spell" %}Mike S{% else %}{{ article.author }}{% endif %}<br>
                                                         NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
 
                                                     </font>

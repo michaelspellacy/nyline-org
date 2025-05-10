@@ -1,7 +1,7 @@
 
-{% assign section = page.section %}
-{% assign current = page.current %}
-{% assign previous = page.previous %}
+{%- assign section = page.section -%}
+{%- assign current = page.current -%}
+{%- assign previous = page.previous -%}
 
 <!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
@@ -19,7 +19,7 @@
 
     </style>
 
-    {% if section == "info" or section == "sponsors" or section == "about" or section == "disclaimer" %}
+    {%- if section == "info" or section == "sponsors" or section == "about" or section == "disclaimer" -%}
 
     <script language="JavaScript">
 
@@ -106,7 +106,7 @@
     
     </script>
 
-    {% endif %}
+    {%- endif -%}
 
 </head>
 
@@ -122,7 +122,7 @@
     <tr>
         <td> 
 
-            {% if section == "info" or section == "sponsors" or section == "about" or section == "disclaimer" %}
+            {% if section == "info" or section == "sponsors" or section == "about" or section == "disclaimer" -%}
 
                 <!-- Section Title & Navigation -->
 
@@ -130,66 +130,66 @@
                 <tr>
                     <td>
                         
-                        {% if section == "info" %}
+                        {%- if section == "info" -%}
                         
                         <img src="/voila/img/heading-quickfacts-on.gif" vspace="8" border="0" alt="">
                         
-                        {% else %}
+                        {%- else -%}
                         
                         <a href="/voila/info" onmouseover="msOver('w','1');" onmouseout="msOut('w','1');" target="_top"><img id="w" name="w" src="/voila/img/heading-quickfacts.gif" vspace="8" border="0" alt=""></a>
                         
-                        {% endif %}
+                        {%- endif -%}
                     
                     </td>
                     <td>
                         
-                        {% if section == "sponsors" %}
+                        {%- if section == "sponsors" -%}
                         
                         <img src="/voila/img/heading-sponsors-on.gif" border="0" alt="">
                         
-                        {% else %}
+                        {%- else -%}
                         
                         <a href="/voila/sponsors" onmouseover="msOver('x','2');" onmouseout="msOut('x','2');" target="_top"><img name="x" src="/voila/img/heading-sponsors.gif" border="0" alt=""></a>
                         
-                        {% endif %}
+                        {%- endif -%}
                     
                     </td>
                     <td>
                         
-                        {% if section == "about" %}
+                        {%- if section == "about" -%}
                         
                         <img src="/voila/img/heading-about-on.gif" border="0" alt="">
                         
-                        {% else %}
+                        {%- else -%}
                         
                         <a href="/voila/about" onmouseover="msOver('y','3');" onmouseout="msOut('y','3');" target="_top"><img name="y" src="/voila/img/heading-about.gif" border="0" alt=""></a>
                         
-                        {% endif %}
+                        {%- endif -%}
                     
                     </td>
                     <td>
                         
-                        {% if section == "disclaimer" %}
+                        {%- if section == "disclaimer" -%}
                         
                         <img src="/voila/img/heading-disclaimer-on.gif" border="0" alt="">
                         
-                        {% else %}
+                        {%- else -%}
                         
                         <a href="/voila/disclaimer" onmouseover="msOver('z','4');" onmouseout="msOut('z','4');" target="_top"><img name="z" src="/voila/img/heading-disclaimer.gif" border="0" alt=""></a>
                         
-                        {% endif %}
+                        {%- endif -%}
                     
                     </td>
                 </tr>
                 </table>
 
-            {% else %}
+            {%- else -%}
 
                 <table width="100%" border="0" cellspacing="0" cellpadding="1">
                 <tr>
                     <td><img src="/voila/img/heading-{{ section }}.gif" vspace="8" border="0" alt=""></td>
 
-                    {% if section == "news" %}
+                    {%- if section == "news" -%}
 
                     <td align="right" valign="bottom">
                     
@@ -197,12 +197,12 @@
   
                     </td>
 
-                    {% endif %}
+                    {%- endif -%}
 
                 </tr>
                 </table>
 
-            {% endif %}
+            {% endif -%}
 
             <!-- Orange border White background Frame -->
 
@@ -216,7 +216,7 @@
 
                             <font face="Verdana, Arial, Sans-serif">
 
-                                {% if section == "news" %}
+                                {%- if section == "news" -%}
 
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
@@ -262,17 +262,17 @@
                                     </tr>
                                     </table>
 
-                                {% endif %}
+                                {%- endif -%}
 
-                                {% if section == "news" %}
+                                {%- if section == "news" -%}
 
-                                    {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
+                                    {%- assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse -%}
 
-                                    {% for article in sorted_articles %}
+                                    {%- for article in sorted_articles -%}
 
-                                        {% assign date_only = article.published | slice: 0, 10 %}
+                                        {%- assign date_only = article.published | slice: 0, 10 -%}
 
-                                        {% if date_only == current %}
+                                        {%- if date_only == current -%}
 
                                             <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
                                             <tr>
@@ -282,7 +282,7 @@
 
                                                     <font color="#FF6600" size="2">
 
-                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {% if article.author == "Spell" %}Mike S{% else %}{{ article.author }}{% endif %}<br>
+                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {% if article.author == "Spell" %}Mike S (Spell){% else %}{{ article.author }}{% endif %}<br>
                                                         NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
 
                                                     </font>
@@ -291,7 +291,7 @@
 
                                                     <font size="2">
 
-                                                        {% include_relative html/{{ article.id }}.html %}
+                                                        {%- include_relative html/{{ article.id }}.html -%}
 
                                                     </font>
 
@@ -300,29 +300,29 @@
                                                     {%- assign newsFeed = site.data.news.episode-1 | where: "id", article.id | first -%}
                                                     {%- assign newsGallery = newsFeed.gallery -%}
 
-                                                    {%- if newsGallery %}
+                                                    {%- if newsGallery -%}
 
-                                                        {%- for imageGallery in newsGallery %}
+                                                        {%- for imageGallery in newsGallery -%}
 
-                                                            {%- assign relatedImages = site.data.gallery.episode-1 | where: "id", imageGallery | first %}
+                                                            {%- assign relatedImages = site.data.gallery.episode-1 | where: "id", imageGallery | first -%}
 
-                                                            {%- for image in relatedImages.gallery %}
+                                                            {%- for image in relatedImages.gallery -%}
 
-                                                                {%- for pageSelection in image.highlight %}
+                                                                {%- for pageSelection in image.highlight -%}
 
-                                                                    {%- if article.id == pageSelection %}
+                                                                    {%- if article.id == pageSelection -%}
 
                                                                         <a href="javascript:void(0);" onClick="open('/gallery/source/{{ imageGallery }}/{{ image.name }}','','width=512,height=400');"><img src="/gallery/source/{{ imageGallery }}/{{ image.name }}" width="150" height="113" alt="{% if image.alt %}{{ image.alt }}{% else %}NYLine Photo{% endif %}" border="0"></a>&nbsp;&nbsp;
 
-                                                                    {%- endif %}
+                                                                    {%- endif -%}
 
-                                                                {%- endfor %}
+                                                                {%- endfor -%}
 
-                                                            {%- endfor %}
+                                                            {%- endfor -%}
 
-                                                        {%- endfor %}
+                                                        {%- endfor -%}
 
-                                                    {% endif %}
+                                                    {% endif -%}
 
                                                 </td>
                                             </tr>
@@ -330,49 +330,49 @@
 
                                             <br>
 
-                                        {% endif %}
+                                        {%- endif -%}
 
-                                    {% endfor %}
+                                    {%- endfor -%}
 
-                                    {% if previous %}
+                                    {%- if previous -%}
 
                                         <br>
 
                                         <b><a href="{{ page.previous }}.html">Yesterday's News</a> :</b>
 
                                         <br>
-                                            
+
                                         <font size="2">
 
-                                            {% assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse %}
+                                            {%- assign sorted_articles = site.data.news.episode-1 | sort: "published" | reverse -%}
 
-                                            {% for article in sorted_articles %}
+                                            {%- for article in sorted_articles -%}
 
-                                                {% assign date_only = article.published | slice: 0, 10 %}
+                                                {%- assign date_only = article.published | slice: 0, 10 -%}
 
-                                                {% if date_only == previous %}
+                                                {%- if date_only == previous -%}
 
                                                     <b>{{ article.title }}</b><br>
 
-                                                {% endif %}
+                                                {%- endif -%}
 
-                                            {% endfor %}
+                                            {%- endfor -%}
 
                                         </font>
 
-                                    {% endif %}
+                                    {%- endif -%}
 
-                                {% elsif section == "fan" %}
+                                {%- elsif section == "fan" -%}
 
-                                    {% assign sorted_articles = site.data.news.fotd | sort: "published" | reverse %}
+                                    {%- assign sorted_articles = site.data.news.fotd | sort: "published" | reverse -%}
 
-                                    {% for article in sorted_articles %}
+                                    {%- for article in sorted_articles -%}
 
-                                        {% assign date_only = article.published | slice: 0, 10 %}
+                                        {%- assign date_only = article.published | slice: 0, 10 -%}
 
-                                        {% assign year_only = date_only | slice: 0, 4 %}
+                                        {%- assign year_only = date_only | slice: 0, 4 -%}
 
-                                        {% if year_only == "1999" %}
+                                        {%- if year_only == "1999" -%}
 
                                             <table border="0" cellspacing="0" cellpadding="0" id="{{ article.id }}">
                                             <tr>
@@ -382,7 +382,7 @@
 
                                                     <font color="#FF6600" size="2">
 
-                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {% if article.author == "Spell" %}Mike S{% else %}{{ article.author }}{% endif %}<br>
+                                                        {{ article.published | date: "%A, %B %-d, %Y %I:%M:%S %p %Z" }} : UPDATED BY: {% if article.author == "Spell" %}Mike S (Spell){% else %}{{ article.author }}{% endif %}<br>
                                                         NUMBER OF PEOPLE CURRENTLY IN LINE: {{ article.members }}
 
                                                     </font>
@@ -391,7 +391,7 @@
 
                                                     <font size="2">
 
-                                                        {% include_relative html/{{ article.id }}.html %}
+                                                        {%- include_relative html/{{ article.id }}.html -%}
 
                                                     </font>
 
@@ -401,11 +401,11 @@
                                             </tr>
                                             </table>
 
-                                        {% endif %}
+                                        {%- endif -%}
 
-                                    {% endfor %}
+                                    {%- endfor -%}
 
-                                {% else %}
+                                {%- else -%}
 
                                 <!-- Content starts here --> 
 
@@ -415,7 +415,7 @@
 
                                 </font>
 
-                                {% endif %}
+                                {%- endif -%}
 
                             </font>
 
@@ -427,7 +427,7 @@
             </tr>
             </table>
 
-            <a href="#top"><img src="/voila/img/txt-return-to-top.gif" border="0" width="209" height="20" vspace="10"></a>
+            <a href="#top"><img src="/voila/img/txt-return-to-top.gif" alt="" border="0" width="209" height="20" vspace="10"></a>
 
         </td>
     </tr>

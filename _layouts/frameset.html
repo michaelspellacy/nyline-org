@@ -4,17 +4,19 @@
   <title>{{ page.title }} - NYLine</title>
 </head>  
 
-<frameset rows="100,*" border="0">
+<frameset border="0" rows="100,*">
 
-  <frame name="banner" scrolling="no" noresize target="banner" src="/voila/header.html">
+  <frame name="banner" noresize scrolling="no" src="/voila/header.html">
 
-  <frameset cols="130,*" border="0">
+  <frameset cols="130,*">
 
-    <frame name="nav" scrolling="no" noresize src="/voila/nav.html" border="0">
+    <frame name="nav" noresize scrolling="no" src="/voila/nav.html">
 
     <frame name="display" src="{{ page.path }}">
 
   </frameset>
+
+</frameset>
 
 <noframes>
 

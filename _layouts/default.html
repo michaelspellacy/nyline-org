@@ -118,10 +118,18 @@
 
 					{%- assign hero = page.hero -%}
 	
-				{% else %}
+				{%- else -%}
+
+					{%- if themeName == "episode-2" -%}
+
+					{%- assign hero = "creative-episode-2-dave.jpg" -%}
+
+					{%- else -%}
 
 					{%- assign hero = "creative-default.jpg" -%}
-	
+
+					{%- endif -%}
+
 				{% endif -%}
 
 				<img alt="" src="/img/template/{{ hero }}">

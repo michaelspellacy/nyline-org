@@ -364,6 +364,8 @@
 
                                 {%- elsif section == "fan" -%}
 
+                                    <br><br>
+
                                     {%- assign sorted_articles = site.data.news.fotd | sort: "published" | reverse -%}
 
                                     {%- for article in sorted_articles -%}

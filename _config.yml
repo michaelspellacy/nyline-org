@@ -1,6 +1,7 @@
 destination: _httpdocs
 episode: 7
 exclude: [
+  .claude,
   readme.md,
   CNAME
 ]

@@ -9,4 +9,5 @@ _video/
 .DS_Store
 .ruby-version
 .sass-cache
+.claude
 .jekyll-metadata
